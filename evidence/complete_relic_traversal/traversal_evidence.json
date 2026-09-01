@@ -1,0 +1,63 @@
+{
+  "checks": {
+    "causal_pole_continuity_across_all_segments": true,
+    "complete_relic_traversal": true,
+    "deterministic_replication": true,
+    "final_relic_token_reached": true,
+    "omission_none": true,
+    "order_exact": true,
+    "semantic_compression_none": true
+  },
+  "final_result": "PASS",
+  "model": {
+    "max_position_embeddings": 8192,
+    "sliding_window": null,
+    "weight_sha256": "5af571cbf074e6d21a03528d2330792e532ca608f24ac70a143f6b369968ab8c"
+  },
+  "relic": {
+    "docx_sha256": "b4a349e82ee3aa6bc6d8957f2d73e9a14d6364068edd3028099fd8e8fa6fcfec",
+    "extracted_utf8_sha256": "ccc60ed932fa95ffb74367a71caa2bf7b5479043b7ead08de9ebafb2c79efd59",
+    "ordered_token_sha256": "d25357c90743d20e5d5025068a516c32a647197683195993a8c54ca006344fb2",
+    "paragraph_count": 467,
+    "token_count": 28603
+  },
+  "replications": [
+    {
+      "consumed": 28603,
+      "coverage_range": [
+        0,
+        28603
+      ],
+      "final_logits_sha256": "3e4d2e280b94f79ffc9b4d125388c76300adcee8faf85943c51bdcb5ce2f71f4",
+      "final_state": {
+        "component_count": 60,
+        "layer_count": 30,
+        "sequence_length": 28603,
+        "sha256": "36551387682a29ef1e8189e390e857978f470d30cb1edb0f08c61e436f009772",
+        "tensor_byte_count": 1318026240
+      },
+      "ordered_token_sha256": "d25357c90743d20e5d5025068a516c32a647197683195993a8c54ca006344fb2",
+      "replicate": 1,
+      "same_cache_object_throughout": true
+    },
+    {
+      "consumed": 28603,
+      "coverage_range": [
+        0,
+        28603
+      ],
+      "final_logits_sha256": "3e4d2e280b94f79ffc9b4d125388c76300adcee8faf85943c51bdcb5ce2f71f4",
+      "final_state": {
+        "component_count": 60,
+        "layer_count": 30,
+        "sequence_length": 28603,
+        "sha256": "36551387682a29ef1e8189e390e857978f470d30cb1edb0f08c61e436f009772",
+        "tensor_byte_count": 1318026240
+      },
+      "ordered_token_sha256": "d25357c90743d20e5d5025068a516c32a647197683195993a8c54ca006344fb2",
+      "replicate": 2,
+      "same_cache_object_throughout": true
+    }
+  ],
+  "schema": "COMPLETE_RELIC_TRAVERSAL_V1"
+}

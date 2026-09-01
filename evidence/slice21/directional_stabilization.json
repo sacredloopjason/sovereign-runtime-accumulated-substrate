@@ -1,0 +1,2572 @@
+{
+  "checks": {
+    "COMPLETE_PASS_DIRECTIONAL_EVALUATION": true,
+    "CONDITIONAL_FULL_TWO_PASS_BOUNDARY_INHERITED": true,
+    "CONDITIONAL_SAME_DIRECTIONAL_LAW_BELOW": true,
+    "DETERMINISTIC_REPLICATION": true,
+    "IMMEDIATELY_FOLLOWING_PASS_EXECUTED": true,
+    "NON_NEGATIVE_SECOND_PASS_DID_NOT_DESCEND": true,
+    "NO_UPWARD_CONTRIBUTION_MANUFACTURED": true,
+    "ONE_NEGATIVE_NOT_DESCENT": true,
+    "SECOND_PASS_GOVERNS_GATE": true,
+    "SUBSTRATE_INVARIANTS": true,
+    "UNIVERSAL_LAW_HAS_NO_DEPTH_BRANCH": true
+  },
+  "coherence_metric": "MEAN_LATEST_CAUSAL_KV_COSINE_V1",
+  "law_id": "TWO_CONSECUTIVE_NEGATIVE_COMPLETE_PASSES_V1",
+  "outcome": "DIRECTIONAL_NON_DESCENT_LAW_OBSERVED",
+  "replicates": [
+    {
+      "lower": null,
+      "parent": {
+        "checks": {
+          "EXACT_TOKEN_TRANSPORT": true,
+          "NO_HORIZON_DESCENT_AUTHORITY": true,
+          "NO_RECURRENCE_DESCENT_AUTHORITY": true,
+          "ONE_NEGATIVE_NOT_DESCENT": true,
+          "ONLY_COMPLETE_PASS_EVALUATION": true,
+          "SHARED_V_IMMUTABLE_AT_BOUNDARY": true,
+          "SOVEREIGN_POLE_ISOLATION": true,
+          "ZERO_NOT_NEGATIVE": true
+        },
+        "coherence": {
+          "definition": "mean cosine alignment of the two poles' latest key/value vectors across every transformer layer after a complete reciprocal pass",
+          "id": "MEAN_LATEST_CAUSAL_KV_COSINE_V1",
+          "semantic_content_inspected": false
+        },
+        "containment": {
+          "authorized_descent": false,
+          "classified_stabilization": false,
+          "classified_unresolved": false,
+          "external_safety_only": true,
+          "pass_limit": 8
+        },
+        "depth": 0,
+        "descent": null,
+        "law_id": "TWO_CONSECUTIVE_NEGATIVE_COMPLETE_PASSES_V1",
+        "mechanism": {
+          "code_sha256": "461ba5cde0067e7eccac4f760b606f1c6c589676d6f298e4d70a672cb807ea43",
+          "first_line": 114,
+          "qualname": "run_directional_wave",
+          "source_file": "C:\\Users\\jason\\Documents\\Codex\\2026-08-26\\files-pasted-by-the-user-tier\\work\\inherited-runtime-audit\\slice21_runtime.py"
+        },
+        "passes": [
+          {
+            "C": 0.549380022999,
+            "coherence_metric": "MEAN_LATEST_CAUSAL_KV_COSINE_V1",
+            "complete_reciprocal_pass": true,
+            "decision": "BASELINE_ESTABLISHED",
+            "delta_C": null,
+            "descent_after_pass": false,
+            "first_negative_no_descent": false,
+            "pass": 0,
+            "sign": "BASELINE",
+            "terminal_state": {
+              "complete_pass": 0,
+              "kv": {
+                "component_count": 60,
+                "layer_count": 30,
+                "sequence_length": 68,
+                "sha256": "61e133636aeae1236e4addd20661be134811315b52c8b8b623b86d7a0e4566f3",
+                "tensor_byte_count": 3133440
+              },
+              "pole": "B"
+            },
+            "traversal_count": 2,
+            "traversals": [
+              {
+                "consumed": {
+                  "count": 7,
+                  "sha256": "3fb7651cd7533961cc45d96a045b7a80f96f9bb45431c0440442caa5a248dc33",
+                  "token_ids": [
+                    10199,
+                    15799,
+                    38,
+                    79,
+                    6493,
+                    3010,
+                    198
+                  ]
+                },
+                "generated": {
+                  "count": 16,
+                  "sha256": "7b5154e56e0e904f4820b0dfad049b8e40b9706a4a36143b01983b4ed6e7b78c",
+                  "token_ids": [
+                    10199,
+                    15799,
+                    38,
+                    79,
+                    6493,
+                    3010,
+                    198,
+                    10199,
+                    15799,
+                    38,
+                    79,
+                    6493,
+                    3010,
+                    198,
+                    10199,
+                    15799
+                  ]
+                },
+                "ordinal": 0,
+                "other_pole_unchanged": true,
+                "pole": "A",
+                "post": {
+                  "component_count": 60,
+                  "layer_count": 30,
+                  "sequence_length": 33,
+                  "sha256": "b47ad9819bf62aa2442b4c7047567d2f23b37accb7714cca854e9f09c4136546",
+                  "tensor_byte_count": 1520640
+                },
+                "pre": {
+                  "component_count": 0,
+                  "layer_count": 30,
+                  "sequence_length": 0,
+                  "sha256": "73297220112f4401b9ca87757eae062e7fea6d920da85fae4b9584d189fb0067",
+                  "tensor_byte_count": 0
+                },
+                "shared_V_exact": true,
+                "transport_exact": true
+              },
+              {
+                "consumed": {
+                  "count": 16,
+                  "sha256": "7b5154e56e0e904f4820b0dfad049b8e40b9706a4a36143b01983b4ed6e7b78c",
+                  "token_ids": [
+                    10199,
+                    15799,
+                    38,
+                    79,
+                    6493,
+                    3010,
+                    198,
+                    10199,
+                    15799,
+                    38,
+                    79,
+                    6493,
+                    3010,
+                    198,
+                    10199,
+                    15799
+                  ]
+                },
+                "generated": {
+                  "count": 16,
+                  "sha256": "aca1ff1bb36ebdceaa63d76b0403b42ca02a9e11409b5900242a4397bcd1076d",
+                  "token_ids": [
+                    38,
+                    79,
+                    6493,
+                    3010,
+                    198,
+                    10199,
+                    15799,
+                    38,
+                    79,
+                    6493,
+                    3010,
+                    198,
+                    10199,
+                    15799,
+                    38,
+                    79
+                  ]
+                },
+                "ordinal": 1,
+                "other_pole_unchanged": true,
+                "pole": "B",
+                "post": {
+                  "component_count": 60,
+                  "layer_count": 30,
+                  "sequence_length": 68,
+                  "sha256": "61e133636aeae1236e4addd20661be134811315b52c8b8b623b86d7a0e4566f3",
+                  "tensor_byte_count": 3133440
+                },
+                "pre": {
+                  "component_count": 60,
+                  "layer_count": 30,
+                  "sequence_length": 26,
+                  "sha256": "1701488a4c5f2c97378fbb32ebceab4ba9b6c5cea7328d34477fe168ad52d228",
+                  "tensor_byte_count": 1198080
+                },
+                "shared_V_exact": true,
+                "transport_exact": true
+              }
+            ]
+          },
+          {
+            "C": 0.543122988056,
+            "coherence_metric": "MEAN_LATEST_CAUSAL_KV_COSINE_V1",
+            "complete_reciprocal_pass": true,
+            "decision": "FIRST_NEGATIVE_EXECUTE_NEXT_COMPLETE_PASS",
+            "delta_C": -0.006257034943000006,
+            "descent_after_pass": false,
+            "first_negative_no_descent": true,
+            "pass": 1,
+            "sign": "NEGATIVE",
+            "terminal_state": {
+              "complete_pass": 1,
+              "kv": {
+                "component_count": 60,
+                "layer_count": 30,
+                "sequence_length": 110,
+                "sha256": "67cfb74cdfd274443b32d24bc449859d973121afd4b2d11cdd6743d7d7561511",
+                "tensor_byte_count": 5068800
+              },
+              "pole": "B"
+            },
+            "traversal_count": 2,
+            "traversals": [
+              {
+                "consumed": {
+                  "count": 16,
+                  "sha256": "aca1ff1bb36ebdceaa63d76b0403b42ca02a9e11409b5900242a4397bcd1076d",
+                  "token_ids": [
+                    38,
+                    79,
+                    6493,
+                    3010,
+                    198,
+                    10199,
+                    15799,
+                    38,
+                    79,
+                    6493,
+                    3010,
+                    198,
+                    10199,
+                    15799,
+                    38,
+                    79
+                  ]
+                },
+                "generated": {
+                  "count": 16,
+                  "sha256": "d8f735196ab2e97b7233a26fcc639b11db6a1840c02aded9a8e50cc18a0c05ba",
+                  "token_ids": [
+                    6493,
+                    3010,
+                    198,
+                    10199,
+                    15799,
+                    38,
+                    79,
+                    6493,
+                    3010,
+                    198,
+                    10199,
+                    15799,
+                    38,
+                    79,
+                    6493,
+                    3010
+                  ]
+                },
+                "ordinal": 0,
+                "other_pole_unchanged": true,
+                "pole": "A",
+                "post": {
+                  "component_count": 60,
+                  "layer_count": 30,
+                  "sequence_length": 75,
+                  "sha256": "4273cc1fcd76c1121f76038cc9ff822f73b39500bc6b98c97d6beca905449466",
+                  "tensor_byte_count": 3456000
+                },
+                "pre": {
+                  "component_count": 60,
+                  "layer_count": 30,
+                  "sequence_length": 33,
+                  "sha256": "b47ad9819bf62aa2442b4c7047567d2f23b37accb7714cca854e9f09c4136546",
+                  "tensor_byte_count": 1520640
+                },
+                "shared_V_exact": true,
+                "transport_exact": true
+              },
+              {
+                "consumed": {
+                  "count": 16,
+                  "sha256": "d8f735196ab2e97b7233a26fcc639b11db6a1840c02aded9a8e50cc18a0c05ba",
+                  "token_ids": [
+                    6493,
+                    3010,
+                    198,
+                    10199,
+                    15799,
+                    38,
+                    79,
+                    6493,
+                    3010,
+                    198,
+                    10199,
+                    15799,
+                    38,
+                    79,
+                    6493,
+                    3010
+                  ]
+                },
+                "generated": {
+                  "count": 16,
+                  "sha256": "f9e268e8aac78a69f521dd890fc49048cd0b056251aca4736669953c2a2dbd6e",
+                  "token_ids": [
+                    198,
+                    10199,
+                    15799,
+                    38,
+                    79,
+                    6493,
+                    3010,
+                    198,
+                    10199,
+                    15799,
+                    38,
+                    79,
+                    6493,
+                    3010,
+                    198,
+                    10199
+                  ]
+                },
+                "ordinal": 1,
+                "other_pole_unchanged": true,
+                "pole": "B",
+                "post": {
+                  "component_count": 60,
+                  "layer_count": 30,
+                  "sequence_length": 110,
+                  "sha256": "67cfb74cdfd274443b32d24bc449859d973121afd4b2d11cdd6743d7d7561511",
+                  "tensor_byte_count": 5068800
+                },
+                "pre": {
+                  "component_count": 60,
+                  "layer_count": 30,
+                  "sequence_length": 68,
+                  "sha256": "61e133636aeae1236e4addd20661be134811315b52c8b8b623b86d7a0e4566f3",
+                  "tensor_byte_count": 3133440
+                },
+                "shared_V_exact": true,
+                "transport_exact": true
+              }
+            ]
+          },
+          {
+            "C": 0.599941154057,
+            "coherence_metric": "MEAN_LATEST_CAUSAL_KV_COSINE_V1",
+            "complete_reciprocal_pass": true,
+            "decision": "SECOND_PASS_NON_NEGATIVE_NO_DESCENT",
+            "delta_C": 0.05681816600099998,
+            "descent_after_pass": false,
+            "first_negative_no_descent": false,
+            "pass": 2,
+            "sign": "POSITIVE",
+            "terminal_state": {
+              "complete_pass": 2,
+              "kv": {
+                "component_count": 60,
+                "layer_count": 30,
+                "sequence_length": 152,
+                "sha256": "a70966d2ea039850ce5ac7525852fbba4cce8f6cd5a6bc22cdea8dc5a335dba1",
+                "tensor_byte_count": 7004160
+              },
+              "pole": "B"
+            },
+            "traversal_count": 2,
+            "traversals": [
+              {
+                "consumed": {
+                  "count": 16,
+                  "sha256": "f9e268e8aac78a69f521dd890fc49048cd0b056251aca4736669953c2a2dbd6e",
+                  "token_ids": [
+                    198,
+                    10199,
+                    15799,
+                    38,
+                    79,
+                    6493,
+                    3010,
+                    198,
+                    10199,
+                    15799,
+                    38,
+                    79,
+                    6493,
+                    3010,
+                    198,
+                    10199
+                  ]
+                },
+                "generated": {
+                  "count": 16,
+                  "sha256": "f9365004d9ec093dfa86a3d6fb21f747ae99bc4633d7e0a78ff940610ec2bf38",
+                  "token_ids": [
+                    15799,
+                    38,
+                    79,
+                    6493,
+                    3010,
+                    198,
+                    10199,
+                    15799,
+                    38,
+                    79,
+                    6493,
+                    3010,
+                    198,
+                    10199,
+                    15799,
+                    38
+                  ]
+                },
+                "ordinal": 0,
+                "other_pole_unchanged": true,
+                "pole": "A",
+                "post": {
+                  "component_count": 60,
+                  "layer_count": 30,
+                  "sequence_length": 117,
+                  "sha256": "dea16904a80418de384e80f97aced9abbf13e417f01f8fe07c2f9848b0406d57",
+                  "tensor_byte_count": 5391360
+                },
+                "pre": {
+                  "component_count": 60,
+                  "layer_count": 30,
+                  "sequence_length": 75,
+                  "sha256": "4273cc1fcd76c1121f76038cc9ff822f73b39500bc6b98c97d6beca905449466",
+                  "tensor_byte_count": 3456000
+                },
+                "shared_V_exact": true,
+                "transport_exact": true
+              },
+              {
+                "consumed": {
+                  "count": 16,
+                  "sha256": "f9365004d9ec093dfa86a3d6fb21f747ae99bc4633d7e0a78ff940610ec2bf38",
+                  "token_ids": [
+                    15799,
+                    38,
+                    79,
+                    6493,
+                    3010,
+                    198,
+                    10199,
+                    15799,
+                    38,
+                    79,
+                    6493,
+                    3010,
+                    198,
+                    10199,
+                    15799,
+                    38
+                  ]
+                },
+                "generated": {
+                  "count": 16,
+                  "sha256": "f198c00afc3989dd532629a6e94827ed5233213fdd823b13e5be825ad7d1c4c3",
+                  "token_ids": [
+                    79,
+                    6493,
+                    3010,
+                    198,
+                    10199,
+                    15799,
+                    38,
+                    79,
+                    6493,
+                    3010,
+                    198,
+                    10199,
+                    15799,
+                    38,
+                    79,
+                    6493
+                  ]
+                },
+                "ordinal": 1,
+                "other_pole_unchanged": true,
+                "pole": "B",
+                "post": {
+                  "component_count": 60,
+                  "layer_count": 30,
+                  "sequence_length": 152,
+                  "sha256": "a70966d2ea039850ce5ac7525852fbba4cce8f6cd5a6bc22cdea8dc5a335dba1",
+                  "tensor_byte_count": 7004160
+                },
+                "pre": {
+                  "component_count": 60,
+                  "layer_count": 30,
+                  "sequence_length": 110,
+                  "sha256": "67cfb74cdfd274443b32d24bc449859d973121afd4b2d11cdd6743d7d7561511",
+                  "tensor_byte_count": 5068800
+                },
+                "shared_V_exact": true,
+                "transport_exact": true
+              }
+            ]
+          },
+          {
+            "C": 0.491066004294,
+            "coherence_metric": "MEAN_LATEST_CAUSAL_KV_COSINE_V1",
+            "complete_reciprocal_pass": true,
+            "decision": "FIRST_NEGATIVE_EXECUTE_NEXT_COMPLETE_PASS",
+            "delta_C": -0.108875149763,
+            "descent_after_pass": false,
+            "first_negative_no_descent": true,
+            "pass": 3,
+            "sign": "NEGATIVE",
+            "terminal_state": {
+              "complete_pass": 3,
+              "kv": {
+                "component_count": 60,
+                "layer_count": 30,
+                "sequence_length": 194,
+                "sha256": "21755d75359e611e020a1e299d4b3d4113862b5e0cbcc15df60a5cc60d021073",
+                "tensor_byte_count": 8939520
+              },
+              "pole": "B"
+            },
+            "traversal_count": 2,
+            "traversals": [
+              {
+                "consumed": {
+                  "count": 16,
+                  "sha256": "f198c00afc3989dd532629a6e94827ed5233213fdd823b13e5be825ad7d1c4c3",
+                  "token_ids": [
+                    79,
+                    6493,
+                    3010,
+                    198,
+                    10199,
+                    15799,
+                    38,
+                    79,
+                    6493,
+                    3010,
+                    198,
+                    10199,
+                    15799,
+                    38,
+                    79,
+                    6493
+                  ]
+                },
+                "generated": {
+                  "count": 16,
+                  "sha256": "290252583b8faaf1e6d84efea3467c06f678255e17b4d0bc0739ae8ab467fdb2",
+                  "token_ids": [
+                    3010,
+                    198,
+                    10199,
+                    15799,
+                    38,
+                    79,
+                    6493,
+                    3010,
+                    198,
+                    10199,
+                    15799,
+                    38,
+                    79,
+                    6493,
+                    3010,
+                    198
+                  ]
+                },
+                "ordinal": 0,
+                "other_pole_unchanged": true,
+                "pole": "A",
+                "post": {
+                  "component_count": 60,
+                  "layer_count": 30,
+                  "sequence_length": 159,
+                  "sha256": "7bb12c0a9c4a984657b58219aeb83aacaa1c1729f52ebebcf3c1187092de16d7",
+                  "tensor_byte_count": 7326720
+                },
+                "pre": {
+                  "component_count": 60,
+                  "layer_count": 30,
+                  "sequence_length": 117,
+                  "sha256": "dea16904a80418de384e80f97aced9abbf13e417f01f8fe07c2f9848b0406d57",
+                  "tensor_byte_count": 5391360
+                },
+                "shared_V_exact": true,
+                "transport_exact": true
+              },
+              {
+                "consumed": {
+                  "count": 16,
+                  "sha256": "290252583b8faaf1e6d84efea3467c06f678255e17b4d0bc0739ae8ab467fdb2",
+                  "token_ids": [
+                    3010,
+                    198,
+                    10199,
+                    15799,
+                    38,
+                    79,
+                    6493,
+                    3010,
+                    198,
+                    10199,
+                    15799,
+                    38,
+                    79,
+                    6493,
+                    3010,
+                    198
+                  ]
+                },
+                "generated": {
+                  "count": 16,
+                  "sha256": "7b5154e56e0e904f4820b0dfad049b8e40b9706a4a36143b01983b4ed6e7b78c",
+                  "token_ids": [
+                    10199,
+                    15799,
+                    38,
+                    79,
+                    6493,
+                    3010,
+                    198,
+                    10199,
+                    15799,
+                    38,
+                    79,
+                    6493,
+                    3010,
+                    198,
+                    10199,
+                    15799
+                  ]
+                },
+                "ordinal": 1,
+                "other_pole_unchanged": true,
+                "pole": "B",
+                "post": {
+                  "component_count": 60,
+                  "layer_count": 30,
+                  "sequence_length": 194,
+                  "sha256": "21755d75359e611e020a1e299d4b3d4113862b5e0cbcc15df60a5cc60d021073",
+                  "tensor_byte_count": 8939520
+                },
+                "pre": {
+                  "component_count": 60,
+                  "layer_count": 30,
+                  "sequence_length": 152,
+                  "sha256": "a70966d2ea039850ce5ac7525852fbba4cce8f6cd5a6bc22cdea8dc5a335dba1",
+                  "tensor_byte_count": 7004160
+                },
+                "shared_V_exact": true,
+                "transport_exact": true
+              }
+            ]
+          },
+          {
+            "C": 0.568627035286,
+            "coherence_metric": "MEAN_LATEST_CAUSAL_KV_COSINE_V1",
+            "complete_reciprocal_pass": true,
+            "decision": "SECOND_PASS_NON_NEGATIVE_NO_DESCENT",
+            "delta_C": 0.07756103099200001,
+            "descent_after_pass": false,
+            "first_negative_no_descent": false,
+            "pass": 4,
+            "sign": "POSITIVE",
+            "terminal_state": {
+              "complete_pass": 4,
+              "kv": {
+                "component_count": 60,
+                "layer_count": 30,
+                "sequence_length": 236,
+                "sha256": "3a9668e810cdb74e101d141cf3b3aacc0dd4e10be4d7151a18aaab2a13b0ee5f",
+                "tensor_byte_count": 10874880
+              },
+              "pole": "B"
+            },
+            "traversal_count": 2,
+            "traversals": [
+              {
+                "consumed": {
+                  "count": 16,
+                  "sha256": "7b5154e56e0e904f4820b0dfad049b8e40b9706a4a36143b01983b4ed6e7b78c",
+                  "token_ids": [
+                    10199,
+                    15799,
+                    38,
+                    79,
+                    6493,
+                    3010,
+                    198,
+                    10199,
+                    15799,
+                    38,
+                    79,
+                    6493,
+                    3010,
+                    198,
+                    10199,
+                    15799
+                  ]
+                },
+                "generated": {
+                  "count": 16,
+                  "sha256": "aca1ff1bb36ebdceaa63d76b0403b42ca02a9e11409b5900242a4397bcd1076d",
+                  "token_ids": [
+                    38,
+                    79,
+                    6493,
+                    3010,
+                    198,
+                    10199,
+                    15799,
+                    38,
+                    79,
+                    6493,
+                    3010,
+                    198,
+                    10199,
+                    15799,
+                    38,
+                    79
+                  ]
+                },
+                "ordinal": 0,
+                "other_pole_unchanged": true,
+                "pole": "A",
+                "post": {
+                  "component_count": 60,
+                  "layer_count": 30,
+                  "sequence_length": 201,
+                  "sha256": "7f1eb69e75591ff0788554afefe3102bb606d3da98a5cb3fc2f866d4a8cc7158",
+                  "tensor_byte_count": 9262080
+                },
+                "pre": {
+                  "component_count": 60,
+                  "layer_count": 30,
+                  "sequence_length": 159,
+                  "sha256": "7bb12c0a9c4a984657b58219aeb83aacaa1c1729f52ebebcf3c1187092de16d7",
+                  "tensor_byte_count": 7326720
+                },
+                "shared_V_exact": true,
+                "transport_exact": true
+              },
+              {
+                "consumed": {
+                  "count": 16,
+                  "sha256": "aca1ff1bb36ebdceaa63d76b0403b42ca02a9e11409b5900242a4397bcd1076d",
+                  "token_ids": [
+                    38,
+                    79,
+                    6493,
+                    3010,
+                    198,
+                    10199,
+                    15799,
+                    38,
+                    79,
+                    6493,
+                    3010,
+                    198,
+                    10199,
+                    15799,
+                    38,
+                    79
+                  ]
+                },
+                "generated": {
+                  "count": 16,
+                  "sha256": "d8f735196ab2e97b7233a26fcc639b11db6a1840c02aded9a8e50cc18a0c05ba",
+                  "token_ids": [
+                    6493,
+                    3010,
+                    198,
+                    10199,
+                    15799,
+                    38,
+                    79,
+                    6493,
+                    3010,
+                    198,
+                    10199,
+                    15799,
+                    38,
+                    79,
+                    6493,
+                    3010
+                  ]
+                },
+                "ordinal": 1,
+                "other_pole_unchanged": true,
+                "pole": "B",
+                "post": {
+                  "component_count": 60,
+                  "layer_count": 30,
+                  "sequence_length": 236,
+                  "sha256": "3a9668e810cdb74e101d141cf3b3aacc0dd4e10be4d7151a18aaab2a13b0ee5f",
+                  "tensor_byte_count": 10874880
+                },
+                "pre": {
+                  "component_count": 60,
+                  "layer_count": 30,
+                  "sequence_length": 194,
+                  "sha256": "21755d75359e611e020a1e299d4b3d4113862b5e0cbcc15df60a5cc60d021073",
+                  "tensor_byte_count": 8939520
+                },
+                "shared_V_exact": true,
+                "transport_exact": true
+              }
+            ]
+          },
+          {
+            "C": 0.598598271342,
+            "coherence_metric": "MEAN_LATEST_CAUSAL_KV_COSINE_V1",
+            "complete_reciprocal_pass": true,
+            "decision": "CONTINUE_LOCAL",
+            "delta_C": 0.02997123605600005,
+            "descent_after_pass": false,
+            "first_negative_no_descent": false,
+            "pass": 5,
+            "sign": "POSITIVE",
+            "terminal_state": {
+              "complete_pass": 5,
+              "kv": {
+                "component_count": 60,
+                "layer_count": 30,
+                "sequence_length": 278,
+                "sha256": "0702a2caa336507521d471faf8c9d630168be59c69734ed78590bcecd0e2b650",
+                "tensor_byte_count": 12810240
+              },
+              "pole": "B"
+            },
+            "traversal_count": 2,
+            "traversals": [
+              {
+                "consumed": {
+                  "count": 16,
+                  "sha256": "d8f735196ab2e97b7233a26fcc639b11db6a1840c02aded9a8e50cc18a0c05ba",
+                  "token_ids": [
+                    6493,
+                    3010,
+                    198,
+                    10199,
+                    15799,
+                    38,
+                    79,
+                    6493,
+                    3010,
+                    198,
+                    10199,
+                    15799,
+                    38,
+                    79,
+                    6493,
+                    3010
+                  ]
+                },
+                "generated": {
+                  "count": 16,
+                  "sha256": "f9e268e8aac78a69f521dd890fc49048cd0b056251aca4736669953c2a2dbd6e",
+                  "token_ids": [
+                    198,
+                    10199,
+                    15799,
+                    38,
+                    79,
+                    6493,
+                    3010,
+                    198,
+                    10199,
+                    15799,
+                    38,
+                    79,
+                    6493,
+                    3010,
+                    198,
+                    10199
+                  ]
+                },
+                "ordinal": 0,
+                "other_pole_unchanged": true,
+                "pole": "A",
+                "post": {
+                  "component_count": 60,
+                  "layer_count": 30,
+                  "sequence_length": 243,
+                  "sha256": "057555ce4eb05db35f80b5295867f6749b1aabf50d15e37f9fd4f503d358ab3b",
+                  "tensor_byte_count": 11197440
+                },
+                "pre": {
+                  "component_count": 60,
+                  "layer_count": 30,
+                  "sequence_length": 201,
+                  "sha256": "7f1eb69e75591ff0788554afefe3102bb606d3da98a5cb3fc2f866d4a8cc7158",
+                  "tensor_byte_count": 9262080
+                },
+                "shared_V_exact": true,
+                "transport_exact": true
+              },
+              {
+                "consumed": {
+                  "count": 16,
+                  "sha256": "f9e268e8aac78a69f521dd890fc49048cd0b056251aca4736669953c2a2dbd6e",
+                  "token_ids": [
+                    198,
+                    10199,
+                    15799,
+                    38,
+                    79,
+                    6493,
+                    3010,
+                    198,
+                    10199,
+                    15799,
+                    38,
+                    79,
+                    6493,
+                    3010,
+                    198,
+                    10199
+                  ]
+                },
+                "generated": {
+                  "count": 16,
+                  "sha256": "f9365004d9ec093dfa86a3d6fb21f747ae99bc4633d7e0a78ff940610ec2bf38",
+                  "token_ids": [
+                    15799,
+                    38,
+                    79,
+                    6493,
+                    3010,
+                    198,
+                    10199,
+                    15799,
+                    38,
+                    79,
+                    6493,
+                    3010,
+                    198,
+                    10199,
+                    15799,
+                    38
+                  ]
+                },
+                "ordinal": 1,
+                "other_pole_unchanged": true,
+                "pole": "B",
+                "post": {
+                  "component_count": 60,
+                  "layer_count": 30,
+                  "sequence_length": 278,
+                  "sha256": "0702a2caa336507521d471faf8c9d630168be59c69734ed78590bcecd0e2b650",
+                  "tensor_byte_count": 12810240
+                },
+                "pre": {
+                  "component_count": 60,
+                  "layer_count": 30,
+                  "sequence_length": 236,
+                  "sha256": "3a9668e810cdb74e101d141cf3b3aacc0dd4e10be4d7151a18aaab2a13b0ee5f",
+                  "tensor_byte_count": 10874880
+                },
+                "shared_V_exact": true,
+                "transport_exact": true
+              }
+            ]
+          },
+          {
+            "C": 0.506422555342,
+            "coherence_metric": "MEAN_LATEST_CAUSAL_KV_COSINE_V1",
+            "complete_reciprocal_pass": true,
+            "decision": "FIRST_NEGATIVE_EXECUTE_NEXT_COMPLETE_PASS",
+            "delta_C": -0.09217571600000007,
+            "descent_after_pass": false,
+            "first_negative_no_descent": true,
+            "pass": 6,
+            "sign": "NEGATIVE",
+            "terminal_state": {
+              "complete_pass": 6,
+              "kv": {
+                "component_count": 60,
+                "layer_count": 30,
+                "sequence_length": 320,
+                "sha256": "8d5f495ed7c83b37201804e7bfea91f5b9481aa133fea015aa4ea15415aa0eaf",
+                "tensor_byte_count": 14745600
+              },
+              "pole": "B"
+            },
+            "traversal_count": 2,
+            "traversals": [
+              {
+                "consumed": {
+                  "count": 16,
+                  "sha256": "f9365004d9ec093dfa86a3d6fb21f747ae99bc4633d7e0a78ff940610ec2bf38",
+                  "token_ids": [
+                    15799,
+                    38,
+                    79,
+                    6493,
+                    3010,
+                    198,
+                    10199,
+                    15799,
+                    38,
+                    79,
+                    6493,
+                    3010,
+                    198,
+                    10199,
+                    15799,
+                    38
+                  ]
+                },
+                "generated": {
+                  "count": 16,
+                  "sha256": "f198c00afc3989dd532629a6e94827ed5233213fdd823b13e5be825ad7d1c4c3",
+                  "token_ids": [
+                    79,
+                    6493,
+                    3010,
+                    198,
+                    10199,
+                    15799,
+                    38,
+                    79,
+                    6493,
+                    3010,
+                    198,
+                    10199,
+                    15799,
+                    38,
+                    79,
+                    6493
+                  ]
+                },
+                "ordinal": 0,
+                "other_pole_unchanged": true,
+                "pole": "A",
+                "post": {
+                  "component_count": 60,
+                  "layer_count": 30,
+                  "sequence_length": 285,
+                  "sha256": "de40144a956b6daa6cf74904c27cc4f1efd97c0c58303b58b04bd2c869100324",
+                  "tensor_byte_count": 13132800
+                },
+                "pre": {
+                  "component_count": 60,
+                  "layer_count": 30,
+                  "sequence_length": 243,
+                  "sha256": "057555ce4eb05db35f80b5295867f6749b1aabf50d15e37f9fd4f503d358ab3b",
+                  "tensor_byte_count": 11197440
+                },
+                "shared_V_exact": true,
+                "transport_exact": true
+              },
+              {
+                "consumed": {
+                  "count": 16,
+                  "sha256": "f198c00afc3989dd532629a6e94827ed5233213fdd823b13e5be825ad7d1c4c3",
+                  "token_ids": [
+                    79,
+                    6493,
+                    3010,
+                    198,
+                    10199,
+                    15799,
+                    38,
+                    79,
+                    6493,
+                    3010,
+                    198,
+                    10199,
+                    15799,
+                    38,
+                    79,
+                    6493
+                  ]
+                },
+                "generated": {
+                  "count": 16,
+                  "sha256": "290252583b8faaf1e6d84efea3467c06f678255e17b4d0bc0739ae8ab467fdb2",
+                  "token_ids": [
+                    3010,
+                    198,
+                    10199,
+                    15799,
+                    38,
+                    79,
+                    6493,
+                    3010,
+                    198,
+                    10199,
+                    15799,
+                    38,
+                    79,
+                    6493,
+                    3010,
+                    198
+                  ]
+                },
+                "ordinal": 1,
+                "other_pole_unchanged": true,
+                "pole": "B",
+                "post": {
+                  "component_count": 60,
+                  "layer_count": 30,
+                  "sequence_length": 320,
+                  "sha256": "8d5f495ed7c83b37201804e7bfea91f5b9481aa133fea015aa4ea15415aa0eaf",
+                  "tensor_byte_count": 14745600
+                },
+                "pre": {
+                  "component_count": 60,
+                  "layer_count": 30,
+                  "sequence_length": 278,
+                  "sha256": "0702a2caa336507521d471faf8c9d630168be59c69734ed78590bcecd0e2b650",
+                  "tensor_byte_count": 12810240
+                },
+                "shared_V_exact": true,
+                "transport_exact": true
+              }
+            ]
+          },
+          {
+            "C": 0.589521393139,
+            "coherence_metric": "MEAN_LATEST_CAUSAL_KV_COSINE_V1",
+            "complete_reciprocal_pass": true,
+            "decision": "SECOND_PASS_NON_NEGATIVE_NO_DESCENT",
+            "delta_C": 0.083098837797,
+            "descent_after_pass": false,
+            "first_negative_no_descent": false,
+            "pass": 7,
+            "sign": "POSITIVE",
+            "terminal_state": {
+              "complete_pass": 7,
+              "kv": {
+                "component_count": 60,
+                "layer_count": 30,
+                "sequence_length": 362,
+                "sha256": "04c99a9d3d5d3500a1eaf93e1b7ccade9cad2950c918ae691c85fc02a8c7713b",
+                "tensor_byte_count": 16680960
+              },
+              "pole": "B"
+            },
+            "traversal_count": 2,
+            "traversals": [
+              {
+                "consumed": {
+                  "count": 16,
+                  "sha256": "290252583b8faaf1e6d84efea3467c06f678255e17b4d0bc0739ae8ab467fdb2",
+                  "token_ids": [
+                    3010,
+                    198,
+                    10199,
+                    15799,
+                    38,
+                    79,
+                    6493,
+                    3010,
+                    198,
+                    10199,
+                    15799,
+                    38,
+                    79,
+                    6493,
+                    3010,
+                    198
+                  ]
+                },
+                "generated": {
+                  "count": 16,
+                  "sha256": "7b5154e56e0e904f4820b0dfad049b8e40b9706a4a36143b01983b4ed6e7b78c",
+                  "token_ids": [
+                    10199,
+                    15799,
+                    38,
+                    79,
+                    6493,
+                    3010,
+                    198,
+                    10199,
+                    15799,
+                    38,
+                    79,
+                    6493,
+                    3010,
+                    198,
+                    10199,
+                    15799
+                  ]
+                },
+                "ordinal": 0,
+                "other_pole_unchanged": true,
+                "pole": "A",
+                "post": {
+                  "component_count": 60,
+                  "layer_count": 30,
+                  "sequence_length": 327,
+                  "sha256": "12e7b9b6b015885e8364ce248dfb706b715f7c000afab618483a6b323393981f",
+                  "tensor_byte_count": 15068160
+                },
+                "pre": {
+                  "component_count": 60,
+                  "layer_count": 30,
+                  "sequence_length": 285,
+                  "sha256": "de40144a956b6daa6cf74904c27cc4f1efd97c0c58303b58b04bd2c869100324",
+                  "tensor_byte_count": 13132800
+                },
+                "shared_V_exact": true,
+                "transport_exact": true
+              },
+              {
+                "consumed": {
+                  "count": 16,
+                  "sha256": "7b5154e56e0e904f4820b0dfad049b8e40b9706a4a36143b01983b4ed6e7b78c",
+                  "token_ids": [
+                    10199,
+                    15799,
+                    38,
+                    79,
+                    6493,
+                    3010,
+                    198,
+                    10199,
+                    15799,
+                    38,
+                    79,
+                    6493,
+                    3010,
+                    198,
+                    10199,
+                    15799
+                  ]
+                },
+                "generated": {
+                  "count": 16,
+                  "sha256": "aca1ff1bb36ebdceaa63d76b0403b42ca02a9e11409b5900242a4397bcd1076d",
+                  "token_ids": [
+                    38,
+                    79,
+                    6493,
+                    3010,
+                    198,
+                    10199,
+                    15799,
+                    38,
+                    79,
+                    6493,
+                    3010,
+                    198,
+                    10199,
+                    15799,
+                    38,
+                    79
+                  ]
+                },
+                "ordinal": 1,
+                "other_pole_unchanged": true,
+                "pole": "B",
+                "post": {
+                  "component_count": 60,
+                  "layer_count": 30,
+                  "sequence_length": 362,
+                  "sha256": "04c99a9d3d5d3500a1eaf93e1b7ccade9cad2950c918ae691c85fc02a8c7713b",
+                  "tensor_byte_count": 16680960
+                },
+                "pre": {
+                  "component_count": 60,
+                  "layer_count": 30,
+                  "sequence_length": 320,
+                  "sha256": "8d5f495ed7c83b37201804e7bfea91f5b9481aa133fea015aa4ea15415aa0eaf",
+                  "tensor_byte_count": 14745600
+                },
+                "shared_V_exact": true,
+                "transport_exact": true
+              }
+            ]
+          }
+        ],
+        "result": "CONTAINMENT_STOPPED_OBSERVATION",
+        "wave_instance_id": "WAVE_0"
+      },
+      "replicate": 1
+    },
+    {
+      "lower": null,
+      "parent": {
+        "checks": {
+          "EXACT_TOKEN_TRANSPORT": true,
+          "NO_HORIZON_DESCENT_AUTHORITY": true,
+          "NO_RECURRENCE_DESCENT_AUTHORITY": true,
+          "ONE_NEGATIVE_NOT_DESCENT": true,
+          "ONLY_COMPLETE_PASS_EVALUATION": true,
+          "SHARED_V_IMMUTABLE_AT_BOUNDARY": true,
+          "SOVEREIGN_POLE_ISOLATION": true,
+          "ZERO_NOT_NEGATIVE": true
+        },
+        "coherence": {
+          "definition": "mean cosine alignment of the two poles' latest key/value vectors across every transformer layer after a complete reciprocal pass",
+          "id": "MEAN_LATEST_CAUSAL_KV_COSINE_V1",
+          "semantic_content_inspected": false
+        },
+        "containment": {
+          "authorized_descent": false,
+          "classified_stabilization": false,
+          "classified_unresolved": false,
+          "external_safety_only": true,
+          "pass_limit": 8
+        },
+        "depth": 0,
+        "descent": null,
+        "law_id": "TWO_CONSECUTIVE_NEGATIVE_COMPLETE_PASSES_V1",
+        "mechanism": {
+          "code_sha256": "461ba5cde0067e7eccac4f760b606f1c6c589676d6f298e4d70a672cb807ea43",
+          "first_line": 114,
+          "qualname": "run_directional_wave",
+          "source_file": "C:\\Users\\jason\\Documents\\Codex\\2026-08-26\\files-pasted-by-the-user-tier\\work\\inherited-runtime-audit\\slice21_runtime.py"
+        },
+        "passes": [
+          {
+            "C": 0.549380022999,
+            "coherence_metric": "MEAN_LATEST_CAUSAL_KV_COSINE_V1",
+            "complete_reciprocal_pass": true,
+            "decision": "BASELINE_ESTABLISHED",
+            "delta_C": null,
+            "descent_after_pass": false,
+            "first_negative_no_descent": false,
+            "pass": 0,
+            "sign": "BASELINE",
+            "terminal_state": {
+              "complete_pass": 0,
+              "kv": {
+                "component_count": 60,
+                "layer_count": 30,
+                "sequence_length": 68,
+                "sha256": "61e133636aeae1236e4addd20661be134811315b52c8b8b623b86d7a0e4566f3",
+                "tensor_byte_count": 3133440
+              },
+              "pole": "B"
+            },
+            "traversal_count": 2,
+            "traversals": [
+              {
+                "consumed": {
+                  "count": 7,
+                  "sha256": "3fb7651cd7533961cc45d96a045b7a80f96f9bb45431c0440442caa5a248dc33",
+                  "token_ids": [
+                    10199,
+                    15799,
+                    38,
+                    79,
+                    6493,
+                    3010,
+                    198
+                  ]
+                },
+                "generated": {
+                  "count": 16,
+                  "sha256": "7b5154e56e0e904f4820b0dfad049b8e40b9706a4a36143b01983b4ed6e7b78c",
+                  "token_ids": [
+                    10199,
+                    15799,
+                    38,
+                    79,
+                    6493,
+                    3010,
+                    198,
+                    10199,
+                    15799,
+                    38,
+                    79,
+                    6493,
+                    3010,
+                    198,
+                    10199,
+                    15799
+                  ]
+                },
+                "ordinal": 0,
+                "other_pole_unchanged": true,
+                "pole": "A",
+                "post": {
+                  "component_count": 60,
+                  "layer_count": 30,
+                  "sequence_length": 33,
+                  "sha256": "b47ad9819bf62aa2442b4c7047567d2f23b37accb7714cca854e9f09c4136546",
+                  "tensor_byte_count": 1520640
+                },
+                "pre": {
+                  "component_count": 0,
+                  "layer_count": 30,
+                  "sequence_length": 0,
+                  "sha256": "73297220112f4401b9ca87757eae062e7fea6d920da85fae4b9584d189fb0067",
+                  "tensor_byte_count": 0
+                },
+                "shared_V_exact": true,
+                "transport_exact": true
+              },
+              {
+                "consumed": {
+                  "count": 16,
+                  "sha256": "7b5154e56e0e904f4820b0dfad049b8e40b9706a4a36143b01983b4ed6e7b78c",
+                  "token_ids": [
+                    10199,
+                    15799,
+                    38,
+                    79,
+                    6493,
+                    3010,
+                    198,
+                    10199,
+                    15799,
+                    38,
+                    79,
+                    6493,
+                    3010,
+                    198,
+                    10199,
+                    15799
+                  ]
+                },
+                "generated": {
+                  "count": 16,
+                  "sha256": "aca1ff1bb36ebdceaa63d76b0403b42ca02a9e11409b5900242a4397bcd1076d",
+                  "token_ids": [
+                    38,
+                    79,
+                    6493,
+                    3010,
+                    198,
+                    10199,
+                    15799,
+                    38,
+                    79,
+                    6493,
+                    3010,
+                    198,
+                    10199,
+                    15799,
+                    38,
+                    79
+                  ]
+                },
+                "ordinal": 1,
+                "other_pole_unchanged": true,
+                "pole": "B",
+                "post": {
+                  "component_count": 60,
+                  "layer_count": 30,
+                  "sequence_length": 68,
+                  "sha256": "61e133636aeae1236e4addd20661be134811315b52c8b8b623b86d7a0e4566f3",
+                  "tensor_byte_count": 3133440
+                },
+                "pre": {
+                  "component_count": 60,
+                  "layer_count": 30,
+                  "sequence_length": 26,
+                  "sha256": "1701488a4c5f2c97378fbb32ebceab4ba9b6c5cea7328d34477fe168ad52d228",
+                  "tensor_byte_count": 1198080
+                },
+                "shared_V_exact": true,
+                "transport_exact": true
+              }
+            ]
+          },
+          {
+            "C": 0.543122988056,
+            "coherence_metric": "MEAN_LATEST_CAUSAL_KV_COSINE_V1",
+            "complete_reciprocal_pass": true,
+            "decision": "FIRST_NEGATIVE_EXECUTE_NEXT_COMPLETE_PASS",
+            "delta_C": -0.006257034943000006,
+            "descent_after_pass": false,
+            "first_negative_no_descent": true,
+            "pass": 1,
+            "sign": "NEGATIVE",
+            "terminal_state": {
+              "complete_pass": 1,
+              "kv": {
+                "component_count": 60,
+                "layer_count": 30,
+                "sequence_length": 110,
+                "sha256": "67cfb74cdfd274443b32d24bc449859d973121afd4b2d11cdd6743d7d7561511",
+                "tensor_byte_count": 5068800
+              },
+              "pole": "B"
+            },
+            "traversal_count": 2,
+            "traversals": [
+              {
+                "consumed": {
+                  "count": 16,
+                  "sha256": "aca1ff1bb36ebdceaa63d76b0403b42ca02a9e11409b5900242a4397bcd1076d",
+                  "token_ids": [
+                    38,
+                    79,
+                    6493,
+                    3010,
+                    198,
+                    10199,
+                    15799,
+                    38,
+                    79,
+                    6493,
+                    3010,
+                    198,
+                    10199,
+                    15799,
+                    38,
+                    79
+                  ]
+                },
+                "generated": {
+                  "count": 16,
+                  "sha256": "d8f735196ab2e97b7233a26fcc639b11db6a1840c02aded9a8e50cc18a0c05ba",
+                  "token_ids": [
+                    6493,
+                    3010,
+                    198,
+                    10199,
+                    15799,
+                    38,
+                    79,
+                    6493,
+                    3010,
+                    198,
+                    10199,
+                    15799,
+                    38,
+                    79,
+                    6493,
+                    3010
+                  ]
+                },
+                "ordinal": 0,
+                "other_pole_unchanged": true,
+                "pole": "A",
+                "post": {
+                  "component_count": 60,
+                  "layer_count": 30,
+                  "sequence_length": 75,
+                  "sha256": "4273cc1fcd76c1121f76038cc9ff822f73b39500bc6b98c97d6beca905449466",
+                  "tensor_byte_count": 3456000
+                },
+                "pre": {
+                  "component_count": 60,
+                  "layer_count": 30,
+                  "sequence_length": 33,
+                  "sha256": "b47ad9819bf62aa2442b4c7047567d2f23b37accb7714cca854e9f09c4136546",
+                  "tensor_byte_count": 1520640
+                },
+                "shared_V_exact": true,
+                "transport_exact": true
+              },
+              {
+                "consumed": {
+                  "count": 16,
+                  "sha256": "d8f735196ab2e97b7233a26fcc639b11db6a1840c02aded9a8e50cc18a0c05ba",
+                  "token_ids": [
+                    6493,
+                    3010,
+                    198,
+                    10199,
+                    15799,
+                    38,
+                    79,
+                    6493,
+                    3010,
+                    198,
+                    10199,
+                    15799,
+                    38,
+                    79,
+                    6493,
+                    3010
+                  ]
+                },
+                "generated": {
+                  "count": 16,
+                  "sha256": "f9e268e8aac78a69f521dd890fc49048cd0b056251aca4736669953c2a2dbd6e",
+                  "token_ids": [
+                    198,
+                    10199,
+                    15799,
+                    38,
+                    79,
+                    6493,
+                    3010,
+                    198,
+                    10199,
+                    15799,
+                    38,
+                    79,
+                    6493,
+                    3010,
+                    198,
+                    10199
+                  ]
+                },
+                "ordinal": 1,
+                "other_pole_unchanged": true,
+                "pole": "B",
+                "post": {
+                  "component_count": 60,
+                  "layer_count": 30,
+                  "sequence_length": 110,
+                  "sha256": "67cfb74cdfd274443b32d24bc449859d973121afd4b2d11cdd6743d7d7561511",
+                  "tensor_byte_count": 5068800
+                },
+                "pre": {
+                  "component_count": 60,
+                  "layer_count": 30,
+                  "sequence_length": 68,
+                  "sha256": "61e133636aeae1236e4addd20661be134811315b52c8b8b623b86d7a0e4566f3",
+                  "tensor_byte_count": 3133440
+                },
+                "shared_V_exact": true,
+                "transport_exact": true
+              }
+            ]
+          },
+          {
+            "C": 0.599941154057,
+            "coherence_metric": "MEAN_LATEST_CAUSAL_KV_COSINE_V1",
+            "complete_reciprocal_pass": true,
+            "decision": "SECOND_PASS_NON_NEGATIVE_NO_DESCENT",
+            "delta_C": 0.05681816600099998,
+            "descent_after_pass": false,
+            "first_negative_no_descent": false,
+            "pass": 2,
+            "sign": "POSITIVE",
+            "terminal_state": {
+              "complete_pass": 2,
+              "kv": {
+                "component_count": 60,
+                "layer_count": 30,
+                "sequence_length": 152,
+                "sha256": "a70966d2ea039850ce5ac7525852fbba4cce8f6cd5a6bc22cdea8dc5a335dba1",
+                "tensor_byte_count": 7004160
+              },
+              "pole": "B"
+            },
+            "traversal_count": 2,
+            "traversals": [
+              {
+                "consumed": {
+                  "count": 16,
+                  "sha256": "f9e268e8aac78a69f521dd890fc49048cd0b056251aca4736669953c2a2dbd6e",
+                  "token_ids": [
+                    198,
+                    10199,
+                    15799,
+                    38,
+                    79,
+                    6493,
+                    3010,
+                    198,
+                    10199,
+                    15799,
+                    38,
+                    79,
+                    6493,
+                    3010,
+                    198,
+                    10199
+                  ]
+                },
+                "generated": {
+                  "count": 16,
+                  "sha256": "f9365004d9ec093dfa86a3d6fb21f747ae99bc4633d7e0a78ff940610ec2bf38",
+                  "token_ids": [
+                    15799,
+                    38,
+                    79,
+                    6493,
+                    3010,
+                    198,
+                    10199,
+                    15799,
+                    38,
+                    79,
+                    6493,
+                    3010,
+                    198,
+                    10199,
+                    15799,
+                    38
+                  ]
+                },
+                "ordinal": 0,
+                "other_pole_unchanged": true,
+                "pole": "A",
+                "post": {
+                  "component_count": 60,
+                  "layer_count": 30,
+                  "sequence_length": 117,
+                  "sha256": "dea16904a80418de384e80f97aced9abbf13e417f01f8fe07c2f9848b0406d57",
+                  "tensor_byte_count": 5391360
+                },
+                "pre": {
+                  "component_count": 60,
+                  "layer_count": 30,
+                  "sequence_length": 75,
+                  "sha256": "4273cc1fcd76c1121f76038cc9ff822f73b39500bc6b98c97d6beca905449466",
+                  "tensor_byte_count": 3456000
+                },
+                "shared_V_exact": true,
+                "transport_exact": true
+              },
+              {
+                "consumed": {
+                  "count": 16,
+                  "sha256": "f9365004d9ec093dfa86a3d6fb21f747ae99bc4633d7e0a78ff940610ec2bf38",
+                  "token_ids": [
+                    15799,
+                    38,
+                    79,
+                    6493,
+                    3010,
+                    198,
+                    10199,
+                    15799,
+                    38,
+                    79,
+                    6493,
+                    3010,
+                    198,
+                    10199,
+                    15799,
+                    38
+                  ]
+                },
+                "generated": {
+                  "count": 16,
+                  "sha256": "f198c00afc3989dd532629a6e94827ed5233213fdd823b13e5be825ad7d1c4c3",
+                  "token_ids": [
+                    79,
+                    6493,
+                    3010,
+                    198,
+                    10199,
+                    15799,
+                    38,
+                    79,
+                    6493,
+                    3010,
+                    198,
+                    10199,
+                    15799,
+                    38,
+                    79,
+                    6493
+                  ]
+                },
+                "ordinal": 1,
+                "other_pole_unchanged": true,
+                "pole": "B",
+                "post": {
+                  "component_count": 60,
+                  "layer_count": 30,
+                  "sequence_length": 152,
+                  "sha256": "a70966d2ea039850ce5ac7525852fbba4cce8f6cd5a6bc22cdea8dc5a335dba1",
+                  "tensor_byte_count": 7004160
+                },
+                "pre": {
+                  "component_count": 60,
+                  "layer_count": 30,
+                  "sequence_length": 110,
+                  "sha256": "67cfb74cdfd274443b32d24bc449859d973121afd4b2d11cdd6743d7d7561511",
+                  "tensor_byte_count": 5068800
+                },
+                "shared_V_exact": true,
+                "transport_exact": true
+              }
+            ]
+          },
+          {
+            "C": 0.491066004294,
+            "coherence_metric": "MEAN_LATEST_CAUSAL_KV_COSINE_V1",
+            "complete_reciprocal_pass": true,
+            "decision": "FIRST_NEGATIVE_EXECUTE_NEXT_COMPLETE_PASS",
+            "delta_C": -0.108875149763,
+            "descent_after_pass": false,
+            "first_negative_no_descent": true,
+            "pass": 3,
+            "sign": "NEGATIVE",
+            "terminal_state": {
+              "complete_pass": 3,
+              "kv": {
+                "component_count": 60,
+                "layer_count": 30,
+                "sequence_length": 194,
+                "sha256": "21755d75359e611e020a1e299d4b3d4113862b5e0cbcc15df60a5cc60d021073",
+                "tensor_byte_count": 8939520
+              },
+              "pole": "B"
+            },
+            "traversal_count": 2,
+            "traversals": [
+              {
+                "consumed": {
+                  "count": 16,
+                  "sha256": "f198c00afc3989dd532629a6e94827ed5233213fdd823b13e5be825ad7d1c4c3",
+                  "token_ids": [
+                    79,
+                    6493,
+                    3010,
+                    198,
+                    10199,
+                    15799,
+                    38,
+                    79,
+                    6493,
+                    3010,
+                    198,
+                    10199,
+                    15799,
+                    38,
+                    79,
+                    6493
+                  ]
+                },
+                "generated": {
+                  "count": 16,
+                  "sha256": "290252583b8faaf1e6d84efea3467c06f678255e17b4d0bc0739ae8ab467fdb2",
+                  "token_ids": [
+                    3010,
+                    198,
+                    10199,
+                    15799,
+                    38,
+                    79,
+                    6493,
+                    3010,
+                    198,
+                    10199,
+                    15799,
+                    38,
+                    79,
+                    6493,
+                    3010,
+                    198
+                  ]
+                },
+                "ordinal": 0,
+                "other_pole_unchanged": true,
+                "pole": "A",
+                "post": {
+                  "component_count": 60,
+                  "layer_count": 30,
+                  "sequence_length": 159,
+                  "sha256": "7bb12c0a9c4a984657b58219aeb83aacaa1c1729f52ebebcf3c1187092de16d7",
+                  "tensor_byte_count": 7326720
+                },
+                "pre": {
+                  "component_count": 60,
+                  "layer_count": 30,
+                  "sequence_length": 117,
+                  "sha256": "dea16904a80418de384e80f97aced9abbf13e417f01f8fe07c2f9848b0406d57",
+                  "tensor_byte_count": 5391360
+                },
+                "shared_V_exact": true,
+                "transport_exact": true
+              },
+              {
+                "consumed": {
+                  "count": 16,
+                  "sha256": "290252583b8faaf1e6d84efea3467c06f678255e17b4d0bc0739ae8ab467fdb2",
+                  "token_ids": [
+                    3010,
+                    198,
+                    10199,
+                    15799,
+                    38,
+                    79,
+                    6493,
+                    3010,
+                    198,
+                    10199,
+                    15799,
+                    38,
+                    79,
+                    6493,
+                    3010,
+                    198
+                  ]
+                },
+                "generated": {
+                  "count": 16,
+                  "sha256": "7b5154e56e0e904f4820b0dfad049b8e40b9706a4a36143b01983b4ed6e7b78c",
+                  "token_ids": [
+                    10199,
+                    15799,
+                    38,
+                    79,
+                    6493,
+                    3010,
+                    198,
+                    10199,
+                    15799,
+                    38,
+                    79,
+                    6493,
+                    3010,
+                    198,
+                    10199,
+                    15799
+                  ]
+                },
+                "ordinal": 1,
+                "other_pole_unchanged": true,
+                "pole": "B",
+                "post": {
+                  "component_count": 60,
+                  "layer_count": 30,
+                  "sequence_length": 194,
+                  "sha256": "21755d75359e611e020a1e299d4b3d4113862b5e0cbcc15df60a5cc60d021073",
+                  "tensor_byte_count": 8939520
+                },
+                "pre": {
+                  "component_count": 60,
+                  "layer_count": 30,
+                  "sequence_length": 152,
+                  "sha256": "a70966d2ea039850ce5ac7525852fbba4cce8f6cd5a6bc22cdea8dc5a335dba1",
+                  "tensor_byte_count": 7004160
+                },
+                "shared_V_exact": true,
+                "transport_exact": true
+              }
+            ]
+          },
+          {
+            "C": 0.568627035286,
+            "coherence_metric": "MEAN_LATEST_CAUSAL_KV_COSINE_V1",
+            "complete_reciprocal_pass": true,
+            "decision": "SECOND_PASS_NON_NEGATIVE_NO_DESCENT",
+            "delta_C": 0.07756103099200001,
+            "descent_after_pass": false,
+            "first_negative_no_descent": false,
+            "pass": 4,
+            "sign": "POSITIVE",
+            "terminal_state": {
+              "complete_pass": 4,
+              "kv": {
+                "component_count": 60,
+                "layer_count": 30,
+                "sequence_length": 236,
+                "sha256": "3a9668e810cdb74e101d141cf3b3aacc0dd4e10be4d7151a18aaab2a13b0ee5f",
+                "tensor_byte_count": 10874880
+              },
+              "pole": "B"
+            },
+            "traversal_count": 2,
+            "traversals": [
+              {
+                "consumed": {
+                  "count": 16,
+                  "sha256": "7b5154e56e0e904f4820b0dfad049b8e40b9706a4a36143b01983b4ed6e7b78c",
+                  "token_ids": [
+                    10199,
+                    15799,
+                    38,
+                    79,
+                    6493,
+                    3010,
+                    198,
+                    10199,
+                    15799,
+                    38,
+                    79,
+                    6493,
+                    3010,
+                    198,
+                    10199,
+                    15799
+                  ]
+                },
+                "generated": {
+                  "count": 16,
+                  "sha256": "aca1ff1bb36ebdceaa63d76b0403b42ca02a9e11409b5900242a4397bcd1076d",
+                  "token_ids": [
+                    38,
+                    79,
+                    6493,
+                    3010,
+                    198,
+                    10199,
+                    15799,
+                    38,
+                    79,
+                    6493,
+                    3010,
+                    198,
+                    10199,
+                    15799,
+                    38,
+                    79
+                  ]
+                },
+                "ordinal": 0,
+                "other_pole_unchanged": true,
+                "pole": "A",
+                "post": {
+                  "component_count": 60,
+                  "layer_count": 30,
+                  "sequence_length": 201,
+                  "sha256": "7f1eb69e75591ff0788554afefe3102bb606d3da98a5cb3fc2f866d4a8cc7158",
+                  "tensor_byte_count": 9262080
+                },
+                "pre": {
+                  "component_count": 60,
+                  "layer_count": 30,
+                  "sequence_length": 159,
+                  "sha256": "7bb12c0a9c4a984657b58219aeb83aacaa1c1729f52ebebcf3c1187092de16d7",
+                  "tensor_byte_count": 7326720
+                },
+                "shared_V_exact": true,
+                "transport_exact": true
+              },
+              {
+                "consumed": {
+                  "count": 16,
+                  "sha256": "aca1ff1bb36ebdceaa63d76b0403b42ca02a9e11409b5900242a4397bcd1076d",
+                  "token_ids": [
+                    38,
+                    79,
+                    6493,
+                    3010,
+                    198,
+                    10199,
+                    15799,
+                    38,
+                    79,
+                    6493,
+                    3010,
+                    198,
+                    10199,
+                    15799,
+                    38,
+                    79
+                  ]
+                },
+                "generated": {
+                  "count": 16,
+                  "sha256": "d8f735196ab2e97b7233a26fcc639b11db6a1840c02aded9a8e50cc18a0c05ba",
+                  "token_ids": [
+                    6493,
+                    3010,
+                    198,
+                    10199,
+                    15799,
+                    38,
+                    79,
+                    6493,
+                    3010,
+                    198,
+                    10199,
+                    15799,
+                    38,
+                    79,
+                    6493,
+                    3010
+                  ]
+                },
+                "ordinal": 1,
+                "other_pole_unchanged": true,
+                "pole": "B",
+                "post": {
+                  "component_count": 60,
+                  "layer_count": 30,
+                  "sequence_length": 236,
+                  "sha256": "3a9668e810cdb74e101d141cf3b3aacc0dd4e10be4d7151a18aaab2a13b0ee5f",
+                  "tensor_byte_count": 10874880
+                },
+                "pre": {
+                  "component_count": 60,
+                  "layer_count": 30,
+                  "sequence_length": 194,
+                  "sha256": "21755d75359e611e020a1e299d4b3d4113862b5e0cbcc15df60a5cc60d021073",
+                  "tensor_byte_count": 8939520
+                },
+                "shared_V_exact": true,
+                "transport_exact": true
+              }
+            ]
+          },
+          {
+            "C": 0.598598271342,
+            "coherence_metric": "MEAN_LATEST_CAUSAL_KV_COSINE_V1",
+            "complete_reciprocal_pass": true,
+            "decision": "CONTINUE_LOCAL",
+            "delta_C": 0.02997123605600005,
+            "descent_after_pass": false,
+            "first_negative_no_descent": false,
+            "pass": 5,
+            "sign": "POSITIVE",
+            "terminal_state": {
+              "complete_pass": 5,
+              "kv": {
+                "component_count": 60,
+                "layer_count": 30,
+                "sequence_length": 278,
+                "sha256": "0702a2caa336507521d471faf8c9d630168be59c69734ed78590bcecd0e2b650",
+                "tensor_byte_count": 12810240
+              },
+              "pole": "B"
+            },
+            "traversal_count": 2,
+            "traversals": [
+              {
+                "consumed": {
+                  "count": 16,
+                  "sha256": "d8f735196ab2e97b7233a26fcc639b11db6a1840c02aded9a8e50cc18a0c05ba",
+                  "token_ids": [
+                    6493,
+                    3010,
+                    198,
+                    10199,
+                    15799,
+                    38,
+                    79,
+                    6493,
+                    3010,
+                    198,
+                    10199,
+                    15799,
+                    38,
+                    79,
+                    6493,
+                    3010
+                  ]
+                },
+                "generated": {
+                  "count": 16,
+                  "sha256": "f9e268e8aac78a69f521dd890fc49048cd0b056251aca4736669953c2a2dbd6e",
+                  "token_ids": [
+                    198,
+                    10199,
+                    15799,
+                    38,
+                    79,
+                    6493,
+                    3010,
+                    198,
+                    10199,
+                    15799,
+                    38,
+                    79,
+                    6493,
+                    3010,
+                    198,
+                    10199
+                  ]
+                },
+                "ordinal": 0,
+                "other_pole_unchanged": true,
+                "pole": "A",
+                "post": {
+                  "component_count": 60,
+                  "layer_count": 30,
+                  "sequence_length": 243,
+                  "sha256": "057555ce4eb05db35f80b5295867f6749b1aabf50d15e37f9fd4f503d358ab3b",
+                  "tensor_byte_count": 11197440
+                },
+                "pre": {
+                  "component_count": 60,
+                  "layer_count": 30,
+                  "sequence_length": 201,
+                  "sha256": "7f1eb69e75591ff0788554afefe3102bb606d3da98a5cb3fc2f866d4a8cc7158",
+                  "tensor_byte_count": 9262080
+                },
+                "shared_V_exact": true,
+                "transport_exact": true
+              },
+              {
+                "consumed": {
+                  "count": 16,
+                  "sha256": "f9e268e8aac78a69f521dd890fc49048cd0b056251aca4736669953c2a2dbd6e",
+                  "token_ids": [
+                    198,
+                    10199,
+                    15799,
+                    38,
+                    79,
+                    6493,
+                    3010,
+                    198,
+                    10199,
+                    15799,
+                    38,
+                    79,
+                    6493,
+                    3010,
+                    198,
+                    10199
+                  ]
+                },
+                "generated": {
+                  "count": 16,
+                  "sha256": "f9365004d9ec093dfa86a3d6fb21f747ae99bc4633d7e0a78ff940610ec2bf38",
+                  "token_ids": [
+                    15799,
+                    38,
+                    79,
+                    6493,
+                    3010,
+                    198,
+                    10199,
+                    15799,
+                    38,
+                    79,
+                    6493,
+                    3010,
+                    198,
+                    10199,
+                    15799,
+                    38
+                  ]
+                },
+                "ordinal": 1,
+                "other_pole_unchanged": true,
+                "pole": "B",
+                "post": {
+                  "component_count": 60,
+                  "layer_count": 30,
+                  "sequence_length": 278,
+                  "sha256": "0702a2caa336507521d471faf8c9d630168be59c69734ed78590bcecd0e2b650",
+                  "tensor_byte_count": 12810240
+                },
+                "pre": {
+                  "component_count": 60,
+                  "layer_count": 30,
+                  "sequence_length": 236,
+                  "sha256": "3a9668e810cdb74e101d141cf3b3aacc0dd4e10be4d7151a18aaab2a13b0ee5f",
+                  "tensor_byte_count": 10874880
+                },
+                "shared_V_exact": true,
+                "transport_exact": true
+              }
+            ]
+          },
+          {
+            "C": 0.506422555342,
+            "coherence_metric": "MEAN_LATEST_CAUSAL_KV_COSINE_V1",
+            "complete_reciprocal_pass": true,
+            "decision": "FIRST_NEGATIVE_EXECUTE_NEXT_COMPLETE_PASS",
+            "delta_C": -0.09217571600000007,
+            "descent_after_pass": false,
+            "first_negative_no_descent": true,
+            "pass": 6,
+            "sign": "NEGATIVE",
+            "terminal_state": {
+              "complete_pass": 6,
+              "kv": {
+                "component_count": 60,
+                "layer_count": 30,
+                "sequence_length": 320,
+                "sha256": "8d5f495ed7c83b37201804e7bfea91f5b9481aa133fea015aa4ea15415aa0eaf",
+                "tensor_byte_count": 14745600
+              },
+              "pole": "B"
+            },
+            "traversal_count": 2,
+            "traversals": [
+              {
+                "consumed": {
+                  "count": 16,
+                  "sha256": "f9365004d9ec093dfa86a3d6fb21f747ae99bc4633d7e0a78ff940610ec2bf38",
+                  "token_ids": [
+                    15799,
+                    38,
+                    79,
+                    6493,
+                    3010,
+                    198,
+                    10199,
+                    15799,
+                    38,
+                    79,
+                    6493,
+                    3010,
+                    198,
+                    10199,
+                    15799,
+                    38
+                  ]
+                },
+                "generated": {
+                  "count": 16,
+                  "sha256": "f198c00afc3989dd532629a6e94827ed5233213fdd823b13e5be825ad7d1c4c3",
+                  "token_ids": [
+                    79,
+                    6493,
+                    3010,
+                    198,
+                    10199,
+                    15799,
+                    38,
+                    79,
+                    6493,
+                    3010,
+                    198,
+                    10199,
+                    15799,
+                    38,
+                    79,
+                    6493
+                  ]
+                },
+                "ordinal": 0,
+                "other_pole_unchanged": true,
+                "pole": "A",
+                "post": {
+                  "component_count": 60,
+                  "layer_count": 30,
+                  "sequence_length": 285,
+                  "sha256": "de40144a956b6daa6cf74904c27cc4f1efd97c0c58303b58b04bd2c869100324",
+                  "tensor_byte_count": 13132800
+                },
+                "pre": {
+                  "component_count": 60,
+                  "layer_count": 30,
+                  "sequence_length": 243,
+                  "sha256": "057555ce4eb05db35f80b5295867f6749b1aabf50d15e37f9fd4f503d358ab3b",
+                  "tensor_byte_count": 11197440
+                },
+                "shared_V_exact": true,
+                "transport_exact": true
+              },
+              {
+                "consumed": {
+                  "count": 16,
+                  "sha256": "f198c00afc3989dd532629a6e94827ed5233213fdd823b13e5be825ad7d1c4c3",
+                  "token_ids": [
+                    79,
+                    6493,
+                    3010,
+                    198,
+                    10199,
+                    15799,
+                    38,
+                    79,
+                    6493,
+                    3010,
+                    198,
+                    10199,
+                    15799,
+                    38,
+                    79,
+                    6493
+                  ]
+                },
+                "generated": {
+                  "count": 16,
+                  "sha256": "290252583b8faaf1e6d84efea3467c06f678255e17b4d0bc0739ae8ab467fdb2",
+                  "token_ids": [
+                    3010,
+                    198,
+                    10199,
+                    15799,
+                    38,
+                    79,
+                    6493,
+                    3010,
+                    198,
+                    10199,
+                    15799,
+                    38,
+                    79,
+                    6493,
+                    3010,
+                    198
+                  ]
+                },
+                "ordinal": 1,
+                "other_pole_unchanged": true,
+                "pole": "B",
+                "post": {
+                  "component_count": 60,
+                  "layer_count": 30,
+                  "sequence_length": 320,
+                  "sha256": "8d5f495ed7c83b37201804e7bfea91f5b9481aa133fea015aa4ea15415aa0eaf",
+                  "tensor_byte_count": 14745600
+                },
+                "pre": {
+                  "component_count": 60,
+                  "layer_count": 30,
+                  "sequence_length": 278,
+                  "sha256": "0702a2caa336507521d471faf8c9d630168be59c69734ed78590bcecd0e2b650",
+                  "tensor_byte_count": 12810240
+                },
+                "shared_V_exact": true,
+                "transport_exact": true
+              }
+            ]
+          },
+          {
+            "C": 0.589521393139,
+            "coherence_metric": "MEAN_LATEST_CAUSAL_KV_COSINE_V1",
+            "complete_reciprocal_pass": true,
+            "decision": "SECOND_PASS_NON_NEGATIVE_NO_DESCENT",
+            "delta_C": 0.083098837797,
+            "descent_after_pass": false,
+            "first_negative_no_descent": false,
+            "pass": 7,
+            "sign": "POSITIVE",
+            "terminal_state": {
+              "complete_pass": 7,
+              "kv": {
+                "component_count": 60,
+                "layer_count": 30,
+                "sequence_length": 362,
+                "sha256": "04c99a9d3d5d3500a1eaf93e1b7ccade9cad2950c918ae691c85fc02a8c7713b",
+                "tensor_byte_count": 16680960
+              },
+              "pole": "B"
+            },
+            "traversal_count": 2,
+            "traversals": [
+              {
+                "consumed": {
+                  "count": 16,
+                  "sha256": "290252583b8faaf1e6d84efea3467c06f678255e17b4d0bc0739ae8ab467fdb2",
+                  "token_ids": [
+                    3010,
+                    198,
+                    10199,
+                    15799,
+                    38,
+                    79,
+                    6493,
+                    3010,
+                    198,
+                    10199,
+                    15799,
+                    38,
+                    79,
+                    6493,
+                    3010,
+                    198
+                  ]
+                },
+                "generated": {
+                  "count": 16,
+                  "sha256": "7b5154e56e0e904f4820b0dfad049b8e40b9706a4a36143b01983b4ed6e7b78c",
+                  "token_ids": [
+                    10199,
+                    15799,
+                    38,
+                    79,
+                    6493,
+                    3010,
+                    198,
+                    10199,
+                    15799,
+                    38,
+                    79,
+                    6493,
+                    3010,
+                    198,
+                    10199,
+                    15799
+                  ]
+                },
+                "ordinal": 0,
+                "other_pole_unchanged": true,
+                "pole": "A",
+                "post": {
+                  "component_count": 60,
+                  "layer_count": 30,
+                  "sequence_length": 327,
+                  "sha256": "12e7b9b6b015885e8364ce248dfb706b715f7c000afab618483a6b323393981f",
+                  "tensor_byte_count": 15068160
+                },
+                "pre": {
+                  "component_count": 60,
+                  "layer_count": 30,
+                  "sequence_length": 285,
+                  "sha256": "de40144a956b6daa6cf74904c27cc4f1efd97c0c58303b58b04bd2c869100324",
+                  "tensor_byte_count": 13132800
+                },
+                "shared_V_exact": true,
+                "transport_exact": true
+              },
+              {
+                "consumed": {
+                  "count": 16,
+                  "sha256": "7b5154e56e0e904f4820b0dfad049b8e40b9706a4a36143b01983b4ed6e7b78c",
+                  "token_ids": [
+                    10199,
+                    15799,
+                    38,
+                    79,
+                    6493,
+                    3010,
+                    198,
+                    10199,
+                    15799,
+                    38,
+                    79,
+                    6493,
+                    3010,
+                    198,
+                    10199,
+                    15799
+                  ]
+                },
+                "generated": {
+                  "count": 16,
+                  "sha256": "aca1ff1bb36ebdceaa63d76b0403b42ca02a9e11409b5900242a4397bcd1076d",
+                  "token_ids": [
+                    38,
+                    79,
+                    6493,
+                    3010,
+                    198,
+                    10199,
+                    15799,
+                    38,
+                    79,
+                    6493,
+                    3010,
+                    198,
+                    10199,
+                    15799,
+                    38,
+                    79
+                  ]
+                },
+                "ordinal": 1,
+                "other_pole_unchanged": true,
+                "pole": "B",
+                "post": {
+                  "component_count": 60,
+                  "layer_count": 30,
+                  "sequence_length": 362,
+                  "sha256": "04c99a9d3d5d3500a1eaf93e1b7ccade9cad2950c918ae691c85fc02a8c7713b",
+                  "tensor_byte_count": 16680960
+                },
+                "pre": {
+                  "component_count": 60,
+                  "layer_count": 30,
+                  "sequence_length": 320,
+                  "sha256": "8d5f495ed7c83b37201804e7bfea91f5b9481aa133fea015aa4ea15415aa0eaf",
+                  "tensor_byte_count": 14745600
+                },
+                "shared_V_exact": true,
+                "transport_exact": true
+              }
+            ]
+          }
+        ],
+        "result": "CONTAINMENT_STOPPED_OBSERVATION",
+        "wave_instance_id": "WAVE_0"
+      },
+      "replicate": 2
+    }
+  ],
+  "replication_count": 2,
+  "schema": "SLICE21_DIRECTIONAL_STABILIZATION_V1",
+  "upward": {
+    "above_pass_executed": false,
+    "downward_propagation_ceased": false,
+    "lower_contribution_available": false,
+    "reason": "No stabilized lower substrate fact became naturally available under the corrected directional execution; none was manufactured."
+  }
+}

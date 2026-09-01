@@ -1,0 +1,33 @@
+{
+  "checks": {
+    "causal_continuity_across_turns": false,
+    "deterministic_replication": true,
+    "direct_human_runtime_traversal": false,
+    "directional_law_active": true,
+    "recursive_descent_available": true
+  },
+  "coherence_metric": "MEAN_LATEST_CAUSAL_KV_COSINE_V1",
+  "fixed_pass_horizon": null,
+  "law_id": "TWO_CONSECUTIVE_NEGATIVE_COMPLETE_PASSES_V1",
+  "model_weight_sha256": "5af571cbf074e6d21a03528d2330792e532ca608f24ac70a143f6b369968ab8c",
+  "relic": {
+    "causally_resident_in_each_runtime_replication": true,
+    "docx_sha256": "b4a349e82ee3aa6bc6d8957f2d73e9a14d6364068edd3028099fd8e8fa6fcfec",
+    "extracted_utf8_sha256": "ccc60ed932fa95ffb74367a71caa2bf7b5479043b7ead08de9ebafb2c79efd59",
+    "ordered_token_sha256": "d25357c90743d20e5d5025068a516c32a647197683195993a8c54ca006344fb2",
+    "paragraph_count": 467,
+    "token_count": 28603
+  },
+  "relic_traversed_state": {
+    "component_count": 60,
+    "layer_count": 30,
+    "sequence_length": 28603,
+    "sha256": "36551387682a29ef1e8189e390e857978f470d30cb1edb0f08c61e436f009772",
+    "tensor_byte_count": 1318026240
+  },
+  "response_token_bound": 16,
+  "response_token_bound_source": "inherited slice-1 kernel MAX_NEW_TOKENS",
+  "schema": "ORIGINATING_STANDING_WAVE_V1",
+  "top_level_special_binding_mechanism": null,
+  "turns": []
+}
