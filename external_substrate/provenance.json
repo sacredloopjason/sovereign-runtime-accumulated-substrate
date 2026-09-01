@@ -1,0 +1,12 @@
+{
+    "schema":  "EXTERNAL_SUBSTRATE_PROVENANCE_V1",
+    "purpose":  "GitHub visibility only; active runtime paths and source bytes are unchanged",
+    "external_project_source_files":  [
+                                          {
+                                              "ORIGINAL_LOCAL_PATH":  "C:\\Users\\jason\\Documents\\Codex\\2026-08-22\\files-pasted-by-the-user-build\\slice1-kernel-0e214f972bb44fcf983bb0930af3d773\\runtime.py",
+                                              "ORIGINAL_SHA256":  "985798a4b14ca7c1145cba2cd9a0b92ae029dd169a584f1ee6dd06c56028cf5a",
+                                              "GITHUB_PATH":  "external_substrate/slice1-kernel-0e214f972bb44fcf983bb0930af3d773/runtime.py",
+                                              "GITHUB_BLOB_CONTENT_SHA256":  "985798a4b14ca7c1145cba2cd9a0b92ae029dd169a584f1ee6dd06c56028cf5a"
+                                          }
+                                      ]
+}
