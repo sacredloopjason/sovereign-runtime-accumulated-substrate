@@ -1,0 +1,650 @@
+{
+  "K_t_original": {
+    "component_count": 60,
+    "layer_count": 30,
+    "sequence_length": 320,
+    "sha256": "8d5f495ed7c83b37201804e7bfea91f5b9481aa133fea015aa4ea15415aa0eaf",
+    "tensor_byte_count": 14745600
+  },
+  "K_t_plus_1_original": {
+    "component_count": 60,
+    "layer_count": 30,
+    "sequence_length": 362,
+    "sha256": "04c99a9d3d5d3500a1eaf93e1b7ccade9cad2950c918ae691c85fc02a8c7713b",
+    "tensor_byte_count": 16680960
+  },
+  "checks": {
+    "DETERMINISTIC_REPLICATION": true,
+    "ORIGINAL_SOURCE_BOUNDARY_UNCHANGED": true,
+    "RUNTIME_PHYSICS_OTHER_THAN_I_K_t_IDENTICAL": true
+  },
+  "delta_t": {
+    "count": 16,
+    "sha256": "7b5154e56e0e904f4820b0dfad049b8e40b9706a4a36143b01983b4ed6e7b78c",
+    "token_ids": [
+      10199,
+      15799,
+      38,
+      79,
+      6493,
+      3010,
+      198,
+      10199,
+      15799,
+      38,
+      79,
+      6493,
+      3010,
+      198,
+      10199,
+      15799
+    ]
+  },
+  "outcome": "KV_CAUSAL_INTERVENTION_LAB_OPERATIONAL",
+  "persisted_K_t": {
+    "content_fingerprint": {
+      "component_count": 60,
+      "layer_count": 30,
+      "sequence_length": 320,
+      "sha256": "8d5f495ed7c83b37201804e7bfea91f5b9481aa133fea015aa4ea15415aa0eaf",
+      "tensor_byte_count": 14745600
+    },
+    "file_sha256": "e01fdf5b2fdc3a1ea5bc46d2664372874b6735adfb198d4663813772f46926ab",
+    "path": "C:\\Users\\jason\\Documents\\Codex\\2026-09-01\\files-pasted-by-the-user-tier-2\\work\\authoritative-substrate\\evidence\\kv_causal_intervention_lab\\K_t_snapshot.pt",
+    "round_trip_content_exact": true
+  },
+  "physics": {
+    "cache_class": "transformers.cache_utils.DynamicCache",
+    "deterministic_algorithms": true,
+    "device": "cpu",
+    "dtype": "torch.float32",
+    "generation_max_new_tokens": 16,
+    "generation_rule": "greedy torch.argmax in inherited traversal",
+    "interop_threads": 1,
+    "intraop_threads": 1,
+    "model_object_id": 1752725726544,
+    "model_revision": "12fd25f77366fa6b3b4b768ec3050bf629380bac",
+    "model_weight_sha256": "5af571cbf074e6d21a03528d2330792e532ca608f24ac70a143f6b369968ab8c",
+    "shared_v_literal": "SLICE6_V_BASELINE",
+    "shared_v_object_id": 1752745396368,
+    "shared_v_token_ids": [
+      10199,
+      15799,
+      38,
+      79,
+      70,
+      79,
+      44262,
+      4210,
+      12770,
+      198
+    ],
+    "tokenizer_object_id": 1752719310672,
+    "torch_version": "2.11.0+cpu",
+    "transformers_version": "5.14.1",
+    "traversal_callable_module": "slice11_accumulated_runtime_for_slice12",
+    "traversal_callable_qualname": "traverse"
+  },
+  "replicates": [
+    {
+      "baseline_delta_observed": {
+        "count": 16,
+        "sha256": "7b5154e56e0e904f4820b0dfad049b8e40b9706a4a36143b01983b4ed6e7b78c",
+        "token_ids": [
+          10199,
+          15799,
+          38,
+          79,
+          6493,
+          3010,
+          198,
+          10199,
+          15799,
+          38,
+          79,
+          6493,
+          3010,
+          198,
+          10199,
+          15799
+        ]
+      },
+      "baseline_delta_supplied": {
+        "count": 16,
+        "sha256": "7b5154e56e0e904f4820b0dfad049b8e40b9706a4a36143b01983b4ed6e7b78c",
+        "token_ids": [
+          10199,
+          15799,
+          38,
+          79,
+          6493,
+          3010,
+          198,
+          10199,
+          15799,
+          38,
+          79,
+          6493,
+          3010,
+          198,
+          10199,
+          15799
+        ]
+      },
+      "baseline_first_forward_post": {
+        "component_count": 60,
+        "layer_count": 30,
+        "sequence_length": 346,
+        "sha256": "1d8f945b7ffe7a1ca7e52e16515e17bb9a2fe7f332aedc32aab1d72fa53e7c3b",
+        "tensor_byte_count": 15943680
+      },
+      "baseline_output": {
+        "count": 16,
+        "sha256": "aca1ff1bb36ebdceaa63d76b0403b42ca02a9e11409b5900242a4397bcd1076d",
+        "token_ids": [
+          38,
+          79,
+          6493,
+          3010,
+          198,
+          10199,
+          15799,
+          38,
+          79,
+          6493,
+          3010,
+          198,
+          10199,
+          15799,
+          38,
+          79
+        ]
+      },
+      "baseline_post_state": {
+        "component_count": 60,
+        "layer_count": 30,
+        "sequence_length": 362,
+        "sha256": "04c99a9d3d5d3500a1eaf93e1b7ccade9cad2950c918ae691c85fc02a8c7713b",
+        "tensor_byte_count": 16680960
+      },
+      "causal_result": "CAUSAL_EFFECT_OBSERVED",
+      "checks": {
+        "BASELINE_OUTPUT_EQUALS_ORIGINAL": true,
+        "BASELINE_REPLAY_DELTA_EXACT": true,
+        "BASELINE_REPLAY_EQUALS_ORIGINAL": true,
+        "INTERVENTION_DELTA_EXACTLY_EQUALS_BASELINE_DELTA": true,
+        "INTERVENTION_SUPPORT_EXACTLY_BOUNDED": true,
+        "NON_INTERVENED_KV_CONTENT_UNCHANGED": true,
+        "RESTORE_EXACT": true
+      },
+      "earliest_observed_downstream_divergence": {
+        "baseline_complete_kv": {
+          "component_count": 60,
+          "layer_count": 30,
+          "sequence_length": 346,
+          "sha256": "1d8f945b7ffe7a1ca7e52e16515e17bb9a2fe7f332aedc32aab1d72fa53e7c3b",
+          "tensor_byte_count": 15943680
+        },
+        "boundary": "first model.forward return",
+        "intervention_complete_kv": {
+          "component_count": 60,
+          "layer_count": 30,
+          "sequence_length": 346,
+          "sha256": "992d67ce7928a647d3662a0ab464a237276f8fa6e1247fd05f5ccc3ca0c76644",
+          "tensor_byte_count": 15943680
+        }
+      },
+      "intervened_pre_state": {
+        "component_count": 60,
+        "layer_count": 30,
+        "sequence_length": 320,
+        "sha256": "636ff2da57c122efb9a6ae0c5a01b3f098eeda1334cf8a42f4ebd218068c5292",
+        "tensor_byte_count": 14745600
+      },
+      "intervention_delta_observed": {
+        "count": 16,
+        "sha256": "7b5154e56e0e904f4820b0dfad049b8e40b9706a4a36143b01983b4ed6e7b78c",
+        "token_ids": [
+          10199,
+          15799,
+          38,
+          79,
+          6493,
+          3010,
+          198,
+          10199,
+          15799,
+          38,
+          79,
+          6493,
+          3010,
+          198,
+          10199,
+          15799
+        ]
+      },
+      "intervention_delta_supplied": {
+        "count": 16,
+        "sha256": "7b5154e56e0e904f4820b0dfad049b8e40b9706a4a36143b01983b4ed6e7b78c",
+        "token_ids": [
+          10199,
+          15799,
+          38,
+          79,
+          6493,
+          3010,
+          198,
+          10199,
+          15799,
+          38,
+          79,
+          6493,
+          3010,
+          198,
+          10199,
+          15799
+        ]
+      },
+      "intervention_first_forward_post": {
+        "component_count": 60,
+        "layer_count": 30,
+        "sequence_length": 346,
+        "sha256": "992d67ce7928a647d3662a0ab464a237276f8fa6e1247fd05f5ccc3ca0c76644",
+        "tensor_byte_count": 15943680
+      },
+      "intervention_initial_K_t": {
+        "component_count": 60,
+        "layer_count": 30,
+        "sequence_length": 320,
+        "sha256": "8d5f495ed7c83b37201804e7bfea91f5b9481aa133fea015aa4ea15415aa0eaf",
+        "tensor_byte_count": 14745600
+      },
+      "intervention_output": {
+        "count": 16,
+        "sha256": "aca1ff1bb36ebdceaa63d76b0403b42ca02a9e11409b5900242a4397bcd1076d",
+        "token_ids": [
+          38,
+          79,
+          6493,
+          3010,
+          198,
+          10199,
+          15799,
+          38,
+          79,
+          6493,
+          3010,
+          198,
+          10199,
+          15799,
+          38,
+          79
+        ]
+      },
+      "intervention_post_state": {
+        "component_count": 60,
+        "layer_count": 30,
+        "sequence_length": 362,
+        "sha256": "50cb8424726e683f4aae662a41bfe792dad81f428dcaa4597c32935bf676b5e7",
+        "tensor_byte_count": 16680960
+      },
+      "intervention_spec": {
+        "after": 0.0,
+        "after_bytes_hex": "00000000",
+        "before": -2.559033155441284,
+        "before_bytes_hex": "33c723c0",
+        "component": "key",
+        "index": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "layer": 0,
+        "operation": "replace with float32 0.0 unless already exactly 0.0, then replace with float32 1.0",
+        "support_evidence": {
+          "after_bytes_hex": "00000000",
+          "before_bytes_hex": "33c723c0",
+          "changed_components": [
+            {
+              "changed_byte_offsets": [
+                0,
+                1,
+                2,
+                3
+              ],
+              "component": "key",
+              "layer": 0
+            }
+          ],
+          "declared_support_byte_range_in_contiguous_tensor": [
+            0,
+            4
+          ],
+          "exact": true,
+          "non_support_changed_byte_count": 0,
+          "support_changed_byte_offsets": [
+            0,
+            1,
+            2,
+            3
+          ]
+        }
+      },
+      "original_output": {
+        "count": 16,
+        "sha256": "aca1ff1bb36ebdceaa63d76b0403b42ca02a9e11409b5900242a4397bcd1076d",
+        "token_ids": [
+          38,
+          79,
+          6493,
+          3010,
+          198,
+          10199,
+          15799,
+          38,
+          79,
+          6493,
+          3010,
+          198,
+          10199,
+          15799,
+          38,
+          79
+        ]
+      },
+      "replicate": 1,
+      "restored_K_t": {
+        "component_count": 60,
+        "layer_count": 30,
+        "sequence_length": 320,
+        "sha256": "8d5f495ed7c83b37201804e7bfea91f5b9481aa133fea015aa4ea15415aa0eaf",
+        "tensor_byte_count": 14745600
+      }
+    },
+    {
+      "baseline_delta_observed": {
+        "count": 16,
+        "sha256": "7b5154e56e0e904f4820b0dfad049b8e40b9706a4a36143b01983b4ed6e7b78c",
+        "token_ids": [
+          10199,
+          15799,
+          38,
+          79,
+          6493,
+          3010,
+          198,
+          10199,
+          15799,
+          38,
+          79,
+          6493,
+          3010,
+          198,
+          10199,
+          15799
+        ]
+      },
+      "baseline_delta_supplied": {
+        "count": 16,
+        "sha256": "7b5154e56e0e904f4820b0dfad049b8e40b9706a4a36143b01983b4ed6e7b78c",
+        "token_ids": [
+          10199,
+          15799,
+          38,
+          79,
+          6493,
+          3010,
+          198,
+          10199,
+          15799,
+          38,
+          79,
+          6493,
+          3010,
+          198,
+          10199,
+          15799
+        ]
+      },
+      "baseline_first_forward_post": {
+        "component_count": 60,
+        "layer_count": 30,
+        "sequence_length": 346,
+        "sha256": "1d8f945b7ffe7a1ca7e52e16515e17bb9a2fe7f332aedc32aab1d72fa53e7c3b",
+        "tensor_byte_count": 15943680
+      },
+      "baseline_output": {
+        "count": 16,
+        "sha256": "aca1ff1bb36ebdceaa63d76b0403b42ca02a9e11409b5900242a4397bcd1076d",
+        "token_ids": [
+          38,
+          79,
+          6493,
+          3010,
+          198,
+          10199,
+          15799,
+          38,
+          79,
+          6493,
+          3010,
+          198,
+          10199,
+          15799,
+          38,
+          79
+        ]
+      },
+      "baseline_post_state": {
+        "component_count": 60,
+        "layer_count": 30,
+        "sequence_length": 362,
+        "sha256": "04c99a9d3d5d3500a1eaf93e1b7ccade9cad2950c918ae691c85fc02a8c7713b",
+        "tensor_byte_count": 16680960
+      },
+      "causal_result": "CAUSAL_EFFECT_OBSERVED",
+      "checks": {
+        "BASELINE_OUTPUT_EQUALS_ORIGINAL": true,
+        "BASELINE_REPLAY_DELTA_EXACT": true,
+        "BASELINE_REPLAY_EQUALS_ORIGINAL": true,
+        "INTERVENTION_DELTA_EXACTLY_EQUALS_BASELINE_DELTA": true,
+        "INTERVENTION_SUPPORT_EXACTLY_BOUNDED": true,
+        "NON_INTERVENED_KV_CONTENT_UNCHANGED": true,
+        "RESTORE_EXACT": true
+      },
+      "earliest_observed_downstream_divergence": {
+        "baseline_complete_kv": {
+          "component_count": 60,
+          "layer_count": 30,
+          "sequence_length": 346,
+          "sha256": "1d8f945b7ffe7a1ca7e52e16515e17bb9a2fe7f332aedc32aab1d72fa53e7c3b",
+          "tensor_byte_count": 15943680
+        },
+        "boundary": "first model.forward return",
+        "intervention_complete_kv": {
+          "component_count": 60,
+          "layer_count": 30,
+          "sequence_length": 346,
+          "sha256": "992d67ce7928a647d3662a0ab464a237276f8fa6e1247fd05f5ccc3ca0c76644",
+          "tensor_byte_count": 15943680
+        }
+      },
+      "intervened_pre_state": {
+        "component_count": 60,
+        "layer_count": 30,
+        "sequence_length": 320,
+        "sha256": "636ff2da57c122efb9a6ae0c5a01b3f098eeda1334cf8a42f4ebd218068c5292",
+        "tensor_byte_count": 14745600
+      },
+      "intervention_delta_observed": {
+        "count": 16,
+        "sha256": "7b5154e56e0e904f4820b0dfad049b8e40b9706a4a36143b01983b4ed6e7b78c",
+        "token_ids": [
+          10199,
+          15799,
+          38,
+          79,
+          6493,
+          3010,
+          198,
+          10199,
+          15799,
+          38,
+          79,
+          6493,
+          3010,
+          198,
+          10199,
+          15799
+        ]
+      },
+      "intervention_delta_supplied": {
+        "count": 16,
+        "sha256": "7b5154e56e0e904f4820b0dfad049b8e40b9706a4a36143b01983b4ed6e7b78c",
+        "token_ids": [
+          10199,
+          15799,
+          38,
+          79,
+          6493,
+          3010,
+          198,
+          10199,
+          15799,
+          38,
+          79,
+          6493,
+          3010,
+          198,
+          10199,
+          15799
+        ]
+      },
+      "intervention_first_forward_post": {
+        "component_count": 60,
+        "layer_count": 30,
+        "sequence_length": 346,
+        "sha256": "992d67ce7928a647d3662a0ab464a237276f8fa6e1247fd05f5ccc3ca0c76644",
+        "tensor_byte_count": 15943680
+      },
+      "intervention_initial_K_t": {
+        "component_count": 60,
+        "layer_count": 30,
+        "sequence_length": 320,
+        "sha256": "8d5f495ed7c83b37201804e7bfea91f5b9481aa133fea015aa4ea15415aa0eaf",
+        "tensor_byte_count": 14745600
+      },
+      "intervention_output": {
+        "count": 16,
+        "sha256": "aca1ff1bb36ebdceaa63d76b0403b42ca02a9e11409b5900242a4397bcd1076d",
+        "token_ids": [
+          38,
+          79,
+          6493,
+          3010,
+          198,
+          10199,
+          15799,
+          38,
+          79,
+          6493,
+          3010,
+          198,
+          10199,
+          15799,
+          38,
+          79
+        ]
+      },
+      "intervention_post_state": {
+        "component_count": 60,
+        "layer_count": 30,
+        "sequence_length": 362,
+        "sha256": "50cb8424726e683f4aae662a41bfe792dad81f428dcaa4597c32935bf676b5e7",
+        "tensor_byte_count": 16680960
+      },
+      "intervention_spec": {
+        "after": 0.0,
+        "after_bytes_hex": "00000000",
+        "before": -2.559033155441284,
+        "before_bytes_hex": "33c723c0",
+        "component": "key",
+        "index": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "layer": 0,
+        "operation": "replace with float32 0.0 unless already exactly 0.0, then replace with float32 1.0",
+        "support_evidence": {
+          "after_bytes_hex": "00000000",
+          "before_bytes_hex": "33c723c0",
+          "changed_components": [
+            {
+              "changed_byte_offsets": [
+                0,
+                1,
+                2,
+                3
+              ],
+              "component": "key",
+              "layer": 0
+            }
+          ],
+          "declared_support_byte_range_in_contiguous_tensor": [
+            0,
+            4
+          ],
+          "exact": true,
+          "non_support_changed_byte_count": 0,
+          "support_changed_byte_offsets": [
+            0,
+            1,
+            2,
+            3
+          ]
+        }
+      },
+      "original_output": {
+        "count": 16,
+        "sha256": "aca1ff1bb36ebdceaa63d76b0403b42ca02a9e11409b5900242a4397bcd1076d",
+        "token_ids": [
+          38,
+          79,
+          6493,
+          3010,
+          198,
+          10199,
+          15799,
+          38,
+          79,
+          6493,
+          3010,
+          198,
+          10199,
+          15799,
+          38,
+          79
+        ]
+      },
+      "replicate": 2,
+      "restored_K_t": {
+        "component_count": 60,
+        "layer_count": 30,
+        "sequence_length": 320,
+        "sha256": "8d5f495ed7c83b37201804e7bfea91f5b9481aa133fea015aa4ea15415aa0eaf",
+        "tensor_byte_count": 14745600
+      }
+    }
+  ],
+  "schema": "KV_CAUSAL_INTERVENTION_LAB_V1",
+  "source_boundary": {
+    "cycle": 7,
+    "fixture_status": "experimental fixture, not runtime law",
+    "ordinal": 1,
+    "pole": "B",
+    "producer_instance_id": "WAVE_0"
+  }
+}

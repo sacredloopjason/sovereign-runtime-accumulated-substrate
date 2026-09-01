@@ -1,0 +1,75 @@
+OUTCOME
+KV_CAUSAL_INTERVENTION_LAB_OPERATIONAL
+
+EVIDENCE
+
+SOURCE_BOUNDARY:
+{"cycle": 7, "fixture_status": "experimental fixture, not runtime law", "ordinal": 1, "pole": "B", "producer_instance_id": "WAVE_0"}
+
+K_t_ORIGINAL:
+{"component_count": 60, "layer_count": 30, "sequence_length": 320, "sha256": "8d5f495ed7c83b37201804e7bfea91f5b9481aa133fea015aa4ea15415aa0eaf", "tensor_byte_count": 14745600}
+
+DELTA_t:
+{"count": 16, "sha256": "7b5154e56e0e904f4820b0dfad049b8e40b9706a4a36143b01983b4ed6e7b78c", "token_ids": [10199, 15799, 38, 79, 6493, 3010, 198, 10199, 15799, 38, 79, 6493, 3010, 198, 10199, 15799]}
+
+K_t_PLUS_1_ORIGINAL:
+{"component_count": 60, "layer_count": 30, "sequence_length": 362, "sha256": "04c99a9d3d5d3500a1eaf93e1b7ccade9cad2950c918ae691c85fc02a8c7713b", "tensor_byte_count": 16680960}
+
+PERSISTED_K_t:
+{"content_fingerprint": {"component_count": 60, "layer_count": 30, "sequence_length": 320, "sha256": "8d5f495ed7c83b37201804e7bfea91f5b9481aa133fea015aa4ea15415aa0eaf", "tensor_byte_count": 14745600}, "file_sha256": "e01fdf5b2fdc3a1ea5bc46d2664372874b6735adfb198d4663813772f46926ab", "path": "C:\\Users\\jason\\Documents\\Codex\\2026-09-01\\files-pasted-by-the-user-tier-2\\work\\authoritative-substrate\\evidence\\kv_causal_intervention_lab\\K_t_snapshot.pt", "round_trip_content_exact": true}
+
+RESTORED_K_t:
+{"component_count": 60, "layer_count": 30, "sequence_length": 320, "sha256": "8d5f495ed7c83b37201804e7bfea91f5b9481aa133fea015aa4ea15415aa0eaf", "tensor_byte_count": 14745600}
+
+RESTORE_EXACT:
+PASS
+
+BASELINE_REPLAY_DELTA_EXACT:
+PASS
+
+BASELINE_REPLAY_K_t_PLUS_1:
+{"component_count": 60, "layer_count": 30, "sequence_length": 362, "sha256": "04c99a9d3d5d3500a1eaf93e1b7ccade9cad2950c918ae691c85fc02a8c7713b", "tensor_byte_count": 16680960}
+
+BASELINE_REPLAY_EQUALS_ORIGINAL:
+PASS
+
+BASELINE_OUTPUT_EQUALS_ORIGINAL:
+PASS
+
+INTERVENTION_SPEC:
+layer=0
+component=key
+index=[0, 0, 0, 0]
+operation=replace with float32 0.0 unless already exactly 0.0, then replace with float32 1.0
+before=-2.559033155441284 bytes=33c723c0
+after=0.0 bytes=00000000
+
+INTERVENTION_SUPPORT_EXACTLY_BOUNDED:
+PASS
+
+NON_INTERVENED_KV_CONTENT_UNCHANGED:
+PASS
+
+INTERVENED_PRE_STATE:
+{"component_count": 60, "layer_count": 30, "sequence_length": 320, "sha256": "636ff2da57c122efb9a6ae0c5a01b3f098eeda1334cf8a42f4ebd218068c5292", "tensor_byte_count": 14745600}
+
+INTERVENTION_DELTA_EXACTLY_EQUALS_BASELINE_DELTA:
+PASS
+
+INTERVENTION_POST_STATE:
+{"component_count": 60, "layer_count": 30, "sequence_length": 362, "sha256": "50cb8424726e683f4aae662a41bfe792dad81f428dcaa4597c32935bf676b5e7", "tensor_byte_count": 16680960}
+
+CAUSAL_RESULT:
+CAUSAL_EFFECT_OBSERVED
+
+EARLIEST_OBSERVED_DOWNSTREAM_DIVERGENCE:
+{"baseline_complete_kv": {"component_count": 60, "layer_count": 30, "sequence_length": 346, "sha256": "1d8f945b7ffe7a1ca7e52e16515e17bb9a2fe7f332aedc32aab1d72fa53e7c3b", "tensor_byte_count": 15943680}, "boundary": "first model.forward return", "intervention_complete_kv": {"component_count": 60, "layer_count": 30, "sequence_length": 346, "sha256": "992d67ce7928a647d3662a0ab464a237276f8fa6e1247fd05f5ccc3ca0c76644", "tensor_byte_count": 15943680}}
+
+ORIGINAL_SOURCE_BOUNDARY_UNCHANGED:
+PASS
+
+RUNTIME_PHYSICS_OTHER_THAN_I_K_t_IDENTICAL:
+PASS
+
+DETERMINISTIC_REPLICATION:
+PASS
