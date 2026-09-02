@@ -1,0 +1,171 @@
+{
+  "artifacts": {
+    "descriptor_rows": "evidence\\realized_attention_state\\descriptor_rows.json",
+    "descriptor_rows_sha256": "981daa24d06c0792f744a0d72771dea4ef66320d271202582e1a8de7c86afb53",
+    "manifest": "evidence\\realized_attention_state\\attention_manifest.json",
+    "manifest_sha256": "0671cb8869f5e5a4d4b82139dc75c4905e506b9301210817858cdf1182f7de80"
+  },
+  "attention_event_count": 510,
+  "authoritative_delta_t": {
+    "count": 16,
+    "sha256": "7b5154e56e0e904f4820b0dfad049b8e40b9706a4a36143b01983b4ed6e7b78c",
+    "token_ids": [
+      10199,
+      15799,
+      38,
+      79,
+      6493,
+      3010,
+      198,
+      10199,
+      15799,
+      38,
+      79,
+      6493,
+      3010,
+      198,
+      10199,
+      15799
+    ]
+  },
+  "authoritative_parent_commit": "0115e21b280141967b98bab4ec5b64d81c528ac4",
+  "authoritative_source_K_t": {
+    "component_count": 60,
+    "layer_count": 30,
+    "sequence_length": 320,
+    "sha256": "8d5f495ed7c83b37201804e7bfea91f5b9481aa133fea015aa4ea15415aa0eaf",
+    "tensor_byte_count": 14745600
+  },
+  "checks": {
+    "ATTENTION_NATIVE_PATH_RESOLVED": "PASS",
+    "ATTENTION_RECONSTRUCTION": "PASS",
+    "AUTHORITATIVE_BASELINE_REPRODUCED": "PASS",
+    "COMPLETE_ATTENTION_ARTIFACT_PRESERVED": "PASS",
+    "DESCRIPTOR_DISTRIBUTIONS_PRESERVED": "PASS",
+    "DETERMINISTIC_ATTENTION_REPLICATION": "PASS",
+    "HEAD_MAPPING_CAPTURE": "PASS",
+    "INSTALLED_TRANSFORMERS_SOURCE_MODIFIED": "NO",
+    "INSTRUMENTED_TRAVERSAL_EQUALS_CONTROL": "PASS",
+    "K_NATIVE_OPERAND_CAPTURE": "PASS",
+    "MASK_OR_EXACT_MASK_RECIPE_CAPTURE": "PASS",
+    "PREFERRED_NUMERICAL_TARGET_USED": "NO",
+    "Q_NATIVE_OPERAND_CAPTURE": "PASS",
+    "SCALING_CAPTURE": "PASS",
+    "SOURCE_AUTHORITATIVE_FACT_MUTATED": "NO",
+    "V_NATIVE_OPERAND_CAPTURE": "PASS"
+  },
+  "control_K_t_plus_1": {
+    "component_count": 60,
+    "layer_count": 30,
+    "sequence_length": 362,
+    "sha256": "04c99a9d3d5d3500a1eaf93e1b7ccade9cad2950c918ae691c85fc02a8c7713b",
+    "tensor_byte_count": 16680960
+  },
+  "descriptor_row_count": 11340,
+  "forward_event_count": 17,
+  "generated_tokens": {
+    "count": 16,
+    "sha256": "aca1ff1bb36ebdceaa63d76b0403b42ca02a9e11409b5900242a4397bcd1076d",
+    "token_ids": [
+      38,
+      79,
+      6493,
+      3010,
+      198,
+      10199,
+      15799,
+      38,
+      79,
+      6493,
+      3010,
+      198,
+      10199,
+      15799,
+      38,
+      79
+    ]
+  },
+  "model_attention_configuration": {
+    "group_count": 3,
+    "head_dimension": 64,
+    "kv_heads": 3,
+    "query_heads": 9,
+    "scale": 0.125
+  },
+  "native_attention_path": {
+    "attention_class": "transformers.models.llama.modeling_llama.LlamaAttention",
+    "attention_source": "C:\\Users\\jason\\Documents\\Codex\\2026-08-22\\files-pasted-by-the-user-build\\slice1-kernel-0e214f972bb44fcf983bb0930af3d773\\.venv\\Lib\\site-packages\\transformers\\models\\llama\\modeling_llama.py",
+    "backend": "sdpa",
+    "cache_update_order": "post-RoPE key/value update before native callable",
+    "callable": "transformers.integrations.sdpa_attention.sdpa_attention_forward",
+    "model_class": "transformers.models.llama.modeling_llama.LlamaForCausalLM",
+    "native_A_directly_materialized": "NO",
+    "native_callable_source": "C:\\Users\\jason\\Documents\\Codex\\2026-08-22\\files-pasted-by-the-user-build\\slice1-kernel-0e214f972bb44fcf983bb0930af3d773\\.venv\\Lib\\site-packages\\transformers\\integrations\\sdpa_attention.py",
+    "rotary_class": "transformers.models.llama.modeling_llama.LlamaRotaryEmbedding"
+  },
+  "native_reconstruction_validation": "NOT_AVAILABLE",
+  "observed_K_t_plus_1": {
+    "component_count": 60,
+    "layer_count": 30,
+    "sequence_length": 362,
+    "sha256": "04c99a9d3d5d3500a1eaf93e1b7ccade9cad2950c918ae691c85fc02a8c7713b",
+    "tensor_byte_count": 16680960
+  },
+  "offline_reconstruction_output_abs_tolerance_predeclared": 1e-05,
+  "offline_reconstruction_output_max_abs_difference": 4.291534423828125e-06,
+  "outcome": "REALIZED_ATTENTION_STATE_EXPOSED",
+  "schema": "REALIZED_ATTENTION_STATE_EXPOSURE_V1",
+  "summaries": {
+    "maximum_attention_mass": {
+      "count": 11340,
+      "maximum": 0.9999994039535522,
+      "mean": 0.5119785688675832,
+      "median": 0.498527467250824,
+      "minimum": 0.0051834494806826115,
+      "quantiles": {
+        "0.01": 0.021454338505864142,
+        "0.05": 0.06751320473849774,
+        "0.25": 0.22561640664935112,
+        "0.50": 0.49852870404720306,
+        "0.75": 0.7954144775867462,
+        "0.95": 0.9793631225824355,
+        "0.99": 0.9961904639005661
+      },
+      "standard_deviation": 0.3081755533187789
+    },
+    "normalized_effective_support": {
+      "count": 11340,
+      "maximum": 0.9370104981169203,
+      "mean": 0.03751698808652839,
+      "median": 0.01003837474800645,
+      "minimum": 0.002762634462097232,
+      "quantiles": {
+        "0.01": 0.0028851233660562117,
+        "0.05": 0.003070915580029108,
+        "0.25": 0.004584526612575418,
+        "0.50": 0.010039009578902027,
+        "0.75": 0.030810586817289883,
+        "0.95": 0.14489629116185082,
+        "0.99": 0.5483619541168945
+      },
+      "standard_deviation": 0.08914616879270441
+    },
+    "normalized_entropy": {
+      "count": 11340,
+      "maximum": 0.994120561851775,
+      "mean": 0.3922609481665015,
+      "median": 0.37947971407790265,
+      "minimum": 2.577339193985336e-06,
+      "quantiles": {
+        "0.01": 0.0064449100276693025,
+        "0.05": 0.029766288584690923,
+        "0.25": 0.1889707144652928,
+        "0.50": 0.3795378747058425,
+        "0.75": 0.5790776464657875,
+        "0.95": 0.8006291132345347,
+        "0.99": 0.944512795985696
+      },
+      "standard_deviation": 0.24258150555551097
+    }
+  }
+}

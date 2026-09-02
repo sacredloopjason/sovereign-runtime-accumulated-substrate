@@ -1,0 +1,196 @@
+{
+  "event_order": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16
+  ],
+  "events": [
+    {
+      "estimated_tensor_bytes_before_write": 39239160,
+      "file_bytes": 39338171,
+      "file_sha256": "e0b7d761859e24d1d292f5b7d0fe828ad71b1872b7c07e25787d05a59dd28195",
+      "final_semantic_sha256": "0ef5c54f8aa8e8c3abde8623443d654fc88577ebc6a0034f64c8a8300255e203",
+      "forward_event_index": 0,
+      "path": "evidence\\realized_attention_state\\artifacts\\attention_event_000.pt",
+      "raw_semantic_sha256": "644a8b10a6e8f2e87c65b4c8b788084c6fbdeb469969bfe539323c959ca0ed34"
+    },
+    {
+      "estimated_tensor_bytes_before_write": 16877520,
+      "file_bytes": 16965327,
+      "file_sha256": "aa7b5117c25a1f03835f3dd93ac05ba1befc1a905ea808262366ad4e8d00db5a",
+      "final_semantic_sha256": "fcec241b73bb0361b53b6f0fbc914872cb583a9f2b24852fdbcbb7a116e55753",
+      "forward_event_index": 1,
+      "path": "evidence\\realized_attention_state\\artifacts\\attention_event_001.pt",
+      "raw_semantic_sha256": "066db9fd1c9bf9ebf5e24a3278203dc44f96aa3af74a96161ba44a9a512855fb"
+    },
+    {
+      "estimated_tensor_bytes_before_write": 16925760,
+      "file_bytes": 17011471,
+      "file_sha256": "0855c525594403d0d2808e06ba0aba9362deb0500140930b168f8f27e739e16c",
+      "final_semantic_sha256": "78912a4565c2d27ca78d84a469715f5b2d51d7d7b1f09f6958158f1fcbba802f",
+      "forward_event_index": 2,
+      "path": "evidence\\realized_attention_state\\artifacts\\attention_event_002.pt",
+      "raw_semantic_sha256": "c02313469f5265c60c111f7b76c62974215918e13654c699cf5fe01152618e71"
+    },
+    {
+      "estimated_tensor_bytes_before_write": 16974000,
+      "file_bytes": 17061455,
+      "file_sha256": "fd3d1dc345a81aeed81e45302270873fba54bc8512b46fae763b607efefb1388",
+      "final_semantic_sha256": "cce8115dc07f763e56be4b1ddc9be68a495090b2767759543b8d8d77074cbca8",
+      "forward_event_index": 3,
+      "path": "evidence\\realized_attention_state\\artifacts\\attention_event_003.pt",
+      "raw_semantic_sha256": "319af5ab3287d49752ddae038699b54baf26d8aeb2cc576a779d253f84428e4b"
+    },
+    {
+      "estimated_tensor_bytes_before_write": 17022240,
+      "file_bytes": 17111503,
+      "file_sha256": "e8c0d99f886be349bed6ed6cdceb60c11b37c8a838fc0cad65a7a3c2f69ed777",
+      "final_semantic_sha256": "d018f9e9a026cee7d2bf630d47cc01f95cfee7bab047e4c2ac1752e72de2012c",
+      "forward_event_index": 4,
+      "path": "evidence\\realized_attention_state\\artifacts\\attention_event_004.pt",
+      "raw_semantic_sha256": "4c20432ffed9d56ec234aa9aa32b4e741a33bcfd1a22ea56474dd3e080edacfb"
+    },
+    {
+      "estimated_tensor_bytes_before_write": 17070480,
+      "file_bytes": 17157647,
+      "file_sha256": "90aa22c4330cae0043c050727c6812fdd57031ad1803827fc9d8ef57d7b8ea4f",
+      "final_semantic_sha256": "e3a7d9808d699012beed7993d140207826df5839c629f0dff046990a62226639",
+      "forward_event_index": 5,
+      "path": "evidence\\realized_attention_state\\artifacts\\attention_event_005.pt",
+      "raw_semantic_sha256": "b5f6ba5b4d79f1e413d96cdccb35d90dbd67545ca49574d7e015055c2599c819"
+    },
+    {
+      "estimated_tensor_bytes_before_write": 17118720,
+      "file_bytes": 17207695,
+      "file_sha256": "8dfb26339b70bec1b511c9f74573d7038f541a80f70405c791366dda663afc5d",
+      "final_semantic_sha256": "c33d649dd56a19b251131b79d991c8a829fb4f945f141a1b51d2876299575703",
+      "forward_event_index": 6,
+      "path": "evidence\\realized_attention_state\\artifacts\\attention_event_006.pt",
+      "raw_semantic_sha256": "83ce2a72b7b88d196a75aed0de4ee3f971a4708e04b1a02f293165d688a9653f"
+    },
+    {
+      "estimated_tensor_bytes_before_write": 17166960,
+      "file_bytes": 17253839,
+      "file_sha256": "8622885dd2125a652ba023d2676f8de803d44cedce790d92698270772d25abd3",
+      "final_semantic_sha256": "ef19841326de5dfe8096bdfb485a805e1916978647f6e80e52da961e46e405c5",
+      "forward_event_index": 7,
+      "path": "evidence\\realized_attention_state\\artifacts\\attention_event_007.pt",
+      "raw_semantic_sha256": "264129f2bdb231bd8d1725b9751ee001f8c74791411442f4a77591f92972152a"
+    },
+    {
+      "estimated_tensor_bytes_before_write": 17215200,
+      "file_bytes": 17303887,
+      "file_sha256": "c0cbf05aa7fec9b2665ab6c58eab4c4c337873df6e57146ee5fb2611614401d8",
+      "final_semantic_sha256": "e4d4733fc3ce86d8637c30a7c311532446615db899cd692cd78124a4cc11f601",
+      "forward_event_index": 8,
+      "path": "evidence\\realized_attention_state\\artifacts\\attention_event_008.pt",
+      "raw_semantic_sha256": "863693cf48e1d0082f3a56728dfbae6e4d5d36441eb2b329b1763c45ca29f3c5"
+    },
+    {
+      "estimated_tensor_bytes_before_write": 17263440,
+      "file_bytes": 17350031,
+      "file_sha256": "21e9fe5447f942daae6533ab366352d01d25235d09dde46116c0fb328f270444",
+      "final_semantic_sha256": "90c1ffb69107f5159c842a321c3ff113fbfde9064546077d05b248ee0bc33f02",
+      "forward_event_index": 9,
+      "path": "evidence\\realized_attention_state\\artifacts\\attention_event_009.pt",
+      "raw_semantic_sha256": "0458a8bf00fd24c470e2270ba6ed0b7a824637db2c84a37a44a6649652eb55da"
+    },
+    {
+      "estimated_tensor_bytes_before_write": 17311680,
+      "file_bytes": 17400015,
+      "file_sha256": "633a186c82314d2287064a7fc25bdc86a7a303fdbc153ecabc25107a662a90c5",
+      "final_semantic_sha256": "6d68ac27d73fdb6e2c3f986143b299f198f1a52c644d616b9ffdb5c14aabc06c",
+      "forward_event_index": 10,
+      "path": "evidence\\realized_attention_state\\artifacts\\attention_event_010.pt",
+      "raw_semantic_sha256": "3a3f4d68f8b19be0be5df9a001fc6e367e357b5544ffd1cdcd394d92bc3e4be8"
+    },
+    {
+      "estimated_tensor_bytes_before_write": 17359920,
+      "file_bytes": 17449935,
+      "file_sha256": "a131a8254136dd3336265254bb4d15280b03d5c79b15b8cb0beae2677b85ac9d",
+      "final_semantic_sha256": "9dd9bd94b3597644e1afd445b99ebb4b3fab17826437021bec1f0d20c059254b",
+      "forward_event_index": 11,
+      "path": "evidence\\realized_attention_state\\artifacts\\attention_event_011.pt",
+      "raw_semantic_sha256": "10c9e73eb9d8e9228888d7ed1fe3f6d0be3f32c7350a5e8aa4161a7cfa7f605b"
+    },
+    {
+      "estimated_tensor_bytes_before_write": 17408160,
+      "file_bytes": 17496207,
+      "file_sha256": "ba3e6ee378af798cea8a10f7535c1a17345b0c6634629a1246e2be1a62c79b86",
+      "final_semantic_sha256": "7213f3db27c41768a6cabaa315a762711d47889231a1ad7ccca1f72aeb1f7bae",
+      "forward_event_index": 12,
+      "path": "evidence\\realized_attention_state\\artifacts\\attention_event_012.pt",
+      "raw_semantic_sha256": "fdfcb715e0c0ae29d63f391e6e402a154c26c62ea308b76879568aa7599cc815"
+    },
+    {
+      "estimated_tensor_bytes_before_write": 17456400,
+      "file_bytes": 17546255,
+      "file_sha256": "52860c3759bbc34989c3db7e71b20b0327be8051ab335bac40beedfa1711415f",
+      "final_semantic_sha256": "182d403d88d8aa591a5a1929cccd47e7af935a46cdc39458a1a0b887dd6635bc",
+      "forward_event_index": 13,
+      "path": "evidence\\realized_attention_state\\artifacts\\attention_event_013.pt",
+      "raw_semantic_sha256": "e4c713107d60b059a79203ca22dae4548caa459f254a34b35c87897e63bdcb9e"
+    },
+    {
+      "estimated_tensor_bytes_before_write": 17504640,
+      "file_bytes": 17592399,
+      "file_sha256": "866fe45c1b9717b8905d5d23607e8e3c673507b2dc83a433df50a97b1881cf5c",
+      "final_semantic_sha256": "edc377268cdc1959fd63eb62219a4129a03725c669ddea177ca37965f4498323",
+      "forward_event_index": 14,
+      "path": "evidence\\realized_attention_state\\artifacts\\attention_event_014.pt",
+      "raw_semantic_sha256": "0f5764337bb87dfd2be0d07197663b8647f50375921d98e1122e1437655d4d4c"
+    },
+    {
+      "estimated_tensor_bytes_before_write": 17552880,
+      "file_bytes": 17642383,
+      "file_sha256": "5241358c1f5784543b155ad9b3d3feb7a931b0b5c4f2ef3c14978e83199c553d",
+      "final_semantic_sha256": "6604348cfeb3fa9a38bcacbf2568adcd93529d5cb88230fe6ae0819a07f87463",
+      "forward_event_index": 15,
+      "path": "evidence\\realized_attention_state\\artifacts\\attention_event_015.pt",
+      "raw_semantic_sha256": "80048fd8d76eea61ce5804a2ac8b4d194403f79ab5303bc0913c1155b7a1c555"
+    },
+    {
+      "estimated_tensor_bytes_before_write": 17601120,
+      "file_bytes": 17688591,
+      "file_sha256": "ddf0c6a5baca36fb839cea453aed5d710d93ed3dd92f532bce3dc07b56f663a1",
+      "final_semantic_sha256": "da0f697d77b3a480718361b78cd410c6c53c55f4626c9394b128e851f7ff8024",
+      "forward_event_index": 16,
+      "path": "evidence\\realized_attention_state\\artifacts\\attention_event_016.pt",
+      "raw_semantic_sha256": "3734dacc613508d0ea2d41a8ae953da9a54fceae5153189eaf2a82b76debc51d"
+    }
+  ],
+  "replicate_b_final_semantic_hashes": [
+    "0ef5c54f8aa8e8c3abde8623443d654fc88577ebc6a0034f64c8a8300255e203",
+    "fcec241b73bb0361b53b6f0fbc914872cb583a9f2b24852fdbcbb7a116e55753",
+    "78912a4565c2d27ca78d84a469715f5b2d51d7d7b1f09f6958158f1fcbba802f",
+    "cce8115dc07f763e56be4b1ddc9be68a495090b2767759543b8d8d77074cbca8",
+    "d018f9e9a026cee7d2bf630d47cc01f95cfee7bab047e4c2ac1752e72de2012c",
+    "e3a7d9808d699012beed7993d140207826df5839c629f0dff046990a62226639",
+    "c33d649dd56a19b251131b79d991c8a829fb4f945f141a1b51d2876299575703",
+    "ef19841326de5dfe8096bdfb485a805e1916978647f6e80e52da961e46e405c5",
+    "e4d4733fc3ce86d8637c30a7c311532446615db899cd692cd78124a4cc11f601",
+    "90c1ffb69107f5159c842a321c3ff113fbfde9064546077d05b248ee0bc33f02",
+    "6d68ac27d73fdb6e2c3f986143b299f198f1a52c644d616b9ffdb5c14aabc06c",
+    "9dd9bd94b3597644e1afd445b99ebb4b3fab17826437021bec1f0d20c059254b",
+    "7213f3db27c41768a6cabaa315a762711d47889231a1ad7ccca1f72aeb1f7bae",
+    "182d403d88d8aa591a5a1929cccd47e7af935a46cdc39458a1a0b887dd6635bc",
+    "edc377268cdc1959fd63eb62219a4129a03725c669ddea177ca37965f4498323",
+    "6604348cfeb3fa9a38bcacbf2568adcd93529d5cb88230fe6ae0819a07f87463",
+    "da0f697d77b3a480718361b78cd410c6c53c55f4626c9394b128e851f7ff8024"
+  ],
+  "schema": "REALIZED_ATTENTION_EVENT_MANIFEST_V1"
+}
