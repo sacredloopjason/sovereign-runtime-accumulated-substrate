@@ -64,8 +64,15 @@ $arbitraryInputClassifierAbsent =
     @(
         $membraneType.GetMethods($publicStatic) |
             Where-Object {
-                $_.Name -ne 'Passage' -or
-                $_.GetParameters()[0].ParameterType -eq [object]
+                $parameters = $_.GetParameters()
+                $_.Name -match 'Classif' -or
+                @(
+                    $parameters |
+                        Where-Object {
+                            $_.ParameterType -eq [object] -or
+                            $_.ParameterType -eq $baseType
+                        }
+                ).Count -gt 0
             }
     ).Count -eq 0
 

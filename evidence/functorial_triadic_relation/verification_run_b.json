@@ -1,0 +1,31 @@
+{
+  "primitive_count": 3,
+  "primitives": [
+    "T_P",
+    "T_C",
+    "T_H"
+  ],
+  "structurally_closed": true,
+  "individual_passage_present": true,
+  "triadic_relation_present": true,
+  "triadic_input_1": "T_P",
+  "triadic_input_2": "T_C",
+  "triadic_output": "T_H",
+  "triadic_output_payload": "p0|c0|G",
+  "authorized_triadic_signature_count": 1,
+  "authorized_triadic_signature": "(T_P,T_C)->T_H",
+  "alternate_primitive_pair_signature_present": false,
+  "generic_primitive_pair_entrypoint_present": false,
+  "g_can_select_output_primitive": false,
+  "g_challenge_outer_type": "T_H",
+  "g_challenge_inner_payload_type": "T_C",
+  "payload_semantics_inspected": false,
+  "fourth_causal_role_representable": false,
+  "validator_or_judge_present": false,
+  "reject_decision_present": false,
+  "t_p_form_preserved_under_f": true,
+  "t_c_form_preserved_under_f": true,
+  "t_h_form_preserved_under_f": true,
+  "f_can_select_output_primitive": false,
+  "final_outcome": "FUNCTORIAL_TRIADIC_RELATION_OPERATIONAL"
+}

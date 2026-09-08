@@ -47,5 +47,14 @@ namespace FunctorialMembrane
         {
             return new PrimitiveCarrier.T_H(transform(carrier.Payload));
         }
+
+        public static PrimitiveCarrier.T_H Realize(
+            PrimitiveCarrier.T_P potentiality,
+            PrimitiveCarrier.T_C constraint,
+            Func<object, object, object> relation)
+        {
+            return new PrimitiveCarrier.T_H(
+                relation(potentiality.Payload, constraint.Payload));
+        }
     }
 }
