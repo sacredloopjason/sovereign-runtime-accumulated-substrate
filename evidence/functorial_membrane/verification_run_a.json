@@ -1,0 +1,21 @@
+{
+  "primitive_count": 3,
+  "primitives": [
+    "T_P",
+    "T_C",
+    "T_H"
+  ],
+  "structurally_closed": true,
+  "fourth_causal_role_representable": false,
+  "generic_arbitrary_role_constructor_absent": true,
+  "arbitrary_input_classifier_absent": true,
+  "reject_state_present": false,
+  "payload_semantics_inspected": false,
+  "t_p_form_preserved_under_f": true,
+  "t_c_form_preserved_under_f": true,
+  "t_h_form_preserved_under_f": true,
+  "f_can_select_output_primitive": false,
+  "primitive_transmutation_possible_through_passage": false,
+  "validator_or_judge_present": false,
+  "extra_causal_primitive_present": false
+}
