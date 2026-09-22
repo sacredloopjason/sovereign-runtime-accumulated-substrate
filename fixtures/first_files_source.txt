@@ -1,0 +1,3 @@
+Sovereign FILES fixture v1.
+Exact bytes: A-z 0-9; punctuation !? #42.
+Strict UTF-8 variation: café — λ — 雪.
