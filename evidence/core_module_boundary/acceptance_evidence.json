@@ -1,0 +1,1038 @@
+{
+  "active_shared_form": {
+    "canonical_name": "SOVEREIGN_SHARED_TEXT_UTF8_V1",
+    "interpretation_law": "VALUE is BYTES containing exactly one strict UTF-8 encoding of text; no normalization, coercion, guessing, or semantic comparison is permitted"
+  },
+  "authoritative_parent_commit": "e304bb0ca4a29c76e76233d2e466d99bc1fc338c",
+  "deterministic_replication": true,
+  "implementations": {
+    "core": "transformer_core.py",
+    "runtime": "core_runtime.py",
+    "universal_membrane": "universal_membrane.py"
+  },
+  "measured": {
+    "deterministic_replication": true,
+    "replications": [
+      {
+        "checks": {
+          "core_a_call_mutates_core_a_state": true,
+          "core_a_call_mutates_core_b_state_no": true,
+          "core_a_private_state_persists_across_calls": true,
+          "core_b_call_mutates_core_a_state_no": true,
+          "core_b_call_mutates_core_b_state": true,
+          "core_b_private_state_persists_across_calls": true,
+          "core_instance_count_two": true,
+          "core_instances_independently_state_owning": true,
+          "core_replaceability_at_runtime_contract": true,
+          "core_to_core_shared_object_is_m": true,
+          "direct_native_core_to_core_transfer_no": true,
+          "egress_boundary_pair_written_core_a": true,
+          "egress_boundary_pair_written_core_b": true,
+          "ingress_boundary_pair_written_core_a": true,
+          "ingress_boundary_pair_written_core_b": true,
+          "runtime_invocation_contract_identical": true,
+          "same_membrane_law_for_every_core": true,
+          "shared_form_exact_equality": true
+        },
+        "label": "A",
+        "projection": {
+          "boundary_evidence": {
+            "core_a": {
+              "egress": [
+                {
+                  "membrane_sha256": "b4ab9afc679c08912a699e1aa4ddf94b9d509122b7409967ea25af5507fec757",
+                  "native_output_present": true
+                },
+                {
+                  "membrane_sha256": "5dd41e2d186fbf5cd32fa936be85b909f6ad90a7cb33686ad2f2fdba42778e6a",
+                  "native_output_present": true
+                }
+              ],
+              "ingress": [
+                {
+                  "membrane_sha256": "3f140f7a2f4bea2e4a3e7530fd098720a0dd324b1f26d20225f401fa9d5bfbb3",
+                  "native_input_present": true
+                },
+                {
+                  "membrane_sha256": "3f140f7a2f4bea2e4a3e7530fd098720a0dd324b1f26d20225f401fa9d5bfbb3",
+                  "native_input_present": true
+                }
+              ]
+            },
+            "core_b": {
+              "egress": [
+                {
+                  "membrane_sha256": "b4ab9afc679c08912a699e1aa4ddf94b9d509122b7409967ea25af5507fec757",
+                  "native_output_present": true
+                },
+                {
+                  "membrane_sha256": "8cb435924b65738b92e47fa2c176c6e4b3e8689dc1514d9351d94b6926827847",
+                  "native_output_present": true
+                }
+              ],
+              "ingress": [
+                {
+                  "membrane_sha256": "3f140f7a2f4bea2e4a3e7530fd098720a0dd324b1f26d20225f401fa9d5bfbb3",
+                  "native_input_present": true
+                },
+                {
+                  "membrane_sha256": "22c1b09ea80356ff2f1db193228f755a9784a19e98bbb0476eb37152a3aefe6e",
+                  "native_input_present": true
+                }
+              ]
+            }
+          },
+          "checks": {
+            "core_a_call_mutates_core_a_state": true,
+            "core_a_call_mutates_core_b_state_no": true,
+            "core_a_private_state_persists_across_calls": true,
+            "core_b_call_mutates_core_a_state_no": true,
+            "core_b_call_mutates_core_b_state": true,
+            "core_b_private_state_persists_across_calls": true,
+            "core_instance_count_two": true,
+            "core_instances_independently_state_owning": true,
+            "core_replaceability_at_runtime_contract": true,
+            "core_to_core_shared_object_is_m": true,
+            "direct_native_core_to_core_transfer_no": true,
+            "egress_boundary_pair_written_core_a": true,
+            "egress_boundary_pair_written_core_b": true,
+            "ingress_boundary_pair_written_core_a": true,
+            "ingress_boundary_pair_written_core_b": true,
+            "runtime_invocation_contract_identical": true,
+            "same_membrane_law_for_every_core": true,
+            "shared_form_exact_equality": true
+          },
+          "core_to_core": {
+            "a_output_m": {
+              "form": {
+                "canonical_name": "SOVEREIGN_SHARED_TEXT_UTF8_V1",
+                "interpretation_law": "VALUE is BYTES containing exactly one strict UTF-8 encoding of text; no normalization, coercion, guessing, or semantic comparison is permitted"
+              },
+              "value": {
+                "hex": "0a23696e636c756465203c766563746f723e0a23696e636c756465203c616c676f726974686d3e0a23696e636c756465203c",
+                "kind": "BYTES"
+              }
+            },
+            "b_output_m": {
+              "form": {
+                "canonical_name": "SOVEREIGN_SHARED_TEXT_UTF8_V1",
+                "interpretation_law": "VALUE is BYTES containing exactly one strict UTF-8 encoding of text; no normalization, coercion, guessing, or semantic comparison is permitted"
+              },
+              "value": {
+                "hex": "23696e636c756465203c6363747970653e0a23696e636c756465203c637374646c69623e0a",
+                "kind": "BYTES"
+              }
+            }
+          },
+          "independence": {
+            "boundary_records_distinct": true,
+            "core_objects_distinct": true,
+            "model_objects_distinct": true,
+            "model_parameter_storage_distinct": true,
+            "state_objects_distinct": true,
+            "state_storage_disjoint": true,
+            "tokenizer_objects_distinct": true
+          },
+          "independent_outputs": {
+            "core_a": {
+              "form": {
+                "canonical_name": "SOVEREIGN_SHARED_TEXT_UTF8_V1",
+                "interpretation_law": "VALUE is BYTES containing exactly one strict UTF-8 encoding of text; no normalization, coercion, guessing, or semantic comparison is permitted"
+              },
+              "value": {
+                "hex": "0a23696e636c756465203c696f73747265616d3e0a23696e636c756465203c737472696e673e0a23",
+                "kind": "BYTES"
+              }
+            },
+            "core_b": {
+              "form": {
+                "canonical_name": "SOVEREIGN_SHARED_TEXT_UTF8_V1",
+                "interpretation_law": "VALUE is BYTES containing exactly one strict UTF-8 encoding of text; no normalization, coercion, guessing, or semantic comparison is permitted"
+              },
+              "value": {
+                "hex": "0a23696e636c756465203c696f73747265616d3e0a23696e636c756465203c737472696e673e0a23",
+                "kind": "BYTES"
+              }
+            }
+          },
+          "input_m1": {
+            "form": {
+              "canonical_name": "SOVEREIGN_SHARED_TEXT_UTF8_V1",
+              "interpretation_law": "VALUE is BYTES containing exactly one strict UTF-8 encoding of text; no normalization, coercion, guessing, or semantic comparison is permitted"
+            },
+            "value": {
+              "hex": "434f52455f4d4f44554c455f424f554e444152595f494e5055545f5631",
+              "kind": "BYTES"
+            }
+          },
+          "runtime_invocations": [
+            {
+              "contract": {
+                "module": "core_runtime",
+                "qualified_name": "invoke",
+                "signature": "(handle: core_runtime.ModuleHandle, membrane: universal_membrane.Membrane) -> universal_membrane.Membrane"
+              },
+              "selected_address": "CORE_A"
+            },
+            {
+              "contract": {
+                "module": "core_runtime",
+                "qualified_name": "invoke",
+                "signature": "(handle: core_runtime.ModuleHandle, membrane: universal_membrane.Membrane) -> universal_membrane.Membrane"
+              },
+              "selected_address": "CORE_B"
+            }
+          ],
+          "state_evidence": {
+            "core_a": [
+              {
+                "post": {
+                  "component_count": 60,
+                  "layer_count": 30,
+                  "sequence_length": 31,
+                  "sha256": "5f3e87dcf8860a099212ec36cb842b8d488bfbf4742000cecd169f61a1a9a948",
+                  "tensor_byte_count": 1428480
+                },
+                "pre": {
+                  "component_count": 0,
+                  "layer_count": 30,
+                  "sequence_length": 0,
+                  "sha256": "73297220112f4401b9ca87757eae062e7fea6d920da85fae4b9584d189fb0067",
+                  "tensor_byte_count": 0
+                }
+              },
+              {
+                "post": {
+                  "component_count": 60,
+                  "layer_count": 30,
+                  "sequence_length": 62,
+                  "sha256": "3d3e66aff33150e2ceca260097eddad10709088137e801362e94302baf41fb7a",
+                  "tensor_byte_count": 2856960
+                },
+                "pre": {
+                  "component_count": 60,
+                  "layer_count": 30,
+                  "sequence_length": 31,
+                  "sha256": "5f3e87dcf8860a099212ec36cb842b8d488bfbf4742000cecd169f61a1a9a948",
+                  "tensor_byte_count": 1428480
+                }
+              }
+            ],
+            "core_b": [
+              {
+                "post": {
+                  "component_count": 60,
+                  "layer_count": 30,
+                  "sequence_length": 31,
+                  "sha256": "5f3e87dcf8860a099212ec36cb842b8d488bfbf4742000cecd169f61a1a9a948",
+                  "tensor_byte_count": 1428480
+                },
+                "pre": {
+                  "component_count": 0,
+                  "layer_count": 30,
+                  "sequence_length": 0,
+                  "sha256": "73297220112f4401b9ca87757eae062e7fea6d920da85fae4b9584d189fb0067",
+                  "tensor_byte_count": 0
+                }
+              },
+              {
+                "post": {
+                  "component_count": 60,
+                  "layer_count": 30,
+                  "sequence_length": 64,
+                  "sha256": "78ea4a03c47024bdd29eeec50d57b110e96ef75a4148090a1cd2fb8bdfb4692b",
+                  "tensor_byte_count": 2949120
+                },
+                "pre": {
+                  "component_count": 60,
+                  "layer_count": 30,
+                  "sequence_length": 31,
+                  "sha256": "5f3e87dcf8860a099212ec36cb842b8d488bfbf4742000cecd169f61a1a9a948",
+                  "tensor_byte_count": 1428480
+                }
+              }
+            ]
+          }
+        }
+      },
+      {
+        "checks": {
+          "core_a_call_mutates_core_a_state": true,
+          "core_a_call_mutates_core_b_state_no": true,
+          "core_a_private_state_persists_across_calls": true,
+          "core_b_call_mutates_core_a_state_no": true,
+          "core_b_call_mutates_core_b_state": true,
+          "core_b_private_state_persists_across_calls": true,
+          "core_instance_count_two": true,
+          "core_instances_independently_state_owning": true,
+          "core_replaceability_at_runtime_contract": true,
+          "core_to_core_shared_object_is_m": true,
+          "direct_native_core_to_core_transfer_no": true,
+          "egress_boundary_pair_written_core_a": true,
+          "egress_boundary_pair_written_core_b": true,
+          "ingress_boundary_pair_written_core_a": true,
+          "ingress_boundary_pair_written_core_b": true,
+          "runtime_invocation_contract_identical": true,
+          "same_membrane_law_for_every_core": true,
+          "shared_form_exact_equality": true
+        },
+        "label": "B",
+        "projection": {
+          "boundary_evidence": {
+            "core_a": {
+              "egress": [
+                {
+                  "membrane_sha256": "b4ab9afc679c08912a699e1aa4ddf94b9d509122b7409967ea25af5507fec757",
+                  "native_output_present": true
+                },
+                {
+                  "membrane_sha256": "5dd41e2d186fbf5cd32fa936be85b909f6ad90a7cb33686ad2f2fdba42778e6a",
+                  "native_output_present": true
+                }
+              ],
+              "ingress": [
+                {
+                  "membrane_sha256": "3f140f7a2f4bea2e4a3e7530fd098720a0dd324b1f26d20225f401fa9d5bfbb3",
+                  "native_input_present": true
+                },
+                {
+                  "membrane_sha256": "3f140f7a2f4bea2e4a3e7530fd098720a0dd324b1f26d20225f401fa9d5bfbb3",
+                  "native_input_present": true
+                }
+              ]
+            },
+            "core_b": {
+              "egress": [
+                {
+                  "membrane_sha256": "b4ab9afc679c08912a699e1aa4ddf94b9d509122b7409967ea25af5507fec757",
+                  "native_output_present": true
+                },
+                {
+                  "membrane_sha256": "8cb435924b65738b92e47fa2c176c6e4b3e8689dc1514d9351d94b6926827847",
+                  "native_output_present": true
+                }
+              ],
+              "ingress": [
+                {
+                  "membrane_sha256": "3f140f7a2f4bea2e4a3e7530fd098720a0dd324b1f26d20225f401fa9d5bfbb3",
+                  "native_input_present": true
+                },
+                {
+                  "membrane_sha256": "22c1b09ea80356ff2f1db193228f755a9784a19e98bbb0476eb37152a3aefe6e",
+                  "native_input_present": true
+                }
+              ]
+            }
+          },
+          "checks": {
+            "core_a_call_mutates_core_a_state": true,
+            "core_a_call_mutates_core_b_state_no": true,
+            "core_a_private_state_persists_across_calls": true,
+            "core_b_call_mutates_core_a_state_no": true,
+            "core_b_call_mutates_core_b_state": true,
+            "core_b_private_state_persists_across_calls": true,
+            "core_instance_count_two": true,
+            "core_instances_independently_state_owning": true,
+            "core_replaceability_at_runtime_contract": true,
+            "core_to_core_shared_object_is_m": true,
+            "direct_native_core_to_core_transfer_no": true,
+            "egress_boundary_pair_written_core_a": true,
+            "egress_boundary_pair_written_core_b": true,
+            "ingress_boundary_pair_written_core_a": true,
+            "ingress_boundary_pair_written_core_b": true,
+            "runtime_invocation_contract_identical": true,
+            "same_membrane_law_for_every_core": true,
+            "shared_form_exact_equality": true
+          },
+          "core_to_core": {
+            "a_output_m": {
+              "form": {
+                "canonical_name": "SOVEREIGN_SHARED_TEXT_UTF8_V1",
+                "interpretation_law": "VALUE is BYTES containing exactly one strict UTF-8 encoding of text; no normalization, coercion, guessing, or semantic comparison is permitted"
+              },
+              "value": {
+                "hex": "0a23696e636c756465203c766563746f723e0a23696e636c756465203c616c676f726974686d3e0a23696e636c756465203c",
+                "kind": "BYTES"
+              }
+            },
+            "b_output_m": {
+              "form": {
+                "canonical_name": "SOVEREIGN_SHARED_TEXT_UTF8_V1",
+                "interpretation_law": "VALUE is BYTES containing exactly one strict UTF-8 encoding of text; no normalization, coercion, guessing, or semantic comparison is permitted"
+              },
+              "value": {
+                "hex": "23696e636c756465203c6363747970653e0a23696e636c756465203c637374646c69623e0a",
+                "kind": "BYTES"
+              }
+            }
+          },
+          "independence": {
+            "boundary_records_distinct": true,
+            "core_objects_distinct": true,
+            "model_objects_distinct": true,
+            "model_parameter_storage_distinct": true,
+            "state_objects_distinct": true,
+            "state_storage_disjoint": true,
+            "tokenizer_objects_distinct": true
+          },
+          "independent_outputs": {
+            "core_a": {
+              "form": {
+                "canonical_name": "SOVEREIGN_SHARED_TEXT_UTF8_V1",
+                "interpretation_law": "VALUE is BYTES containing exactly one strict UTF-8 encoding of text; no normalization, coercion, guessing, or semantic comparison is permitted"
+              },
+              "value": {
+                "hex": "0a23696e636c756465203c696f73747265616d3e0a23696e636c756465203c737472696e673e0a23",
+                "kind": "BYTES"
+              }
+            },
+            "core_b": {
+              "form": {
+                "canonical_name": "SOVEREIGN_SHARED_TEXT_UTF8_V1",
+                "interpretation_law": "VALUE is BYTES containing exactly one strict UTF-8 encoding of text; no normalization, coercion, guessing, or semantic comparison is permitted"
+              },
+              "value": {
+                "hex": "0a23696e636c756465203c696f73747265616d3e0a23696e636c756465203c737472696e673e0a23",
+                "kind": "BYTES"
+              }
+            }
+          },
+          "input_m1": {
+            "form": {
+              "canonical_name": "SOVEREIGN_SHARED_TEXT_UTF8_V1",
+              "interpretation_law": "VALUE is BYTES containing exactly one strict UTF-8 encoding of text; no normalization, coercion, guessing, or semantic comparison is permitted"
+            },
+            "value": {
+              "hex": "434f52455f4d4f44554c455f424f554e444152595f494e5055545f5631",
+              "kind": "BYTES"
+            }
+          },
+          "runtime_invocations": [
+            {
+              "contract": {
+                "module": "core_runtime",
+                "qualified_name": "invoke",
+                "signature": "(handle: core_runtime.ModuleHandle, membrane: universal_membrane.Membrane) -> universal_membrane.Membrane"
+              },
+              "selected_address": "CORE_A"
+            },
+            {
+              "contract": {
+                "module": "core_runtime",
+                "qualified_name": "invoke",
+                "signature": "(handle: core_runtime.ModuleHandle, membrane: universal_membrane.Membrane) -> universal_membrane.Membrane"
+              },
+              "selected_address": "CORE_B"
+            }
+          ],
+          "state_evidence": {
+            "core_a": [
+              {
+                "post": {
+                  "component_count": 60,
+                  "layer_count": 30,
+                  "sequence_length": 31,
+                  "sha256": "5f3e87dcf8860a099212ec36cb842b8d488bfbf4742000cecd169f61a1a9a948",
+                  "tensor_byte_count": 1428480
+                },
+                "pre": {
+                  "component_count": 0,
+                  "layer_count": 30,
+                  "sequence_length": 0,
+                  "sha256": "73297220112f4401b9ca87757eae062e7fea6d920da85fae4b9584d189fb0067",
+                  "tensor_byte_count": 0
+                }
+              },
+              {
+                "post": {
+                  "component_count": 60,
+                  "layer_count": 30,
+                  "sequence_length": 62,
+                  "sha256": "3d3e66aff33150e2ceca260097eddad10709088137e801362e94302baf41fb7a",
+                  "tensor_byte_count": 2856960
+                },
+                "pre": {
+                  "component_count": 60,
+                  "layer_count": 30,
+                  "sequence_length": 31,
+                  "sha256": "5f3e87dcf8860a099212ec36cb842b8d488bfbf4742000cecd169f61a1a9a948",
+                  "tensor_byte_count": 1428480
+                }
+              }
+            ],
+            "core_b": [
+              {
+                "post": {
+                  "component_count": 60,
+                  "layer_count": 30,
+                  "sequence_length": 31,
+                  "sha256": "5f3e87dcf8860a099212ec36cb842b8d488bfbf4742000cecd169f61a1a9a948",
+                  "tensor_byte_count": 1428480
+                },
+                "pre": {
+                  "component_count": 0,
+                  "layer_count": 30,
+                  "sequence_length": 0,
+                  "sha256": "73297220112f4401b9ca87757eae062e7fea6d920da85fae4b9584d189fb0067",
+                  "tensor_byte_count": 0
+                }
+              },
+              {
+                "post": {
+                  "component_count": 60,
+                  "layer_count": 30,
+                  "sequence_length": 64,
+                  "sha256": "78ea4a03c47024bdd29eeec50d57b110e96ef75a4148090a1cd2fb8bdfb4692b",
+                  "tensor_byte_count": 2949120
+                },
+                "pre": {
+                  "component_count": 60,
+                  "layer_count": 30,
+                  "sequence_length": 31,
+                  "sha256": "5f3e87dcf8860a099212ec36cb842b8d488bfbf4742000cecd169f61a1a9a948",
+                  "tensor_byte_count": 1428480
+                }
+              }
+            ]
+          }
+        }
+      }
+    ],
+    "source_inspection": {
+      "checks": {
+        "outer_sources_have_no_forbidden_terms": true,
+        "outer_sources_parse": true,
+        "runtime_imports_only_universal_or_standard_modules": true
+      },
+      "core_runtime.py": {
+        "forbidden_terms": [],
+        "imports": [
+          "dataclasses",
+          "typing",
+          "universal_membrane"
+        ],
+        "parsed": true,
+        "sha256": "87d51adc5aee8ac7e44b52d5d0ba41385bc3b03e6b4d978f7630de9e75f82ad1"
+      },
+      "universal_membrane.py": {
+        "forbidden_terms": [],
+        "imports": [
+          "dataclasses",
+          "typing"
+        ],
+        "parsed": true,
+        "sha256": "20883c4abbe0085c635b5ef18af816d826c40a5f1d685175323882660b80f2d5"
+      }
+    },
+    "value_algebra": {
+      "bytes_variant_type": "BytesValue",
+      "declared_variants": [
+        "BYTES",
+        "ORDERED_SEQUENCE(M...)"
+      ],
+      "form_exact_equality": true,
+      "nested_membrane_accepted": true,
+      "ordered_sequence_variant_type": "OrderedSequenceValue"
+    }
+  },
+  "outcome": "CORE_MODULE_BOUNDARY_CLOSED",
+  "replications": [
+    {
+      "checks": {
+        "core_a_call_mutates_core_a_state": true,
+        "core_a_call_mutates_core_b_state_no": true,
+        "core_a_private_state_persists_across_calls": true,
+        "core_b_call_mutates_core_a_state_no": true,
+        "core_b_call_mutates_core_b_state": true,
+        "core_b_private_state_persists_across_calls": true,
+        "core_instance_count_two": true,
+        "core_instances_independently_state_owning": true,
+        "core_replaceability_at_runtime_contract": true,
+        "core_to_core_shared_object_is_m": true,
+        "direct_native_core_to_core_transfer_no": true,
+        "egress_boundary_pair_written_core_a": true,
+        "egress_boundary_pair_written_core_b": true,
+        "ingress_boundary_pair_written_core_a": true,
+        "ingress_boundary_pair_written_core_b": true,
+        "runtime_invocation_contract_identical": true,
+        "same_membrane_law_for_every_core": true,
+        "shared_form_exact_equality": true
+      },
+      "label": "A",
+      "projection": {
+        "boundary_evidence": {
+          "core_a": {
+            "egress": [
+              {
+                "membrane_sha256": "b4ab9afc679c08912a699e1aa4ddf94b9d509122b7409967ea25af5507fec757",
+                "native_output_present": true
+              },
+              {
+                "membrane_sha256": "5dd41e2d186fbf5cd32fa936be85b909f6ad90a7cb33686ad2f2fdba42778e6a",
+                "native_output_present": true
+              }
+            ],
+            "ingress": [
+              {
+                "membrane_sha256": "3f140f7a2f4bea2e4a3e7530fd098720a0dd324b1f26d20225f401fa9d5bfbb3",
+                "native_input_present": true
+              },
+              {
+                "membrane_sha256": "3f140f7a2f4bea2e4a3e7530fd098720a0dd324b1f26d20225f401fa9d5bfbb3",
+                "native_input_present": true
+              }
+            ]
+          },
+          "core_b": {
+            "egress": [
+              {
+                "membrane_sha256": "b4ab9afc679c08912a699e1aa4ddf94b9d509122b7409967ea25af5507fec757",
+                "native_output_present": true
+              },
+              {
+                "membrane_sha256": "8cb435924b65738b92e47fa2c176c6e4b3e8689dc1514d9351d94b6926827847",
+                "native_output_present": true
+              }
+            ],
+            "ingress": [
+              {
+                "membrane_sha256": "3f140f7a2f4bea2e4a3e7530fd098720a0dd324b1f26d20225f401fa9d5bfbb3",
+                "native_input_present": true
+              },
+              {
+                "membrane_sha256": "22c1b09ea80356ff2f1db193228f755a9784a19e98bbb0476eb37152a3aefe6e",
+                "native_input_present": true
+              }
+            ]
+          }
+        },
+        "checks": {
+          "core_a_call_mutates_core_a_state": true,
+          "core_a_call_mutates_core_b_state_no": true,
+          "core_a_private_state_persists_across_calls": true,
+          "core_b_call_mutates_core_a_state_no": true,
+          "core_b_call_mutates_core_b_state": true,
+          "core_b_private_state_persists_across_calls": true,
+          "core_instance_count_two": true,
+          "core_instances_independently_state_owning": true,
+          "core_replaceability_at_runtime_contract": true,
+          "core_to_core_shared_object_is_m": true,
+          "direct_native_core_to_core_transfer_no": true,
+          "egress_boundary_pair_written_core_a": true,
+          "egress_boundary_pair_written_core_b": true,
+          "ingress_boundary_pair_written_core_a": true,
+          "ingress_boundary_pair_written_core_b": true,
+          "runtime_invocation_contract_identical": true,
+          "same_membrane_law_for_every_core": true,
+          "shared_form_exact_equality": true
+        },
+        "core_to_core": {
+          "a_output_m": {
+            "form": {
+              "canonical_name": "SOVEREIGN_SHARED_TEXT_UTF8_V1",
+              "interpretation_law": "VALUE is BYTES containing exactly one strict UTF-8 encoding of text; no normalization, coercion, guessing, or semantic comparison is permitted"
+            },
+            "value": {
+              "hex": "0a23696e636c756465203c766563746f723e0a23696e636c756465203c616c676f726974686d3e0a23696e636c756465203c",
+              "kind": "BYTES"
+            }
+          },
+          "b_output_m": {
+            "form": {
+              "canonical_name": "SOVEREIGN_SHARED_TEXT_UTF8_V1",
+              "interpretation_law": "VALUE is BYTES containing exactly one strict UTF-8 encoding of text; no normalization, coercion, guessing, or semantic comparison is permitted"
+            },
+            "value": {
+              "hex": "23696e636c756465203c6363747970653e0a23696e636c756465203c637374646c69623e0a",
+              "kind": "BYTES"
+            }
+          }
+        },
+        "independence": {
+          "boundary_records_distinct": true,
+          "core_objects_distinct": true,
+          "model_objects_distinct": true,
+          "model_parameter_storage_distinct": true,
+          "state_objects_distinct": true,
+          "state_storage_disjoint": true,
+          "tokenizer_objects_distinct": true
+        },
+        "independent_outputs": {
+          "core_a": {
+            "form": {
+              "canonical_name": "SOVEREIGN_SHARED_TEXT_UTF8_V1",
+              "interpretation_law": "VALUE is BYTES containing exactly one strict UTF-8 encoding of text; no normalization, coercion, guessing, or semantic comparison is permitted"
+            },
+            "value": {
+              "hex": "0a23696e636c756465203c696f73747265616d3e0a23696e636c756465203c737472696e673e0a23",
+              "kind": "BYTES"
+            }
+          },
+          "core_b": {
+            "form": {
+              "canonical_name": "SOVEREIGN_SHARED_TEXT_UTF8_V1",
+              "interpretation_law": "VALUE is BYTES containing exactly one strict UTF-8 encoding of text; no normalization, coercion, guessing, or semantic comparison is permitted"
+            },
+            "value": {
+              "hex": "0a23696e636c756465203c696f73747265616d3e0a23696e636c756465203c737472696e673e0a23",
+              "kind": "BYTES"
+            }
+          }
+        },
+        "input_m1": {
+          "form": {
+            "canonical_name": "SOVEREIGN_SHARED_TEXT_UTF8_V1",
+            "interpretation_law": "VALUE is BYTES containing exactly one strict UTF-8 encoding of text; no normalization, coercion, guessing, or semantic comparison is permitted"
+          },
+          "value": {
+            "hex": "434f52455f4d4f44554c455f424f554e444152595f494e5055545f5631",
+            "kind": "BYTES"
+          }
+        },
+        "runtime_invocations": [
+          {
+            "contract": {
+              "module": "core_runtime",
+              "qualified_name": "invoke",
+              "signature": "(handle: core_runtime.ModuleHandle, membrane: universal_membrane.Membrane) -> universal_membrane.Membrane"
+            },
+            "selected_address": "CORE_A"
+          },
+          {
+            "contract": {
+              "module": "core_runtime",
+              "qualified_name": "invoke",
+              "signature": "(handle: core_runtime.ModuleHandle, membrane: universal_membrane.Membrane) -> universal_membrane.Membrane"
+            },
+            "selected_address": "CORE_B"
+          }
+        ],
+        "state_evidence": {
+          "core_a": [
+            {
+              "post": {
+                "component_count": 60,
+                "layer_count": 30,
+                "sequence_length": 31,
+                "sha256": "5f3e87dcf8860a099212ec36cb842b8d488bfbf4742000cecd169f61a1a9a948",
+                "tensor_byte_count": 1428480
+              },
+              "pre": {
+                "component_count": 0,
+                "layer_count": 30,
+                "sequence_length": 0,
+                "sha256": "73297220112f4401b9ca87757eae062e7fea6d920da85fae4b9584d189fb0067",
+                "tensor_byte_count": 0
+              }
+            },
+            {
+              "post": {
+                "component_count": 60,
+                "layer_count": 30,
+                "sequence_length": 62,
+                "sha256": "3d3e66aff33150e2ceca260097eddad10709088137e801362e94302baf41fb7a",
+                "tensor_byte_count": 2856960
+              },
+              "pre": {
+                "component_count": 60,
+                "layer_count": 30,
+                "sequence_length": 31,
+                "sha256": "5f3e87dcf8860a099212ec36cb842b8d488bfbf4742000cecd169f61a1a9a948",
+                "tensor_byte_count": 1428480
+              }
+            }
+          ],
+          "core_b": [
+            {
+              "post": {
+                "component_count": 60,
+                "layer_count": 30,
+                "sequence_length": 31,
+                "sha256": "5f3e87dcf8860a099212ec36cb842b8d488bfbf4742000cecd169f61a1a9a948",
+                "tensor_byte_count": 1428480
+              },
+              "pre": {
+                "component_count": 0,
+                "layer_count": 30,
+                "sequence_length": 0,
+                "sha256": "73297220112f4401b9ca87757eae062e7fea6d920da85fae4b9584d189fb0067",
+                "tensor_byte_count": 0
+              }
+            },
+            {
+              "post": {
+                "component_count": 60,
+                "layer_count": 30,
+                "sequence_length": 64,
+                "sha256": "78ea4a03c47024bdd29eeec50d57b110e96ef75a4148090a1cd2fb8bdfb4692b",
+                "tensor_byte_count": 2949120
+              },
+              "pre": {
+                "component_count": 60,
+                "layer_count": 30,
+                "sequence_length": 31,
+                "sha256": "5f3e87dcf8860a099212ec36cb842b8d488bfbf4742000cecd169f61a1a9a948",
+                "tensor_byte_count": 1428480
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "checks": {
+        "core_a_call_mutates_core_a_state": true,
+        "core_a_call_mutates_core_b_state_no": true,
+        "core_a_private_state_persists_across_calls": true,
+        "core_b_call_mutates_core_a_state_no": true,
+        "core_b_call_mutates_core_b_state": true,
+        "core_b_private_state_persists_across_calls": true,
+        "core_instance_count_two": true,
+        "core_instances_independently_state_owning": true,
+        "core_replaceability_at_runtime_contract": true,
+        "core_to_core_shared_object_is_m": true,
+        "direct_native_core_to_core_transfer_no": true,
+        "egress_boundary_pair_written_core_a": true,
+        "egress_boundary_pair_written_core_b": true,
+        "ingress_boundary_pair_written_core_a": true,
+        "ingress_boundary_pair_written_core_b": true,
+        "runtime_invocation_contract_identical": true,
+        "same_membrane_law_for_every_core": true,
+        "shared_form_exact_equality": true
+      },
+      "label": "B",
+      "projection": {
+        "boundary_evidence": {
+          "core_a": {
+            "egress": [
+              {
+                "membrane_sha256": "b4ab9afc679c08912a699e1aa4ddf94b9d509122b7409967ea25af5507fec757",
+                "native_output_present": true
+              },
+              {
+                "membrane_sha256": "5dd41e2d186fbf5cd32fa936be85b909f6ad90a7cb33686ad2f2fdba42778e6a",
+                "native_output_present": true
+              }
+            ],
+            "ingress": [
+              {
+                "membrane_sha256": "3f140f7a2f4bea2e4a3e7530fd098720a0dd324b1f26d20225f401fa9d5bfbb3",
+                "native_input_present": true
+              },
+              {
+                "membrane_sha256": "3f140f7a2f4bea2e4a3e7530fd098720a0dd324b1f26d20225f401fa9d5bfbb3",
+                "native_input_present": true
+              }
+            ]
+          },
+          "core_b": {
+            "egress": [
+              {
+                "membrane_sha256": "b4ab9afc679c08912a699e1aa4ddf94b9d509122b7409967ea25af5507fec757",
+                "native_output_present": true
+              },
+              {
+                "membrane_sha256": "8cb435924b65738b92e47fa2c176c6e4b3e8689dc1514d9351d94b6926827847",
+                "native_output_present": true
+              }
+            ],
+            "ingress": [
+              {
+                "membrane_sha256": "3f140f7a2f4bea2e4a3e7530fd098720a0dd324b1f26d20225f401fa9d5bfbb3",
+                "native_input_present": true
+              },
+              {
+                "membrane_sha256": "22c1b09ea80356ff2f1db193228f755a9784a19e98bbb0476eb37152a3aefe6e",
+                "native_input_present": true
+              }
+            ]
+          }
+        },
+        "checks": {
+          "core_a_call_mutates_core_a_state": true,
+          "core_a_call_mutates_core_b_state_no": true,
+          "core_a_private_state_persists_across_calls": true,
+          "core_b_call_mutates_core_a_state_no": true,
+          "core_b_call_mutates_core_b_state": true,
+          "core_b_private_state_persists_across_calls": true,
+          "core_instance_count_two": true,
+          "core_instances_independently_state_owning": true,
+          "core_replaceability_at_runtime_contract": true,
+          "core_to_core_shared_object_is_m": true,
+          "direct_native_core_to_core_transfer_no": true,
+          "egress_boundary_pair_written_core_a": true,
+          "egress_boundary_pair_written_core_b": true,
+          "ingress_boundary_pair_written_core_a": true,
+          "ingress_boundary_pair_written_core_b": true,
+          "runtime_invocation_contract_identical": true,
+          "same_membrane_law_for_every_core": true,
+          "shared_form_exact_equality": true
+        },
+        "core_to_core": {
+          "a_output_m": {
+            "form": {
+              "canonical_name": "SOVEREIGN_SHARED_TEXT_UTF8_V1",
+              "interpretation_law": "VALUE is BYTES containing exactly one strict UTF-8 encoding of text; no normalization, coercion, guessing, or semantic comparison is permitted"
+            },
+            "value": {
+              "hex": "0a23696e636c756465203c766563746f723e0a23696e636c756465203c616c676f726974686d3e0a23696e636c756465203c",
+              "kind": "BYTES"
+            }
+          },
+          "b_output_m": {
+            "form": {
+              "canonical_name": "SOVEREIGN_SHARED_TEXT_UTF8_V1",
+              "interpretation_law": "VALUE is BYTES containing exactly one strict UTF-8 encoding of text; no normalization, coercion, guessing, or semantic comparison is permitted"
+            },
+            "value": {
+              "hex": "23696e636c756465203c6363747970653e0a23696e636c756465203c637374646c69623e0a",
+              "kind": "BYTES"
+            }
+          }
+        },
+        "independence": {
+          "boundary_records_distinct": true,
+          "core_objects_distinct": true,
+          "model_objects_distinct": true,
+          "model_parameter_storage_distinct": true,
+          "state_objects_distinct": true,
+          "state_storage_disjoint": true,
+          "tokenizer_objects_distinct": true
+        },
+        "independent_outputs": {
+          "core_a": {
+            "form": {
+              "canonical_name": "SOVEREIGN_SHARED_TEXT_UTF8_V1",
+              "interpretation_law": "VALUE is BYTES containing exactly one strict UTF-8 encoding of text; no normalization, coercion, guessing, or semantic comparison is permitted"
+            },
+            "value": {
+              "hex": "0a23696e636c756465203c696f73747265616d3e0a23696e636c756465203c737472696e673e0a23",
+              "kind": "BYTES"
+            }
+          },
+          "core_b": {
+            "form": {
+              "canonical_name": "SOVEREIGN_SHARED_TEXT_UTF8_V1",
+              "interpretation_law": "VALUE is BYTES containing exactly one strict UTF-8 encoding of text; no normalization, coercion, guessing, or semantic comparison is permitted"
+            },
+            "value": {
+              "hex": "0a23696e636c756465203c696f73747265616d3e0a23696e636c756465203c737472696e673e0a23",
+              "kind": "BYTES"
+            }
+          }
+        },
+        "input_m1": {
+          "form": {
+            "canonical_name": "SOVEREIGN_SHARED_TEXT_UTF8_V1",
+            "interpretation_law": "VALUE is BYTES containing exactly one strict UTF-8 encoding of text; no normalization, coercion, guessing, or semantic comparison is permitted"
+          },
+          "value": {
+            "hex": "434f52455f4d4f44554c455f424f554e444152595f494e5055545f5631",
+            "kind": "BYTES"
+          }
+        },
+        "runtime_invocations": [
+          {
+            "contract": {
+              "module": "core_runtime",
+              "qualified_name": "invoke",
+              "signature": "(handle: core_runtime.ModuleHandle, membrane: universal_membrane.Membrane) -> universal_membrane.Membrane"
+            },
+            "selected_address": "CORE_A"
+          },
+          {
+            "contract": {
+              "module": "core_runtime",
+              "qualified_name": "invoke",
+              "signature": "(handle: core_runtime.ModuleHandle, membrane: universal_membrane.Membrane) -> universal_membrane.Membrane"
+            },
+            "selected_address": "CORE_B"
+          }
+        ],
+        "state_evidence": {
+          "core_a": [
+            {
+              "post": {
+                "component_count": 60,
+                "layer_count": 30,
+                "sequence_length": 31,
+                "sha256": "5f3e87dcf8860a099212ec36cb842b8d488bfbf4742000cecd169f61a1a9a948",
+                "tensor_byte_count": 1428480
+              },
+              "pre": {
+                "component_count": 0,
+                "layer_count": 30,
+                "sequence_length": 0,
+                "sha256": "73297220112f4401b9ca87757eae062e7fea6d920da85fae4b9584d189fb0067",
+                "tensor_byte_count": 0
+              }
+            },
+            {
+              "post": {
+                "component_count": 60,
+                "layer_count": 30,
+                "sequence_length": 62,
+                "sha256": "3d3e66aff33150e2ceca260097eddad10709088137e801362e94302baf41fb7a",
+                "tensor_byte_count": 2856960
+              },
+              "pre": {
+                "component_count": 60,
+                "layer_count": 30,
+                "sequence_length": 31,
+                "sha256": "5f3e87dcf8860a099212ec36cb842b8d488bfbf4742000cecd169f61a1a9a948",
+                "tensor_byte_count": 1428480
+              }
+            }
+          ],
+          "core_b": [
+            {
+              "post": {
+                "component_count": 60,
+                "layer_count": 30,
+                "sequence_length": 31,
+                "sha256": "5f3e87dcf8860a099212ec36cb842b8d488bfbf4742000cecd169f61a1a9a948",
+                "tensor_byte_count": 1428480
+              },
+              "pre": {
+                "component_count": 0,
+                "layer_count": 30,
+                "sequence_length": 0,
+                "sha256": "73297220112f4401b9ca87757eae062e7fea6d920da85fae4b9584d189fb0067",
+                "tensor_byte_count": 0
+              }
+            },
+            {
+              "post": {
+                "component_count": 60,
+                "layer_count": 30,
+                "sequence_length": 64,
+                "sha256": "78ea4a03c47024bdd29eeec50d57b110e96ef75a4148090a1cd2fb8bdfb4692b",
+                "tensor_byte_count": 2949120
+              },
+              "pre": {
+                "component_count": 60,
+                "layer_count": 30,
+                "sequence_length": 31,
+                "sha256": "5f3e87dcf8860a099212ec36cb842b8d488bfbf4742000cecd169f61a1a9a948",
+                "tensor_byte_count": 1428480
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "schema": "CORE_MODULE_BOUNDARY_EVIDENCE_V1",
+  "structurally_deduced": {
+    "basis": "AST/import inspection shows the outer sources have no model-native dependency; invoke accepts and returns only universal_membrane.Membrane, and the exercised A-to-B object was that exact M instance.",
+    "direct_native_core_to_core_transfer": "NO",
+    "runtime_depends_on_inference_framework": "NO",
+    "runtime_depends_on_kv_layout": "NO",
+    "runtime_depends_on_model_family": "NO",
+    "runtime_depends_on_tensors": "NO",
+    "runtime_depends_on_token_ids": "NO",
+    "runtime_depends_on_tokenizer": "NO"
+  },
+  "universal_representation": "M=(F,V)",
+  "value_algebra": "BYTES | ORDERED_SEQUENCE(M...)"
+}
