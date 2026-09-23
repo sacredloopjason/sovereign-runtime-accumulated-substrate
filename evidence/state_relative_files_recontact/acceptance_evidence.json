@@ -1,0 +1,596 @@
+{
+  "authoritative_parent_commit": "9171389034e3735c5a87395c9aca0c87dba591a2",
+  "deterministic_replication": true,
+  "forms": {
+    "exact_output": "SOVEREIGN_EXACT_BYTES_V1",
+    "ordered_state": "SOVEREIGN_ORDERED_EXACT_ARTIFACTS_V1",
+    "selector": {
+      "canonical_name": "SOVEREIGN_STATE_RELATIVE_POSITION_U8_V1",
+      "interpretation_law": "VALUE is BYTES containing exactly one unsigned one-byte zero-based structural position selecting one member from the receiving module's currently retained ordered-artifact state; the VALUE carries no artifact content or artifact identity."
+    }
+  },
+  "outcome": "STATE_RELATIVE_CAUSAL_FIDELITY_OPERATIONAL",
+  "replications": [
+    {
+      "checks": {
+        "compact_contains_artifact_1_bytes_no": true,
+        "compact_contains_artifact_2_bytes_no": true,
+        "compact_contains_artifact_id_no": true,
+        "compact_contains_filename_no": true,
+        "compact_contains_hash_as_identity_no": true,
+        "compact_contains_path_no": true,
+        "compact_contains_semantic_description_no": true,
+        "exact_same_selector_object_used": true,
+        "files_a_and_b_native_state_shared_no": true,
+        "files_a_and_unprimed_native_state_shared_no": true,
+        "files_b_and_unprimed_native_state_shared_no": true,
+        "files_native_state_exposed_in_membrane_no": true,
+        "global_artifact_registry_used_no": true,
+        "membrane_grammar_changed_no": true,
+        "missing_state_fabricated_no": true,
+        "new_value_primitive_added_no": true,
+        "perturbation_alone_determines_artifact_no": true,
+        "runtime_inspects_files_state_no": true,
+        "runtime_invocation_law_changed_no": true,
+        "same_perturbation_different_state_yields_relative_result": true,
+        "selector_position_zero": true,
+        "selector_resolution_uses_receiver_state_directly": true,
+        "selector_value_byte_count_one": true,
+        "selector_value_hex_00": true,
+        "shared_native_state_introduced_no": true,
+        "standalone_selector_has_unique_artifact_result_no": true,
+        "state_a_exact_reacquisition": true,
+        "state_a_order": true,
+        "state_a_output_form_exact_bytes": true,
+        "state_a_position_0_recontacts_a1": true,
+        "state_a_primed": true,
+        "state_a_recontact_output_boundary_written": true,
+        "state_a_resolved_equals_state_b_resolved_no": true,
+        "state_a_selector_equals_state_b_selector": true,
+        "state_a_selector_equals_unprimed_selector": true,
+        "state_b_exact_reacquisition": true,
+        "state_b_order": true,
+        "state_b_output_form_exact_bytes": true,
+        "state_b_position_0_recontacts_a2": true,
+        "state_b_primed": true,
+        "state_b_recontact_output_boundary_written": true,
+        "state_establishment_uses_standard_invoke": true,
+        "state_relative_recontact_uses_standard_invoke": true,
+        "unprimed_returned_any_success_membrane_no": true,
+        "unprimed_returned_exact_bytes_membrane_no": true,
+        "unprimed_selection_succeeded_no": true,
+        "unprimed_state_has_required_structure_no": true,
+        "unprimed_success_output_boundary_written_no": true
+      },
+      "projection": {
+        "checks": {
+          "compact_contains_artifact_1_bytes_no": true,
+          "compact_contains_artifact_2_bytes_no": true,
+          "compact_contains_artifact_id_no": true,
+          "compact_contains_filename_no": true,
+          "compact_contains_hash_as_identity_no": true,
+          "compact_contains_path_no": true,
+          "compact_contains_semantic_description_no": true,
+          "exact_same_selector_object_used": true,
+          "files_a_and_b_native_state_shared_no": true,
+          "files_a_and_unprimed_native_state_shared_no": true,
+          "files_b_and_unprimed_native_state_shared_no": true,
+          "files_native_state_exposed_in_membrane_no": true,
+          "global_artifact_registry_used_no": true,
+          "membrane_grammar_changed_no": true,
+          "missing_state_fabricated_no": true,
+          "new_value_primitive_added_no": true,
+          "perturbation_alone_determines_artifact_no": true,
+          "runtime_inspects_files_state_no": true,
+          "runtime_invocation_law_changed_no": true,
+          "same_perturbation_different_state_yields_relative_result": true,
+          "selector_position_zero": true,
+          "selector_resolution_uses_receiver_state_directly": true,
+          "selector_value_byte_count_one": true,
+          "selector_value_hex_00": true,
+          "shared_native_state_introduced_no": true,
+          "standalone_selector_has_unique_artifact_result_no": true,
+          "state_a_exact_reacquisition": true,
+          "state_a_order": true,
+          "state_a_output_form_exact_bytes": true,
+          "state_a_position_0_recontacts_a1": true,
+          "state_a_primed": true,
+          "state_a_recontact_output_boundary_written": true,
+          "state_a_resolved_equals_state_b_resolved_no": true,
+          "state_a_selector_equals_state_b_selector": true,
+          "state_a_selector_equals_unprimed_selector": true,
+          "state_b_exact_reacquisition": true,
+          "state_b_order": true,
+          "state_b_output_form_exact_bytes": true,
+          "state_b_position_0_recontacts_a2": true,
+          "state_b_primed": true,
+          "state_b_recontact_output_boundary_written": true,
+          "state_establishment_uses_standard_invoke": true,
+          "state_relative_recontact_uses_standard_invoke": true,
+          "unprimed_returned_any_success_membrane_no": true,
+          "unprimed_returned_exact_bytes_membrane_no": true,
+          "unprimed_selection_succeeded_no": true,
+          "unprimed_state_has_required_structure_no": true,
+          "unprimed_success_output_boundary_written_no": true
+        },
+        "fixture_sha256": {
+          "A1": "179d2d0e034066c1f45fa5a2281f095929790a21b0b92c1333ff7888cf1f3f6c",
+          "A2": "eed9bd02a18dd82b594277e7335a6927018a633f91160681baefa711312cbed8"
+        },
+        "label": "A",
+        "selector": {
+          "form": {
+            "canonical_name": "SOVEREIGN_STATE_RELATIVE_POSITION_U8_V1",
+            "interpretation_law": "VALUE is BYTES containing exactly one unsigned one-byte zero-based structural position selecting one member from the receiving module's currently retained ordered-artifact state; the VALUE carries no artifact content or artifact identity."
+          },
+          "value": {
+            "hex": "00",
+            "kind": "BYTES"
+          }
+        },
+        "source_inspection": {
+          "core_imports_state_relative_files": false,
+          "global_registry_assignment_present": false,
+          "implementation_imports_core_runtime": false,
+          "new_value_class_defined": false,
+          "selector_indexes_receiver_state_directly": true,
+          "universal_imports_state_relative_files": false
+        },
+        "state_a_boundaries": {
+          "ordered_state_admissions": [
+            {
+              "membrane_sha256": "8c604d2c6984b6540440365b2f02c3925a0e8f28d00382c777fdcee300297685",
+              "ordered_native_artifacts": [
+                {
+                  "byte_count": 47,
+                  "position": 0,
+                  "sha256": "179d2d0e034066c1f45fa5a2281f095929790a21b0b92c1333ff7888cf1f3f6c"
+                },
+                {
+                  "byte_count": 74,
+                  "position": 1,
+                  "sha256": "eed9bd02a18dd82b594277e7335a6927018a633f91160681baefa711312cbed8"
+                }
+              ]
+            }
+          ],
+          "recontact_outputs": [
+            {
+              "membrane": {
+                "form": {
+                  "canonical_name": "SOVEREIGN_EXACT_BYTES_V1",
+                  "interpretation_law": "VALUE is BYTES containing the exact ordered byte sequence supplied; the membrane assigns no content type, encoding, file type, modality, semantic interpretation, or native object structure to those bytes."
+                },
+                "value": {
+                  "hex": "466972737420626f756e64656420736f757263652e0d0a53657175656e636520706f736974696f6e206f6e652e0d0a",
+                  "kind": "BYTES"
+                }
+              },
+              "native_artifact": {
+                "byte_count": 47,
+                "sha256": "179d2d0e034066c1f45fa5a2281f095929790a21b0b92c1333ff7888cf1f3f6c"
+              },
+              "native_bytes_equal_membrane_bytes": true
+            }
+          ],
+          "selector_admissions": [
+            {
+              "membrane": {
+                "form": {
+                  "canonical_name": "SOVEREIGN_STATE_RELATIVE_POSITION_U8_V1",
+                  "interpretation_law": "VALUE is BYTES containing exactly one unsigned one-byte zero-based structural position selecting one member from the receiving module's currently retained ordered-artifact state; the VALUE carries no artifact content or artifact identity."
+                },
+                "value": {
+                  "hex": "00",
+                  "kind": "BYTES"
+                }
+              },
+              "ordered_state_present": true,
+              "resolved_native_position": 0,
+              "selector_position": 0
+            }
+          ]
+        },
+        "state_a_order": [
+          "179d2d0e034066c1f45fa5a2281f095929790a21b0b92c1333ff7888cf1f3f6c",
+          "eed9bd02a18dd82b594277e7335a6927018a633f91160681baefa711312cbed8"
+        ],
+        "state_a_output": {
+          "form": {
+            "canonical_name": "SOVEREIGN_EXACT_BYTES_V1",
+            "interpretation_law": "VALUE is BYTES containing the exact ordered byte sequence supplied; the membrane assigns no content type, encoding, file type, modality, semantic interpretation, or native object structure to those bytes."
+          },
+          "value": {
+            "hex": "466972737420626f756e64656420736f757263652e0d0a53657175656e636520706f736974696f6e206f6e652e0d0a",
+            "kind": "BYTES"
+          }
+        },
+        "state_b_boundaries": {
+          "ordered_state_admissions": [
+            {
+              "membrane_sha256": "37ea9dff72a2d3569fa36926bb125f2bb7b15f4cda49db3c7663db651344d924",
+              "ordered_native_artifacts": [
+                {
+                  "byte_count": 74,
+                  "position": 0,
+                  "sha256": "eed9bd02a18dd82b594277e7335a6927018a633f91160681baefa711312cbed8"
+                },
+                {
+                  "byte_count": 47,
+                  "position": 1,
+                  "sha256": "179d2d0e034066c1f45fa5a2281f095929790a21b0b92c1333ff7888cf1f3f6c"
+                }
+              ]
+            }
+          ],
+          "recontact_outputs": [
+            {
+              "membrane": {
+                "form": {
+                  "canonical_name": "SOVEREIGN_EXACT_BYTES_V1",
+                  "interpretation_law": "VALUE is BYTES containing the exact ordered byte sequence supplied; the membrane assigns no content type, encoding, file type, modality, semantic interpretation, or native object structure to those bytes."
+                },
+                "value": {
+                  "hex": "5365636f6e6420696e646570656e64656e7420736f757263652e0d0a53657175656e636520706f736974696f6e2074776f206469666665727320696e7472696e736963616c6c792e0d0a",
+                  "kind": "BYTES"
+                }
+              },
+              "native_artifact": {
+                "byte_count": 74,
+                "sha256": "eed9bd02a18dd82b594277e7335a6927018a633f91160681baefa711312cbed8"
+              },
+              "native_bytes_equal_membrane_bytes": true
+            }
+          ],
+          "selector_admissions": [
+            {
+              "membrane": {
+                "form": {
+                  "canonical_name": "SOVEREIGN_STATE_RELATIVE_POSITION_U8_V1",
+                  "interpretation_law": "VALUE is BYTES containing exactly one unsigned one-byte zero-based structural position selecting one member from the receiving module's currently retained ordered-artifact state; the VALUE carries no artifact content or artifact identity."
+                },
+                "value": {
+                  "hex": "00",
+                  "kind": "BYTES"
+                }
+              },
+              "ordered_state_present": true,
+              "resolved_native_position": 0,
+              "selector_position": 0
+            }
+          ]
+        },
+        "state_b_order": [
+          "eed9bd02a18dd82b594277e7335a6927018a633f91160681baefa711312cbed8",
+          "179d2d0e034066c1f45fa5a2281f095929790a21b0b92c1333ff7888cf1f3f6c"
+        ],
+        "state_b_output": {
+          "form": {
+            "canonical_name": "SOVEREIGN_EXACT_BYTES_V1",
+            "interpretation_law": "VALUE is BYTES containing the exact ordered byte sequence supplied; the membrane assigns no content type, encoding, file type, modality, semantic interpretation, or native object structure to those bytes."
+          },
+          "value": {
+            "hex": "5365636f6e6420696e646570656e64656e7420736f757263652e0d0a53657175656e636520706f736974696f6e2074776f206469666665727320696e7472696e736963616c6c792e0d0a",
+            "kind": "BYTES"
+          }
+        },
+        "unprimed": {
+          "failure_type": "LookupError",
+          "successful_membrane": false
+        },
+        "unprimed_boundaries": {
+          "ordered_state_admissions": [],
+          "recontact_outputs": [],
+          "selector_admissions": [
+            {
+              "membrane": {
+                "form": {
+                  "canonical_name": "SOVEREIGN_STATE_RELATIVE_POSITION_U8_V1",
+                  "interpretation_law": "VALUE is BYTES containing exactly one unsigned one-byte zero-based structural position selecting one member from the receiving module's currently retained ordered-artifact state; the VALUE carries no artifact content or artifact identity."
+                },
+                "value": {
+                  "hex": "00",
+                  "kind": "BYTES"
+                }
+              },
+              "ordered_state_present": false,
+              "resolved_native_position": null,
+              "selector_position": 0
+            }
+          ]
+        }
+      }
+    },
+    {
+      "checks": {
+        "compact_contains_artifact_1_bytes_no": true,
+        "compact_contains_artifact_2_bytes_no": true,
+        "compact_contains_artifact_id_no": true,
+        "compact_contains_filename_no": true,
+        "compact_contains_hash_as_identity_no": true,
+        "compact_contains_path_no": true,
+        "compact_contains_semantic_description_no": true,
+        "exact_same_selector_object_used": true,
+        "files_a_and_b_native_state_shared_no": true,
+        "files_a_and_unprimed_native_state_shared_no": true,
+        "files_b_and_unprimed_native_state_shared_no": true,
+        "files_native_state_exposed_in_membrane_no": true,
+        "global_artifact_registry_used_no": true,
+        "membrane_grammar_changed_no": true,
+        "missing_state_fabricated_no": true,
+        "new_value_primitive_added_no": true,
+        "perturbation_alone_determines_artifact_no": true,
+        "runtime_inspects_files_state_no": true,
+        "runtime_invocation_law_changed_no": true,
+        "same_perturbation_different_state_yields_relative_result": true,
+        "selector_position_zero": true,
+        "selector_resolution_uses_receiver_state_directly": true,
+        "selector_value_byte_count_one": true,
+        "selector_value_hex_00": true,
+        "shared_native_state_introduced_no": true,
+        "standalone_selector_has_unique_artifact_result_no": true,
+        "state_a_exact_reacquisition": true,
+        "state_a_order": true,
+        "state_a_output_form_exact_bytes": true,
+        "state_a_position_0_recontacts_a1": true,
+        "state_a_primed": true,
+        "state_a_recontact_output_boundary_written": true,
+        "state_a_resolved_equals_state_b_resolved_no": true,
+        "state_a_selector_equals_state_b_selector": true,
+        "state_a_selector_equals_unprimed_selector": true,
+        "state_b_exact_reacquisition": true,
+        "state_b_order": true,
+        "state_b_output_form_exact_bytes": true,
+        "state_b_position_0_recontacts_a2": true,
+        "state_b_primed": true,
+        "state_b_recontact_output_boundary_written": true,
+        "state_establishment_uses_standard_invoke": true,
+        "state_relative_recontact_uses_standard_invoke": true,
+        "unprimed_returned_any_success_membrane_no": true,
+        "unprimed_returned_exact_bytes_membrane_no": true,
+        "unprimed_selection_succeeded_no": true,
+        "unprimed_state_has_required_structure_no": true,
+        "unprimed_success_output_boundary_written_no": true
+      },
+      "projection": {
+        "checks": {
+          "compact_contains_artifact_1_bytes_no": true,
+          "compact_contains_artifact_2_bytes_no": true,
+          "compact_contains_artifact_id_no": true,
+          "compact_contains_filename_no": true,
+          "compact_contains_hash_as_identity_no": true,
+          "compact_contains_path_no": true,
+          "compact_contains_semantic_description_no": true,
+          "exact_same_selector_object_used": true,
+          "files_a_and_b_native_state_shared_no": true,
+          "files_a_and_unprimed_native_state_shared_no": true,
+          "files_b_and_unprimed_native_state_shared_no": true,
+          "files_native_state_exposed_in_membrane_no": true,
+          "global_artifact_registry_used_no": true,
+          "membrane_grammar_changed_no": true,
+          "missing_state_fabricated_no": true,
+          "new_value_primitive_added_no": true,
+          "perturbation_alone_determines_artifact_no": true,
+          "runtime_inspects_files_state_no": true,
+          "runtime_invocation_law_changed_no": true,
+          "same_perturbation_different_state_yields_relative_result": true,
+          "selector_position_zero": true,
+          "selector_resolution_uses_receiver_state_directly": true,
+          "selector_value_byte_count_one": true,
+          "selector_value_hex_00": true,
+          "shared_native_state_introduced_no": true,
+          "standalone_selector_has_unique_artifact_result_no": true,
+          "state_a_exact_reacquisition": true,
+          "state_a_order": true,
+          "state_a_output_form_exact_bytes": true,
+          "state_a_position_0_recontacts_a1": true,
+          "state_a_primed": true,
+          "state_a_recontact_output_boundary_written": true,
+          "state_a_resolved_equals_state_b_resolved_no": true,
+          "state_a_selector_equals_state_b_selector": true,
+          "state_a_selector_equals_unprimed_selector": true,
+          "state_b_exact_reacquisition": true,
+          "state_b_order": true,
+          "state_b_output_form_exact_bytes": true,
+          "state_b_position_0_recontacts_a2": true,
+          "state_b_primed": true,
+          "state_b_recontact_output_boundary_written": true,
+          "state_establishment_uses_standard_invoke": true,
+          "state_relative_recontact_uses_standard_invoke": true,
+          "unprimed_returned_any_success_membrane_no": true,
+          "unprimed_returned_exact_bytes_membrane_no": true,
+          "unprimed_selection_succeeded_no": true,
+          "unprimed_state_has_required_structure_no": true,
+          "unprimed_success_output_boundary_written_no": true
+        },
+        "fixture_sha256": {
+          "A1": "179d2d0e034066c1f45fa5a2281f095929790a21b0b92c1333ff7888cf1f3f6c",
+          "A2": "eed9bd02a18dd82b594277e7335a6927018a633f91160681baefa711312cbed8"
+        },
+        "label": "B",
+        "selector": {
+          "form": {
+            "canonical_name": "SOVEREIGN_STATE_RELATIVE_POSITION_U8_V1",
+            "interpretation_law": "VALUE is BYTES containing exactly one unsigned one-byte zero-based structural position selecting one member from the receiving module's currently retained ordered-artifact state; the VALUE carries no artifact content or artifact identity."
+          },
+          "value": {
+            "hex": "00",
+            "kind": "BYTES"
+          }
+        },
+        "source_inspection": {
+          "core_imports_state_relative_files": false,
+          "global_registry_assignment_present": false,
+          "implementation_imports_core_runtime": false,
+          "new_value_class_defined": false,
+          "selector_indexes_receiver_state_directly": true,
+          "universal_imports_state_relative_files": false
+        },
+        "state_a_boundaries": {
+          "ordered_state_admissions": [
+            {
+              "membrane_sha256": "8c604d2c6984b6540440365b2f02c3925a0e8f28d00382c777fdcee300297685",
+              "ordered_native_artifacts": [
+                {
+                  "byte_count": 47,
+                  "position": 0,
+                  "sha256": "179d2d0e034066c1f45fa5a2281f095929790a21b0b92c1333ff7888cf1f3f6c"
+                },
+                {
+                  "byte_count": 74,
+                  "position": 1,
+                  "sha256": "eed9bd02a18dd82b594277e7335a6927018a633f91160681baefa711312cbed8"
+                }
+              ]
+            }
+          ],
+          "recontact_outputs": [
+            {
+              "membrane": {
+                "form": {
+                  "canonical_name": "SOVEREIGN_EXACT_BYTES_V1",
+                  "interpretation_law": "VALUE is BYTES containing the exact ordered byte sequence supplied; the membrane assigns no content type, encoding, file type, modality, semantic interpretation, or native object structure to those bytes."
+                },
+                "value": {
+                  "hex": "466972737420626f756e64656420736f757263652e0d0a53657175656e636520706f736974696f6e206f6e652e0d0a",
+                  "kind": "BYTES"
+                }
+              },
+              "native_artifact": {
+                "byte_count": 47,
+                "sha256": "179d2d0e034066c1f45fa5a2281f095929790a21b0b92c1333ff7888cf1f3f6c"
+              },
+              "native_bytes_equal_membrane_bytes": true
+            }
+          ],
+          "selector_admissions": [
+            {
+              "membrane": {
+                "form": {
+                  "canonical_name": "SOVEREIGN_STATE_RELATIVE_POSITION_U8_V1",
+                  "interpretation_law": "VALUE is BYTES containing exactly one unsigned one-byte zero-based structural position selecting one member from the receiving module's currently retained ordered-artifact state; the VALUE carries no artifact content or artifact identity."
+                },
+                "value": {
+                  "hex": "00",
+                  "kind": "BYTES"
+                }
+              },
+              "ordered_state_present": true,
+              "resolved_native_position": 0,
+              "selector_position": 0
+            }
+          ]
+        },
+        "state_a_order": [
+          "179d2d0e034066c1f45fa5a2281f095929790a21b0b92c1333ff7888cf1f3f6c",
+          "eed9bd02a18dd82b594277e7335a6927018a633f91160681baefa711312cbed8"
+        ],
+        "state_a_output": {
+          "form": {
+            "canonical_name": "SOVEREIGN_EXACT_BYTES_V1",
+            "interpretation_law": "VALUE is BYTES containing the exact ordered byte sequence supplied; the membrane assigns no content type, encoding, file type, modality, semantic interpretation, or native object structure to those bytes."
+          },
+          "value": {
+            "hex": "466972737420626f756e64656420736f757263652e0d0a53657175656e636520706f736974696f6e206f6e652e0d0a",
+            "kind": "BYTES"
+          }
+        },
+        "state_b_boundaries": {
+          "ordered_state_admissions": [
+            {
+              "membrane_sha256": "37ea9dff72a2d3569fa36926bb125f2bb7b15f4cda49db3c7663db651344d924",
+              "ordered_native_artifacts": [
+                {
+                  "byte_count": 74,
+                  "position": 0,
+                  "sha256": "eed9bd02a18dd82b594277e7335a6927018a633f91160681baefa711312cbed8"
+                },
+                {
+                  "byte_count": 47,
+                  "position": 1,
+                  "sha256": "179d2d0e034066c1f45fa5a2281f095929790a21b0b92c1333ff7888cf1f3f6c"
+                }
+              ]
+            }
+          ],
+          "recontact_outputs": [
+            {
+              "membrane": {
+                "form": {
+                  "canonical_name": "SOVEREIGN_EXACT_BYTES_V1",
+                  "interpretation_law": "VALUE is BYTES containing the exact ordered byte sequence supplied; the membrane assigns no content type, encoding, file type, modality, semantic interpretation, or native object structure to those bytes."
+                },
+                "value": {
+                  "hex": "5365636f6e6420696e646570656e64656e7420736f757263652e0d0a53657175656e636520706f736974696f6e2074776f206469666665727320696e7472696e736963616c6c792e0d0a",
+                  "kind": "BYTES"
+                }
+              },
+              "native_artifact": {
+                "byte_count": 74,
+                "sha256": "eed9bd02a18dd82b594277e7335a6927018a633f91160681baefa711312cbed8"
+              },
+              "native_bytes_equal_membrane_bytes": true
+            }
+          ],
+          "selector_admissions": [
+            {
+              "membrane": {
+                "form": {
+                  "canonical_name": "SOVEREIGN_STATE_RELATIVE_POSITION_U8_V1",
+                  "interpretation_law": "VALUE is BYTES containing exactly one unsigned one-byte zero-based structural position selecting one member from the receiving module's currently retained ordered-artifact state; the VALUE carries no artifact content or artifact identity."
+                },
+                "value": {
+                  "hex": "00",
+                  "kind": "BYTES"
+                }
+              },
+              "ordered_state_present": true,
+              "resolved_native_position": 0,
+              "selector_position": 0
+            }
+          ]
+        },
+        "state_b_order": [
+          "eed9bd02a18dd82b594277e7335a6927018a633f91160681baefa711312cbed8",
+          "179d2d0e034066c1f45fa5a2281f095929790a21b0b92c1333ff7888cf1f3f6c"
+        ],
+        "state_b_output": {
+          "form": {
+            "canonical_name": "SOVEREIGN_EXACT_BYTES_V1",
+            "interpretation_law": "VALUE is BYTES containing the exact ordered byte sequence supplied; the membrane assigns no content type, encoding, file type, modality, semantic interpretation, or native object structure to those bytes."
+          },
+          "value": {
+            "hex": "5365636f6e6420696e646570656e64656e7420736f757263652e0d0a53657175656e636520706f736974696f6e2074776f206469666665727320696e7472696e736963616c6c792e0d0a",
+            "kind": "BYTES"
+          }
+        },
+        "unprimed": {
+          "failure_type": "LookupError",
+          "successful_membrane": false
+        },
+        "unprimed_boundaries": {
+          "ordered_state_admissions": [],
+          "recontact_outputs": [],
+          "selector_admissions": [
+            {
+              "membrane": {
+                "form": {
+                  "canonical_name": "SOVEREIGN_STATE_RELATIVE_POSITION_U8_V1",
+                  "interpretation_law": "VALUE is BYTES containing exactly one unsigned one-byte zero-based structural position selecting one member from the receiving module's currently retained ordered-artifact state; the VALUE carries no artifact content or artifact identity."
+                },
+                "value": {
+                  "hex": "00",
+                  "kind": "BYTES"
+                }
+              },
+              "ordered_state_present": false,
+              "resolved_native_position": null,
+              "selector_position": 0
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "schema": "STATE_RELATIVE_FILES_RECONTACT_EVIDENCE_V1"
+}
