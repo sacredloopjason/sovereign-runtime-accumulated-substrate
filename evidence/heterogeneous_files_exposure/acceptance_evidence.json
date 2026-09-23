@@ -1,0 +1,600 @@
+{
+  "authoritative_parent_commit": "a0939d388c1f8493ec5d5e75d4a95ac831547510",
+  "deterministic_replication": true,
+  "forms": {
+    "child_1": "SOVEREIGN_SHARED_TEXT_UTF8_V1",
+    "child_2": "SOVEREIGN_EXACT_BYTES_V1",
+    "output": "SOVEREIGN_ORDERED_TEXT_AND_EXACT_BYTES_V1",
+    "sources": "SOVEREIGN_ORDERED_TEXT_BINARY_SOURCES_V1"
+  },
+  "outcome": "HETEROGENEOUS_FILES_EXPOSURE_OPERATIONAL",
+  "replications": [
+    {
+      "checks": {
+        "automatic_binary_to_text_translator_inserted_no": true,
+        "binary_artifact_strict_utf8_valid_no": true,
+        "binary_child_admitted_to_core_no": true,
+        "binary_child_directly_compatible_with_core_no": true,
+        "binary_content_dropped_no": true,
+        "binary_exact_bytes_preserved": true,
+        "binary_exact_reacquisition": true,
+        "binary_replacement_characters_used_no": true,
+        "binary_silently_coerced_to_text_no": true,
+        "binary_strict_utf8_decoding_succeeded_no": true,
+        "binary_text_description_generated_no": true,
+        "child_forms_equal_no": true,
+        "core_modified_for_mixed_formats_no": true,
+        "core_seal_preserved": true,
+        "core_writer_has_binary_child_ingress_no": true,
+        "core_writer_has_text_child_ingress": true,
+        "files_last_output_identity": true,
+        "files_output_child_count_two": true,
+        "files_output_is_ordered_sequence": true,
+        "files_tokenizes_content_no": true,
+        "files_writer_preserves_binary_exact_bytes_boundary": true,
+        "files_writer_records_binary_text_translation_success_no": true,
+        "files_writer_records_text_translation_success": true,
+        "membrane_grammar_changed_no": true,
+        "native_custody_distinct": true,
+        "new_value_primitive_added_no": true,
+        "reject_child_count_not_two": true,
+        "reject_non_ordered_value": true,
+        "reject_wrong_child_form": true,
+        "runtime_inspects_core_native_state_no": true,
+        "runtime_invocation_law_changed_no": true,
+        "semantic_compatibility_inference_used_no": true,
+        "source_boundaries_preserved": true,
+        "source_child_count_two": true,
+        "source_order_preserved": true,
+        "text_artifact_strict_utf8_valid": true,
+        "text_child_admitted_to_core": true,
+        "text_child_directly_compatible_with_core": true,
+        "text_exact_reacquisition": true,
+        "text_shared_bytes_equal_original": true,
+        "text_shared_form_exact": true,
+        "text_strict_utf8_decoding_succeeded": true,
+        "universal_file_ontology_added_no": true,
+        "universal_modality_ontology_added_no": true
+      },
+      "projection": {
+        "checks": {
+          "automatic_binary_to_text_translator_inserted_no": true,
+          "binary_artifact_strict_utf8_valid_no": true,
+          "binary_child_admitted_to_core_no": true,
+          "binary_child_directly_compatible_with_core_no": true,
+          "binary_content_dropped_no": true,
+          "binary_exact_bytes_preserved": true,
+          "binary_exact_reacquisition": true,
+          "binary_replacement_characters_used_no": true,
+          "binary_silently_coerced_to_text_no": true,
+          "binary_strict_utf8_decoding_succeeded_no": true,
+          "binary_text_description_generated_no": true,
+          "child_forms_equal_no": true,
+          "core_modified_for_mixed_formats_no": true,
+          "core_seal_preserved": true,
+          "core_writer_has_binary_child_ingress_no": true,
+          "core_writer_has_text_child_ingress": true,
+          "files_last_output_identity": true,
+          "files_output_child_count_two": true,
+          "files_output_is_ordered_sequence": true,
+          "files_tokenizes_content_no": true,
+          "files_writer_preserves_binary_exact_bytes_boundary": true,
+          "files_writer_records_binary_text_translation_success_no": true,
+          "files_writer_records_text_translation_success": true,
+          "membrane_grammar_changed_no": true,
+          "native_custody_distinct": true,
+          "new_value_primitive_added_no": true,
+          "reject_child_count_not_two": true,
+          "reject_non_ordered_value": true,
+          "reject_wrong_child_form": true,
+          "runtime_inspects_core_native_state_no": true,
+          "runtime_invocation_law_changed_no": true,
+          "semantic_compatibility_inference_used_no": true,
+          "source_boundaries_preserved": true,
+          "source_child_count_two": true,
+          "source_order_preserved": true,
+          "text_artifact_strict_utf8_valid": true,
+          "text_child_admitted_to_core": true,
+          "text_child_directly_compatible_with_core": true,
+          "text_exact_reacquisition": true,
+          "text_shared_bytes_equal_original": true,
+          "text_shared_form_exact": true,
+          "text_strict_utf8_decoding_succeeded": true,
+          "universal_file_ontology_added_no": true,
+          "universal_modality_ontology_added_no": true
+        },
+        "core_boundary_after_text_and_binary_attempt": {
+          "egress": [
+            {
+              "membrane_sha256": "3b4f809ec7bf1fc043b15f52c09f669444fc045cb8f9ece59296a9c39318597d",
+              "native_output_present": true
+            }
+          ],
+          "ingress": [
+            {
+              "membrane_sha256": "042373f8c661748d2e4a9cfb7a645cdd51406e2c93cfa4b8645b87b6416020cb",
+              "native_input_present": true
+            }
+          ]
+        },
+        "core_compatibility": {
+          "binary_exact_form_equal": false,
+          "text_exact_form_equal": true
+        },
+        "core_text_output": {
+          "form": {
+            "canonical_name": "SOVEREIGN_SHARED_TEXT_UTF8_V1",
+            "interpretation_law": "VALUE is BYTES containing exactly one strict UTF-8 encoding of text; no normalization, coercion, guessing, or semantic comparison is permitted"
+          },
+          "value": {
+            "hex": "0a5768617420697320746865206d61696e20646966666572656e6365206265747765656e207468652074776f2073656e74656e6365733f3c7c696d5f656e647c3e",
+            "kind": "BYTES"
+          }
+        },
+        "files_boundaries": {
+          "egress": [
+            {
+              "binary_native_artifact_present": true,
+              "binary_native_byte_count": 5,
+              "binary_native_equals_emitted_child_bytes": true,
+              "binary_native_sha256": "4afce62ea29e0c4c61b97638a60e3a9817b245deeb4a55e625ecf5d3affbe703",
+              "binary_text_translation_succeeded": false,
+              "membrane_sha256": "a7379fd7816f2e144e5b6dec42377d0024208dbf7f99890b145803953140318a",
+              "native_text_present": true,
+              "native_text_utf8_sha256": "c55b90bb8f6a9a8a5abf3ca49c9c163371b18ce8808b1772a65100eec4a73100",
+              "text_native_equals_emitted_child_bytes": true
+            }
+          ],
+          "ingress": [
+            {
+              "child_count": 2,
+              "membrane_sha256": "6d6ae203e0ba75124788bb2fc6ab64b21625269db96267d1ac9f7e01da90833d",
+              "ordered_native_artifacts": [
+                {
+                  "byte_count": 22,
+                  "position": 1,
+                  "sha256": "c55b90bb8f6a9a8a5abf3ca49c9c163371b18ce8808b1772a65100eec4a73100"
+                },
+                {
+                  "byte_count": 5,
+                  "position": 2,
+                  "sha256": "4afce62ea29e0c4c61b97638a60e3a9817b245deeb4a55e625ecf5d3affbe703"
+                }
+              ]
+            }
+          ]
+        },
+        "fixtures": {
+          "binary": {
+            "byte_count": 5,
+            "hex": "00fffefa41",
+            "sha256": "4afce62ea29e0c4c61b97638a60e3a9817b245deeb4a55e625ecf5d3affbe703"
+          },
+          "text": {
+            "byte_count": 22,
+            "hex": "536f7665726569676e2074657874206368696c642e0a",
+            "sha256": "c55b90bb8f6a9a8a5abf3ca49c9c163371b18ce8808b1772a65100eec4a73100"
+          }
+        },
+        "heterogeneous_output": {
+          "form": {
+            "canonical_name": "SOVEREIGN_ORDERED_TEXT_AND_EXACT_BYTES_V1",
+            "interpretation_law": "VALUE is ORDERED_SEQUENCE of exactly two independently complete membrane representations; child 1 conforms exactly to SOVEREIGN_SHARED_TEXT_UTF8_V1; child 2 conforms exactly to SOVEREIGN_EXACT_BYTES_V1; child boundaries and order are significant."
+          },
+          "value": {
+            "items": [
+              {
+                "form": {
+                  "canonical_name": "SOVEREIGN_SHARED_TEXT_UTF8_V1",
+                  "interpretation_law": "VALUE is BYTES containing exactly one strict UTF-8 encoding of text; no normalization, coercion, guessing, or semantic comparison is permitted"
+                },
+                "value": {
+                  "hex": "536f7665726569676e2074657874206368696c642e0a",
+                  "kind": "BYTES"
+                }
+              },
+              {
+                "form": {
+                  "canonical_name": "SOVEREIGN_EXACT_BYTES_V1",
+                  "interpretation_law": "VALUE is BYTES containing the exact ordered byte sequence supplied; the membrane assigns no content type, encoding, file type, modality, semantic interpretation, or native object structure to those bytes."
+                },
+                "value": {
+                  "hex": "00fffefa41",
+                  "kind": "BYTES"
+                }
+              }
+            ],
+            "kind": "ORDERED_SEQUENCE"
+          }
+        },
+        "independent_reacquisition": {
+          "binary_hex": "00fffefa41",
+          "text_hex": "536f7665726569676e2074657874206368696c642e0a"
+        },
+        "label": "A",
+        "native_custody": {
+          "child_count": 2,
+          "children": [
+            {
+              "byte_count": 22,
+              "position": 1,
+              "sha256": "c55b90bb8f6a9a8a5abf3ca49c9c163371b18ce8808b1772a65100eec4a73100"
+            },
+            {
+              "byte_count": 5,
+              "position": 2,
+              "sha256": "4afce62ea29e0c4c61b97638a60e3a9817b245deeb4a55e625ecf5d3affbe703"
+            }
+          ],
+          "custody_is_tuple": true,
+          "native_byte_objects_distinct": true,
+          "native_custody_objects_distinct": true,
+          "ordered_positions": [
+            1,
+            2
+          ]
+        },
+        "source_composite": {
+          "form": {
+            "canonical_name": "SOVEREIGN_ORDERED_TEXT_BINARY_SOURCES_V1",
+            "interpretation_law": "VALUE is ORDERED_SEQUENCE of exactly two independently complete SOVEREIGN_EXACT_BYTES_V1 membrane representations; child 1 is the source intended for strict UTF-8 exposure, child 2 is the source subjected to the same strict UTF-8 exposure attempt; child boundaries and order are significant."
+          },
+          "value": {
+            "items": [
+              {
+                "form": {
+                  "canonical_name": "SOVEREIGN_EXACT_BYTES_V1",
+                  "interpretation_law": "VALUE is BYTES containing the exact ordered byte sequence supplied; the membrane assigns no content type, encoding, file type, modality, semantic interpretation, or native object structure to those bytes."
+                },
+                "value": {
+                  "hex": "536f7665726569676e2074657874206368696c642e0a",
+                  "kind": "BYTES"
+                }
+              },
+              {
+                "form": {
+                  "canonical_name": "SOVEREIGN_EXACT_BYTES_V1",
+                  "interpretation_law": "VALUE is BYTES containing the exact ordered byte sequence supplied; the membrane assigns no content type, encoding, file type, modality, semantic interpretation, or native object structure to those bytes."
+                },
+                "value": {
+                  "hex": "00fffefa41",
+                  "kind": "BYTES"
+                }
+              }
+            ],
+            "kind": "ORDERED_SEQUENCE"
+          }
+        },
+        "source_inspection": {
+          "core_imports_heterogeneous_files": false,
+          "defines_new_value_class": false,
+          "implementation_classes": [
+            "HeterogeneousFilesModule",
+            "_EgressBoundaryPair",
+            "_IngressBoundaryPair",
+            "_NativeArtifact",
+            "_NativeText"
+          ],
+          "implementation_form_assignments": [
+            "ORDERED_TEXT_AND_EXACT_BYTES_FORM",
+            "ORDERED_TEXT_BINARY_SOURCES_FORM"
+          ],
+          "implementation_imports": [
+            "dataclasses",
+            "files_module",
+            "hashlib",
+            "json",
+            "universal_membrane"
+          ],
+          "imports_core_or_model_dependencies": false,
+          "imports_generalizing_codec_dependencies": false,
+          "runtime_imports_transformer_core": false,
+          "sealed_source_sha256": {
+            "core_runtime.py": "73c094b29b138c45f416c6412d65d0d18dcff99bfb960a5e4de9e4ad78e69991",
+            "files_module.py": "e7a6f627a0b7c80feea32c44244e5960a98ac26c019921b159f25fb12ff026a7",
+            "ordered_files_module.py": "5d3d1d38d51d9c8d948149c33e7cee670a1d5f0e1813b207e24ad28b87c195f2",
+            "state_relative_files_module.py": "b3b6de0e30ede0c942e4ce7a55f70f9df54170a25e1dd50765270f7ebcd7e777",
+            "transformer_core.py": "716604daf8460327f1e5207fdc40b5f9c3180bee9bba362ca698cc9afcd29df7",
+            "universal_membrane.py": "6552a5b4454e8c6ff2fddffe5fb977d74fe0047f5e916ffa9ca3a4395e3ff487"
+          },
+          "universal_mentions_heterogeneous_forms": false,
+          "uses_only_strict_codec_errors": true
+        }
+      }
+    },
+    {
+      "checks": {
+        "automatic_binary_to_text_translator_inserted_no": true,
+        "binary_artifact_strict_utf8_valid_no": true,
+        "binary_child_admitted_to_core_no": true,
+        "binary_child_directly_compatible_with_core_no": true,
+        "binary_content_dropped_no": true,
+        "binary_exact_bytes_preserved": true,
+        "binary_exact_reacquisition": true,
+        "binary_replacement_characters_used_no": true,
+        "binary_silently_coerced_to_text_no": true,
+        "binary_strict_utf8_decoding_succeeded_no": true,
+        "binary_text_description_generated_no": true,
+        "child_forms_equal_no": true,
+        "core_modified_for_mixed_formats_no": true,
+        "core_seal_preserved": true,
+        "core_writer_has_binary_child_ingress_no": true,
+        "core_writer_has_text_child_ingress": true,
+        "files_last_output_identity": true,
+        "files_output_child_count_two": true,
+        "files_output_is_ordered_sequence": true,
+        "files_tokenizes_content_no": true,
+        "files_writer_preserves_binary_exact_bytes_boundary": true,
+        "files_writer_records_binary_text_translation_success_no": true,
+        "files_writer_records_text_translation_success": true,
+        "membrane_grammar_changed_no": true,
+        "native_custody_distinct": true,
+        "new_value_primitive_added_no": true,
+        "reject_child_count_not_two": true,
+        "reject_non_ordered_value": true,
+        "reject_wrong_child_form": true,
+        "runtime_inspects_core_native_state_no": true,
+        "runtime_invocation_law_changed_no": true,
+        "semantic_compatibility_inference_used_no": true,
+        "source_boundaries_preserved": true,
+        "source_child_count_two": true,
+        "source_order_preserved": true,
+        "text_artifact_strict_utf8_valid": true,
+        "text_child_admitted_to_core": true,
+        "text_child_directly_compatible_with_core": true,
+        "text_exact_reacquisition": true,
+        "text_shared_bytes_equal_original": true,
+        "text_shared_form_exact": true,
+        "text_strict_utf8_decoding_succeeded": true,
+        "universal_file_ontology_added_no": true,
+        "universal_modality_ontology_added_no": true
+      },
+      "projection": {
+        "checks": {
+          "automatic_binary_to_text_translator_inserted_no": true,
+          "binary_artifact_strict_utf8_valid_no": true,
+          "binary_child_admitted_to_core_no": true,
+          "binary_child_directly_compatible_with_core_no": true,
+          "binary_content_dropped_no": true,
+          "binary_exact_bytes_preserved": true,
+          "binary_exact_reacquisition": true,
+          "binary_replacement_characters_used_no": true,
+          "binary_silently_coerced_to_text_no": true,
+          "binary_strict_utf8_decoding_succeeded_no": true,
+          "binary_text_description_generated_no": true,
+          "child_forms_equal_no": true,
+          "core_modified_for_mixed_formats_no": true,
+          "core_seal_preserved": true,
+          "core_writer_has_binary_child_ingress_no": true,
+          "core_writer_has_text_child_ingress": true,
+          "files_last_output_identity": true,
+          "files_output_child_count_two": true,
+          "files_output_is_ordered_sequence": true,
+          "files_tokenizes_content_no": true,
+          "files_writer_preserves_binary_exact_bytes_boundary": true,
+          "files_writer_records_binary_text_translation_success_no": true,
+          "files_writer_records_text_translation_success": true,
+          "membrane_grammar_changed_no": true,
+          "native_custody_distinct": true,
+          "new_value_primitive_added_no": true,
+          "reject_child_count_not_two": true,
+          "reject_non_ordered_value": true,
+          "reject_wrong_child_form": true,
+          "runtime_inspects_core_native_state_no": true,
+          "runtime_invocation_law_changed_no": true,
+          "semantic_compatibility_inference_used_no": true,
+          "source_boundaries_preserved": true,
+          "source_child_count_two": true,
+          "source_order_preserved": true,
+          "text_artifact_strict_utf8_valid": true,
+          "text_child_admitted_to_core": true,
+          "text_child_directly_compatible_with_core": true,
+          "text_exact_reacquisition": true,
+          "text_shared_bytes_equal_original": true,
+          "text_shared_form_exact": true,
+          "text_strict_utf8_decoding_succeeded": true,
+          "universal_file_ontology_added_no": true,
+          "universal_modality_ontology_added_no": true
+        },
+        "core_boundary_after_text_and_binary_attempt": {
+          "egress": [
+            {
+              "membrane_sha256": "3b4f809ec7bf1fc043b15f52c09f669444fc045cb8f9ece59296a9c39318597d",
+              "native_output_present": true
+            }
+          ],
+          "ingress": [
+            {
+              "membrane_sha256": "042373f8c661748d2e4a9cfb7a645cdd51406e2c93cfa4b8645b87b6416020cb",
+              "native_input_present": true
+            }
+          ]
+        },
+        "core_compatibility": {
+          "binary_exact_form_equal": false,
+          "text_exact_form_equal": true
+        },
+        "core_text_output": {
+          "form": {
+            "canonical_name": "SOVEREIGN_SHARED_TEXT_UTF8_V1",
+            "interpretation_law": "VALUE is BYTES containing exactly one strict UTF-8 encoding of text; no normalization, coercion, guessing, or semantic comparison is permitted"
+          },
+          "value": {
+            "hex": "0a5768617420697320746865206d61696e20646966666572656e6365206265747765656e207468652074776f2073656e74656e6365733f3c7c696d5f656e647c3e",
+            "kind": "BYTES"
+          }
+        },
+        "files_boundaries": {
+          "egress": [
+            {
+              "binary_native_artifact_present": true,
+              "binary_native_byte_count": 5,
+              "binary_native_equals_emitted_child_bytes": true,
+              "binary_native_sha256": "4afce62ea29e0c4c61b97638a60e3a9817b245deeb4a55e625ecf5d3affbe703",
+              "binary_text_translation_succeeded": false,
+              "membrane_sha256": "a7379fd7816f2e144e5b6dec42377d0024208dbf7f99890b145803953140318a",
+              "native_text_present": true,
+              "native_text_utf8_sha256": "c55b90bb8f6a9a8a5abf3ca49c9c163371b18ce8808b1772a65100eec4a73100",
+              "text_native_equals_emitted_child_bytes": true
+            }
+          ],
+          "ingress": [
+            {
+              "child_count": 2,
+              "membrane_sha256": "6d6ae203e0ba75124788bb2fc6ab64b21625269db96267d1ac9f7e01da90833d",
+              "ordered_native_artifacts": [
+                {
+                  "byte_count": 22,
+                  "position": 1,
+                  "sha256": "c55b90bb8f6a9a8a5abf3ca49c9c163371b18ce8808b1772a65100eec4a73100"
+                },
+                {
+                  "byte_count": 5,
+                  "position": 2,
+                  "sha256": "4afce62ea29e0c4c61b97638a60e3a9817b245deeb4a55e625ecf5d3affbe703"
+                }
+              ]
+            }
+          ]
+        },
+        "fixtures": {
+          "binary": {
+            "byte_count": 5,
+            "hex": "00fffefa41",
+            "sha256": "4afce62ea29e0c4c61b97638a60e3a9817b245deeb4a55e625ecf5d3affbe703"
+          },
+          "text": {
+            "byte_count": 22,
+            "hex": "536f7665726569676e2074657874206368696c642e0a",
+            "sha256": "c55b90bb8f6a9a8a5abf3ca49c9c163371b18ce8808b1772a65100eec4a73100"
+          }
+        },
+        "heterogeneous_output": {
+          "form": {
+            "canonical_name": "SOVEREIGN_ORDERED_TEXT_AND_EXACT_BYTES_V1",
+            "interpretation_law": "VALUE is ORDERED_SEQUENCE of exactly two independently complete membrane representations; child 1 conforms exactly to SOVEREIGN_SHARED_TEXT_UTF8_V1; child 2 conforms exactly to SOVEREIGN_EXACT_BYTES_V1; child boundaries and order are significant."
+          },
+          "value": {
+            "items": [
+              {
+                "form": {
+                  "canonical_name": "SOVEREIGN_SHARED_TEXT_UTF8_V1",
+                  "interpretation_law": "VALUE is BYTES containing exactly one strict UTF-8 encoding of text; no normalization, coercion, guessing, or semantic comparison is permitted"
+                },
+                "value": {
+                  "hex": "536f7665726569676e2074657874206368696c642e0a",
+                  "kind": "BYTES"
+                }
+              },
+              {
+                "form": {
+                  "canonical_name": "SOVEREIGN_EXACT_BYTES_V1",
+                  "interpretation_law": "VALUE is BYTES containing the exact ordered byte sequence supplied; the membrane assigns no content type, encoding, file type, modality, semantic interpretation, or native object structure to those bytes."
+                },
+                "value": {
+                  "hex": "00fffefa41",
+                  "kind": "BYTES"
+                }
+              }
+            ],
+            "kind": "ORDERED_SEQUENCE"
+          }
+        },
+        "independent_reacquisition": {
+          "binary_hex": "00fffefa41",
+          "text_hex": "536f7665726569676e2074657874206368696c642e0a"
+        },
+        "label": "B",
+        "native_custody": {
+          "child_count": 2,
+          "children": [
+            {
+              "byte_count": 22,
+              "position": 1,
+              "sha256": "c55b90bb8f6a9a8a5abf3ca49c9c163371b18ce8808b1772a65100eec4a73100"
+            },
+            {
+              "byte_count": 5,
+              "position": 2,
+              "sha256": "4afce62ea29e0c4c61b97638a60e3a9817b245deeb4a55e625ecf5d3affbe703"
+            }
+          ],
+          "custody_is_tuple": true,
+          "native_byte_objects_distinct": true,
+          "native_custody_objects_distinct": true,
+          "ordered_positions": [
+            1,
+            2
+          ]
+        },
+        "source_composite": {
+          "form": {
+            "canonical_name": "SOVEREIGN_ORDERED_TEXT_BINARY_SOURCES_V1",
+            "interpretation_law": "VALUE is ORDERED_SEQUENCE of exactly two independently complete SOVEREIGN_EXACT_BYTES_V1 membrane representations; child 1 is the source intended for strict UTF-8 exposure, child 2 is the source subjected to the same strict UTF-8 exposure attempt; child boundaries and order are significant."
+          },
+          "value": {
+            "items": [
+              {
+                "form": {
+                  "canonical_name": "SOVEREIGN_EXACT_BYTES_V1",
+                  "interpretation_law": "VALUE is BYTES containing the exact ordered byte sequence supplied; the membrane assigns no content type, encoding, file type, modality, semantic interpretation, or native object structure to those bytes."
+                },
+                "value": {
+                  "hex": "536f7665726569676e2074657874206368696c642e0a",
+                  "kind": "BYTES"
+                }
+              },
+              {
+                "form": {
+                  "canonical_name": "SOVEREIGN_EXACT_BYTES_V1",
+                  "interpretation_law": "VALUE is BYTES containing the exact ordered byte sequence supplied; the membrane assigns no content type, encoding, file type, modality, semantic interpretation, or native object structure to those bytes."
+                },
+                "value": {
+                  "hex": "00fffefa41",
+                  "kind": "BYTES"
+                }
+              }
+            ],
+            "kind": "ORDERED_SEQUENCE"
+          }
+        },
+        "source_inspection": {
+          "core_imports_heterogeneous_files": false,
+          "defines_new_value_class": false,
+          "implementation_classes": [
+            "HeterogeneousFilesModule",
+            "_EgressBoundaryPair",
+            "_IngressBoundaryPair",
+            "_NativeArtifact",
+            "_NativeText"
+          ],
+          "implementation_form_assignments": [
+            "ORDERED_TEXT_AND_EXACT_BYTES_FORM",
+            "ORDERED_TEXT_BINARY_SOURCES_FORM"
+          ],
+          "implementation_imports": [
+            "dataclasses",
+            "files_module",
+            "hashlib",
+            "json",
+            "universal_membrane"
+          ],
+          "imports_core_or_model_dependencies": false,
+          "imports_generalizing_codec_dependencies": false,
+          "runtime_imports_transformer_core": false,
+          "sealed_source_sha256": {
+            "core_runtime.py": "73c094b29b138c45f416c6412d65d0d18dcff99bfb960a5e4de9e4ad78e69991",
+            "files_module.py": "e7a6f627a0b7c80feea32c44244e5960a98ac26c019921b159f25fb12ff026a7",
+            "ordered_files_module.py": "5d3d1d38d51d9c8d948149c33e7cee670a1d5f0e1813b207e24ad28b87c195f2",
+            "state_relative_files_module.py": "b3b6de0e30ede0c942e4ce7a55f70f9df54170a25e1dd50765270f7ebcd7e777",
+            "transformer_core.py": "716604daf8460327f1e5207fdc40b5f9c3180bee9bba362ca698cc9afcd29df7",
+            "universal_membrane.py": "6552a5b4454e8c6ff2fddffe5fb977d74fe0047f5e916ffa9ca3a4395e3ff487"
+          },
+          "universal_mentions_heterogeneous_forms": false,
+          "uses_only_strict_codec_errors": true
+        }
+      }
+    }
+  ],
+  "schema": "HETEROGENEOUS_FILES_EXPOSURE_EVIDENCE_V1"
+}
