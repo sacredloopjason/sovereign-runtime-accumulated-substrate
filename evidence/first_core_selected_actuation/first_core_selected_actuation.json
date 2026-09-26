@@ -1,0 +1,166 @@
+{
+  "ACTION_A_INVOKED_EXACT_TARGET": "PASS",
+  "ACTION_A_PAYLOAD_EQUALS_ACTION_B_PAYLOAD": "PASS",
+  "ACTION_A_PAYLOAD_EXACT": "PASS",
+  "ACTION_A_TARGET_EQUALS_ACTION_B_TARGET": "NO",
+  "ACTION_A_TARGET_EXPLICIT": "PASS",
+  "ACTION_B_INVOKED_EXACT_TARGET": "PASS",
+  "ACTION_B_PAYLOAD_EXACT": "PASS",
+  "ACTION_B_TARGET_EXPLICIT": "PASS",
+  "ACTION_FORM": "SOVEREIGN_EXPLICIT_MODULE_ACTUATION_V1",
+  "AUTHORITATIVE_PARENT": "55445a821ffaf1ed1b56bf182bfcae3e3828b2ed",
+  "CORE_SELECTION_FIXTURE_NATIVE_STATE_EXPOSED": "NO",
+  "CORE_SELECTION_FIXTURE_OUTPUT_IS_ONLY_M": "PASS",
+  "DETERMINISTIC_REPLICATION": "PASS",
+  "DUPLICATE_EXPLICIT_ADDRESS_REJECTED": "PASS",
+  "EXACT_SAME_PAYLOAD_OBJECT_USED": "PASS",
+  "EXECUTABLE_HANDLE_SERIALIZED_ACROSS_MEMBRANE": "NO",
+  "EXISTING_INVOKE_USED_FOR_TARGET_ACTUATION": "PASS",
+  "FORM_MATCHING_SELECTED_CAUSAL_DESTINATION": "NO",
+  "GENERALIZED_TOOL_REGISTRY_ADDED": "NO",
+  "IDENTICAL_PAYLOAD_FORM_DIFFERENT_EXPLICIT_TARGET_A_INVOKES_A": "PASS",
+  "IDENTICAL_PAYLOAD_FORM_DIFFERENT_EXPLICIT_TARGET_B_INVOKES_B": "PASS",
+  "MEMBRANE_GRAMMAR_CHANGED": "NO",
+  "MODULE_DESCRIPTION_CONSULTED": "NO",
+  "NEW_VALUE_PRIMITIVE_ADDED": "NO",
+  "OPAQUE_MODULE_HANDLE_ALREADY_EXISTS": "PASS",
+  "OUTCOME": "FIRST_CORE_SELECTED_EXTERNAL_ACTUATION_OPERATIONAL",
+  "PAYLOAD_FORM_INSPECTED_FOR_TARGET_SELECTION": "NO",
+  "PAYLOAD_INSPECTED_FOR_TARGET_SELECTION": "NO",
+  "PRIOR_AUTHORITATIVE_FILES_MODIFIED_AFTER_EXECUTION": "NO",
+  "RUNTIME_COGNITIVE_ROUTING_ADDED": "NO",
+  "RUNTIME_INVOCATION_LAW_CHANGED": "NO",
+  "RUNTIME_MODIFIED_PAYLOAD": "NO",
+  "SEMANTIC_ROUTING_USED": "NO",
+  "TARGET_ADDRESS_SUFFICIENT_RELATIVE_TO_RUNTIME_STATE": "PASS",
+  "TARGET_A_ACCEPTED_FORM_EQUALS_TARGET_B_ACCEPTED_FORM": "PASS",
+  "TARGET_A_INVOCATION_COUNT_AFTER_ACTION_A": 1,
+  "TARGET_A_INVOCATION_COUNT_DELTA_FROM_ACTION_B": 0,
+  "TARGET_A_RECEIVED_EXACT_PAYLOAD_OBJECT": "PASS",
+  "TARGET_B_INVOCATION_COUNT_AFTER_ACTION_A": 0,
+  "TARGET_B_INVOCATION_COUNT_DELTA_FROM_ACTION_B": 1,
+  "TARGET_B_RECEIVED_EXACT_PAYLOAD_OBJECT": "PASS",
+  "TARGET_RECEIVES_ACTION_ENVELOPE": "NO",
+  "TARGET_RECEIVES_ONLY_SELECTED_PAYLOAD": "PASS",
+  "TARGET_RESOLUTION_USES_EXACT_ADDRESS_ONLY": "PASS",
+  "TRANSFORMER_CORE_MODIFIED_TO_MANUFACTURE_ACTION_SELECTION": "NO",
+  "UNKNOWN_EXPLICIT_ADDRESS_REJECTED": "PASS",
+  "replication": {
+    "action_a": {
+      "form": {
+        "canonical_name": "SOVEREIGN_EXPLICIT_MODULE_ACTUATION_V1",
+        "interpretation_law": "VALUE is ORDERED_SEQUENCE of exactly two independently complete membrane representations; child 1 is SOVEREIGN_SHARED_TEXT_UTF8_V1 containing the exact opaque address of the runtime-owned ModuleHandle explicitly selected by the emitting module; child 2 is the exact membrane perturbation selected for that target; child order is significant; target selection is not inferred from payload content or FORM."
+      },
+      "value": {
+        "items": [
+          {
+            "form": {
+              "canonical_name": "SOVEREIGN_SHARED_TEXT_UTF8_V1",
+              "interpretation_law": "VALUE is BYTES containing exactly one strict UTF-8 encoding of text; no normalization, coercion, guessing, or semantic comparison is permitted"
+            },
+            "value": {
+              "hex": "6f70617175653a2f2f7461726765742f41",
+              "kind": "BYTES"
+            }
+          },
+          {
+            "form": {
+              "canonical_name": "SOVEREIGN_SHARED_TEXT_UTF8_V1",
+              "interpretation_law": "VALUE is BYTES containing exactly one strict UTF-8 encoding of text; no normalization, coercion, guessing, or semantic comparison is permitted"
+            },
+            "value": {
+              "hex": "626f756e64656420706572747572626174696f6e3a20657861637420696d6d757461626c65207061796c6f6164",
+              "kind": "BYTES"
+            }
+          }
+        ],
+        "kind": "ORDERED_SEQUENCE"
+      }
+    },
+    "action_b": {
+      "form": {
+        "canonical_name": "SOVEREIGN_EXPLICIT_MODULE_ACTUATION_V1",
+        "interpretation_law": "VALUE is ORDERED_SEQUENCE of exactly two independently complete membrane representations; child 1 is SOVEREIGN_SHARED_TEXT_UTF8_V1 containing the exact opaque address of the runtime-owned ModuleHandle explicitly selected by the emitting module; child 2 is the exact membrane perturbation selected for that target; child order is significant; target selection is not inferred from payload content or FORM."
+      },
+      "value": {
+        "items": [
+          {
+            "form": {
+              "canonical_name": "SOVEREIGN_SHARED_TEXT_UTF8_V1",
+              "interpretation_law": "VALUE is BYTES containing exactly one strict UTF-8 encoding of text; no normalization, coercion, guessing, or semantic comparison is permitted"
+            },
+            "value": {
+              "hex": "6f70617175653a2f2f7461726765742f42",
+              "kind": "BYTES"
+            }
+          },
+          {
+            "form": {
+              "canonical_name": "SOVEREIGN_SHARED_TEXT_UTF8_V1",
+              "interpretation_law": "VALUE is BYTES containing exactly one strict UTF-8 encoding of text; no normalization, coercion, guessing, or semantic comparison is permitted"
+            },
+            "value": {
+              "hex": "626f756e64656420706572747572626174696f6e3a20657861637420696d6d757461626c65207061796c6f6164",
+              "kind": "BYTES"
+            }
+          }
+        ],
+        "kind": "ORDERED_SEQUENCE"
+      }
+    },
+    "addresses": [
+      "opaque://target/A",
+      "opaque://target/B"
+    ],
+    "counts_after_a": [
+      1,
+      0
+    ],
+    "counts_after_b": [
+      1,
+      1
+    ],
+    "duplicate_address_rejected": true,
+    "payload": {
+      "form": {
+        "canonical_name": "SOVEREIGN_SHARED_TEXT_UTF8_V1",
+        "interpretation_law": "VALUE is BYTES containing exactly one strict UTF-8 encoding of text; no normalization, coercion, guessing, or semantic comparison is permitted"
+      },
+      "value": {
+        "hex": "626f756e64656420706572747572626174696f6e3a20657861637420696d6d757461626c65207061796c6f6164",
+        "kind": "BYTES"
+      }
+    },
+    "returned_a": {
+      "form": {
+        "canonical_name": "SOVEREIGN_SHARED_TEXT_UTF8_V1",
+        "interpretation_law": "VALUE is BYTES containing exactly one strict UTF-8 encoding of text; no normalization, coercion, guessing, or semantic comparison is permitted"
+      },
+      "value": {
+        "hex": "626f756e64656420706572747572626174696f6e3a20657861637420696d6d757461626c65207061796c6f6164",
+        "kind": "BYTES"
+      }
+    },
+    "returned_b": {
+      "form": {
+        "canonical_name": "SOVEREIGN_SHARED_TEXT_UTF8_V1",
+        "interpretation_law": "VALUE is BYTES containing exactly one strict UTF-8 encoding of text; no normalization, coercion, guessing, or semantic comparison is permitted"
+      },
+      "value": {
+        "hex": "626f756e64656420706572747572626174696f6e3a20657861637420696d6d757461626c65207061796c6f6164",
+        "kind": "BYTES"
+      }
+    },
+    "unknown_address_rejected": true
+  },
+  "replication_sha256": "3325df7ba304a3be36757e95b6ce18454c5391d7cd2ed7880dd3a85aad9a75ec",
+  "sealed_sha256": {
+    "core_runtime.py": "73c094b29b138c45f416c6412d65d0d18dcff99bfb960a5e4de9e4ad78e69991",
+    "files_module.py": "e7a6f627a0b7c80feea32c44244e5960a98ac26c019921b159f25fb12ff026a7",
+    "heterogeneous_files_module.py": "73b515d16f6953cfd4827a7dd0d3646dfc40d19670e84de3c7a812f5a58512ba",
+    "ordered_files_module.py": "5d3d1d38d51d9c8d948149c33e7cee670a1d5f0e1813b207e24ad28b87c195f2",
+    "state_relative_files_module.py": "b3b6de0e30ede0c942e4ce7a55f70f9df54170a25e1dd50765270f7ebcd7e777",
+    "transformer_core.py": "716604daf8460327f1e5207fdc40b5f9c3180bee9bba362ca698cc9afcd29df7",
+    "universal_membrane.py": "6552a5b4454e8c6ff2fddffe5fb977d74fe0047f5e916ffa9ca3a4395e3ff487"
+  }
+}
